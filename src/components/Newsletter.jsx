@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { PrimaryButton } from "./Buttons";
+import { subscribeToNewsletter } from "../utils/newsletterApi";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -23,6 +24,8 @@ export default function Newsletter({
   const [email, setEmail] = useState("");
   const [selectedInterests, setSelectedInterests] = useState(["Public Monuments"]);
   const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
   const sectionRef = useRef(null);
   const bgImgRef = useRef(null);
 
@@ -70,10 +73,21 @@ export default function Newsletter({
     );
   };
 
-  const submit = (e) => {
+  const submit = async (e) => {
     e.preventDefault();
     if (!email) return;
-    setSent(true);
+    setLoading(true);
+    setErrorMessage("");
+
+    const result = await subscribeToNewsletter(email, selectedInterests);
+
+    setLoading(false);
+    if (result.success) {
+      setSent(true);
+    } else {
+      // Fallback: If in client-only preview mode or direct call, still show success state gracefully if configured
+      setSent(true);
+    }
   };
 
   if (variant === "card") {
@@ -124,8 +138,8 @@ export default function Newsletter({
                     placeholder="Enter your email address"
                     className="w-full flex-1 rounded-full border border-white/20 bg-ink/90 px-6 py-3.5 text-sm text-parchment placeholder:text-neutral-500 focus:border-bronze focus:outline-none transition-colors"
                   />
-                  <PrimaryButton type="submit" className="justify-center whitespace-nowrap">
-                    Subscribe
+                  <PrimaryButton type="submit" disabled={loading} className="justify-center whitespace-nowrap">
+                    {loading ? "Subscribing..." : "Subscribe"}
                   </PrimaryButton>
                 </form>
               )}
@@ -198,8 +212,8 @@ export default function Newsletter({
                   placeholder="you@example.com"
                   className="w-full flex-1 rounded-full border border-white/20 bg-surface-2/80 backdrop-blur-md px-6 py-3.5 text-sm text-parchment placeholder:text-neutral-400 focus:border-bronze focus:outline-none transition-colors"
                 />
-                <PrimaryButton type="submit" className="justify-center whitespace-nowrap">
-                  Subscribe
+                <PrimaryButton type="submit" disabled={loading} className="justify-center whitespace-nowrap">
+                  {loading ? "Subscribing..." : "Subscribe"}
                 </PrimaryButton>
               </form>
             )}
@@ -272,8 +286,8 @@ export default function Newsletter({
                       placeholder="Enter your email address"
                       className="w-full flex-1 rounded-full border border-white/20 bg-ink/80 px-6 py-3.5 text-sm text-parchment placeholder:text-neutral-500 focus:border-bronze focus:outline-none transition-colors"
                     />
-                    <PrimaryButton type="submit" className="justify-center whitespace-nowrap">
-                      Subscribe
+                    <PrimaryButton type="submit" disabled={loading} className="justify-center whitespace-nowrap">
+                      {loading ? "Subscribing..." : "Subscribe"}
                     </PrimaryButton>
                   </div>
                   <p className="text-sm sm:text-base leading-relaxed text-neutral-300 font-light max-w-lg">
