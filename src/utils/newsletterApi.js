@@ -3,8 +3,10 @@ export async function subscribeToNewsletter(email, interests = []) {
     return { success: false, error: "Please provide a valid email address." };
   }
 
-  // 1. Check for configured Cloudflare Worker or backend endpoint in Vite environment
-  const workerEndpoint = import.meta.env.VITE_NEWSLETTER_API_URL || "/api/subscribe";
+  // 1. Live Cloudflare Worker endpoint
+  const workerEndpoint = 
+    import.meta.env.VITE_NEWSLETTER_API_URL || 
+    "https://vibhor-sogani.mkmkataria07.workers.dev/api/subscribe";
 
   try {
     const response = await fetch(workerEndpoint, {
