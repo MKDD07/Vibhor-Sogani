@@ -1,9 +1,5 @@
--- Cloudflare D1 Database Schema & Data Migration for Vibhor Sogani
--- Drop existing tables
 DROP TABLE IF EXISTS projects;
 DROP TABLE IF EXISTS press_articles;
-
--- 1. Create Projects Table (Excluding raw binary images, preserving image path references)
 CREATE TABLE projects (
   id TEXT PRIMARY KEY,
   slug TEXT UNIQUE,
@@ -11,11 +7,9 @@ CREATE TABLE projects (
   location TEXT,
   url TEXT,
   description TEXT,
-  paragraphs TEXT, -- Stored as JSON string
-  images TEXT      -- Stored as JSON string of image path URLs
+  paragraphs TEXT,
+  images TEXT
 );
-
--- 2. Create Press Articles Table
 CREATE TABLE press_articles (
   id TEXT PRIMARY KEY,
   title TEXT NOT NULL,
@@ -24,10 +18,6 @@ CREATE TABLE press_articles (
   pdf TEXT,
   type TEXT
 );
-
--- ----------------------------------------------------
--- INSERT PROJECTS DATA (38 records)
--- ----------------------------------------------------
 INSERT INTO projects (id, slug, title, location, url, description, paragraphs, images) VALUES ('sprouts', 'sprouts', 'Sprouts', 'AIIMS Flyover, New Delhi, India', 'https://www.vibhorsogani.com/work/sprouts', 'Standing 40 feet tall and spread across 6 acres of green space around the AIIMS flyover in the heart of Delhi, Sprouts is India''s largest site-specific public art installation...', '["Standing 40 feet tall and spread across 6 acres of green space around the AIIMS flyover in the heart of Delhi, Sprouts is India''s largest site-specific public art installation, a Delhi government initiative towards the beautification of the capital. The commission traces back to a brief given directly to Vibhor Sogani by then Chief Minister of Delhi, Sheila Dikshit: \"From walled city to world city.\" That single line became the seed for the entire project.","Working from that brief, Sogani developed Sprouts around the idea of seeds beginning to sprout, using stainless steel as a new-age material to represent India as a growing, contemporary nation. The wider objective was to create a civic landmark through a series of installations signifying growth, development, and progress — timed in part to the run-up to the 2010 Commonwealth Games, when Delhi was actively reshaping its public image for an international audience.","More than a decade on, the sprouts have outgrown their original brief. Set against the landscape, they register the changing moods of Delhi''s weather and have become one of the city''s most recognisable public memories — less a government beautification project now than a genuine landmark, cited alongside other icons as visual shorthand for the capital."]', '["/images/projects/sprouts/image_1.jpg","/images/projects/sprouts/image_2.JPG","/images/projects/sprouts/image_3.jpg","/images/projects/sprouts/image_4.jpg","/images/projects/sprouts/image_5.jpg","/images/projects/sprouts/image_6.png"]');
 INSERT INTO projects (id, slug, title, location, url, description, paragraphs, images) VALUES ('pm_vishwakarma_installation', 'pm-vishwakarma-installation', 'PM Vishwakarma Installation', 'Yashobhoomi (IICC), New Delhi, India', 'https://www.vibhorsogani.com/work/pm-vishwakarma-installation', 'Installed at Yashobhoomi — the India International Convention and Expo Centre in Dwarka — this piece was commissioned as an aesthetic centrepiece for the venue''s launch...', '["Installed at Yashobhoomi — the India International Convention and Expo Centre in Dwarka — this piece was commissioned as an aesthetic centrepiece for the venue''s launch, crafted under the stewardship of the National Gallery of Modern Art, India. The launch itself was a major state occasion: Prime Minister Narendra Modi dedicated Yashobhoomi to the nation and unveiled the PM Vishwakarma Scheme for traditional artisans and craftspeople on 17 September 2023, on the occasion of Vishwakarma Jayanti.","Drawing on the form of the Ashoka Chakra, the installation depicts 24 hands in continuous motion — a visual language chosen to echo the scheme''s own subject, the skilled hands of India''s traditional workforce. The Vishwakarma scheme was framed by the government as recognition for artisans who work with their hands and tools, so Sogani''s piece sits in direct dialogue with the occasion it marks rather than as a generic commemorative object.","The work now stands alongside other Sogani installations that anchor major public and civic sites around Delhi — Sprouts near the AIIMS flyover, Mahatma on Satyagraha Marg, and Kalpataru on Motilal Nehru Marg — continuing a pattern in his practice of being entrusted with large-scale pieces tied to government-led national initiatives."]', '["/images/projects/pm_vishwakarma_installation/image_1.jpg","/images/projects/pm_vishwakarma_installation/image_2.jpg","/images/projects/pm_vishwakarma_installation/image_3.jpg","/images/projects/pm_vishwakarma_installation/image_4.jpg","/images/projects/pm_vishwakarma_installation/image_5.jpg"]');
 INSERT INTO projects (id, slug, title, location, url, description, paragraphs, images) VALUES ('bodhi_tree', 'bodhi-tree', 'Bodhi Tree', 'Royal Caribbean Utopia of the Seas', 'https://www.vibhorsogani.com/work/bodhi-tree', 'Bodhi Tree is a nine-deck-high wishing-tree installation built into the elevator shafts of Royal Caribbean''s Utopia of the Seas...', '["Bodhi Tree is a nine-deck-high wishing-tree installation built into the elevator shafts of Royal Caribbean''s Utopia of the Seas, the sixth ship in the Oasis class and, by gross tonnage, the third largest cruise ship in the world. Studio Vibhor Sogani was commissioned by Royal Caribbean''s art curators at ArtLink to design the piece for the ship''s public spaces, working from his Delhi studio through the build process.","The sculpture is made of 31,446 hand-crafted stainless-steel spheres, assembled into a canopy form that draws on the sacred Bodhi tree of ancient lore — a tree traditionally associated with abundance, spiritual awakening, and the fulfilment of desires. The scale of the piece, spanning nine decks within the ship''s vertical shafts, meant the work had to be engineered as much as sculpted, with thousands of individual pieces fabricated and finished before installation.","Positioned in the elevator shafts, the tree is designed to be encountered vertically, in passing, over the course of a cruise rather than viewed all at once — an approach Sogani has described as aiming to capture the childlike wonder of discovery and revelation, inviting passengers to contemplate the relationship between matter and form each time they pass through the space."]', '["/images/projects/bodhi_tree/image_1.jpg","/images/projects/bodhi_tree/image_2.jpg","/images/projects/bodhi_tree/image_3.jpg","/images/projects/bodhi_tree/image_4.jpg"]');
@@ -67,9 +57,6 @@ INSERT INTO projects (id, slug, title, location, url, description, paragraphs, i
 INSERT INTO projects (id, slug, title, location, url, description, paragraphs, images) VALUES ('a_legendary_smile', 'a-legendary-smile', 'A Legendary Smile', 'India, Australia & Africa', 'https://www.vibhorsogani.com/work/a-legendary-smile', 'A Legendary Smile — Mahatma in me. "One must be able to love the meanest of creation as oneself." — MK Gandhi. Gandhi''s legendary childlike smile was innocent, non-judgemental, and full of compassion, earning him the reputation of the Smiling Saint. Exhibited in India, Australia, and Africa.', '[]', '["/images/projects/a_legendary_smile/image_1.jpg","/images/projects/a_legendary_smile/image_2.JPG","/images/projects/a_legendary_smile/image_3.jpg","/images/projects/a_legendary_smile/image_4.jpg"]');
 INSERT INTO projects (id, slug, title, location, url, description, paragraphs, images) VALUES ('autumn', 'autumn', 'Autumn', 'Wall Art Installations & Private Collections', 'https://www.vibhorsogani.com/work/autumn', 'Autumn, a wall art installation.', '[]', '["/images/projects/autumn/image_1.jpg","/images/projects/autumn/image_2.JPG","/images/projects/autumn/image_3.jpg","/images/projects/autumn/image_4.jpg"]');
 
--- ----------------------------------------------------
--- INSERT PRESS ARTICLES (259 records)
--- ----------------------------------------------------
 INSERT INTO press_articles (id, title, category, image, pdf, type) VALUES ('a1-lighting,-uk,-cover-feature', 'A1 Lighting, Uk, Cover Feature', 'Design & Architecture', '/images/press/images/a1-lighting,-uk,-cover-feature.jpg', '/images/press/pdfs/a1-lighting,-uk,-cover-feature.pdf', 'pdf');
 INSERT INTO press_articles (id, title, category, image, pdf, type) VALUES ('a1-lighting-1', 'A1 Lighting', 'Design & Architecture', '/images/press/images/a1-lighting-1.jpg', '/images/press/pdfs/a1-lighting-1.pdf', 'pdf');
 INSERT INTO press_articles (id, title, category, image, pdf, type) VALUES ('a1-lighting-magazine-1', 'A1 Lighting Magazine', 'Design & Architecture', '/images/press/images/a1-lighting-magazine-1.jpg', NULL, 'image');
