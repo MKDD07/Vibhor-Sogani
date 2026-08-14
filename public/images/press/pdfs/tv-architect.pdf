@@ -1,0 +1,1890 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>TVarchitect.com - online televize o architektuře a stavebnictví</title>
+                <meta name="robots" content="index, follow"/>
+                <link rel="canonical" href="https://www.tvarchitect.com/">
+    
+            <meta name="twitter:card" content="summary_large_image"/>
+                <meta property="og:title" content="TVarchitect.com - online televize o architektuře a stavebnictví"/>
+        <meta property="twitter:title" content="TVarchitect.com - online televize o architektuře a stavebnictví"/>
+        <meta itemprop="name" content="TVarchitect.com - online televize o architektuře a stavebnictví">
+    
+            <meta property="og:description" content="Chcete vědět, co se staví ve Vaší lokalitě a proč? TV Architect Vám přináší zpravodajství o plánování staveb a architektuře v ČR. Jsme kombinace online televizního kanálu, kterým proudí rozhovory s předními světovými i tuzemskými architekty a videa o nejzajímavějších projektech."/>
+        <meta itemprop="description" content="Chcete vědět, co se staví ve Vaší lokalitě a proč? TV Architect Vám přináší zpravodajství o plánování staveb a architektuře v ČR. Jsme kombinace online televizního kanálu, kterým proudí rozhovory s předními světovými i tuzemskými architekty a videa o nejzajímavějších projektech.">
+    
+            <meta name="description" content="Chcete vědět, co se staví ve Vaší lokalitě a proč? TV Architect Vám přináší zpravodajství o plánování staveb a architektuře v ČR. Jsme kombinace online televizního kanálu, kterým proudí rozhovory s předními světovými i tuzemskými architekty a videa o nejzajímavějších projektech."/>
+    
+            <meta property="og:image" content="https://www.tvarchitect.com/images/social.png"/>
+        <meta property="twitter:image" content="https://www.tvarchitect.com/images/social.png"/>
+        <meta itemprop="image" content="https://www.tvarchitect.com/images/social.png">
+        <meta property="og:url" content="https://www.tvarchitect.com/"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1">
+    <meta name="author" content="Beneš & Michl, www.benes-michl.cz">
+    <meta property="fb:app_id" content="488431421492942"/>
+
+    <link rel="alternate" type="application/rss+xml" href="https://www.tvarchitect.com/rss/" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.7.2/dist/cookieconsent.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.tvarchitect.com/favicon.ico?v2">
+    <link rel="apple-touch-icon" href="https://www.tvarchitect.com/apple-touch-icon.png?v2">
+
+    <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+    <link rel="stylesheet" href="//releases.flowplayer.org/7.2.7/skin/skin.css">
+
+    <link rel="stylesheet" href="https://www.tvarchitect.com/public/main.css?v1751974902" media="screen">
+    <link rel="stylesheet" href="https://www.tvarchitect.com/public/print.css?v1751974902" media="print">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>!window.jQuery && document.write("<script src='https://www.tvarchitect.com/public/jquery-3.2.1.min.js'><\/script>")</script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@0.11.0/dist/hls.light.min.js"></script>
+    <script src="//releases.flowplayer.org/7.2.7/commercial/flowplayer.min.js"></script>
+    <script src="//releases.flowplayer.org/vod-quality-selector/flowplayer.vod-quality-selector.js"></script>
+
+    <link rel="alternate" type="application/rss+xml" href="https://www.tvarchitect.com/rss/" title="Všechny informace" />
+    
+    
+        <script>
+            if (!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1")) {
+                document.documentElement.className = "no-svg";
+            }
+        </script>
+
+        <!-- Google Tag Manager -->
+        <script type="text/plain" data-cookiecategory="gtm">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5734ZR7');
+        </script>
+        <!-- End Google Tag Manager -->
+
+    
+    <script>
+        var home_url = 'https://www.tvarchitect.com/';
+        var domain = '';
+        var current_page = 'https://www.tvarchitect.com/';
+        var translate = {"agreement_required":"Bez souhlasu s V\u0161eobecn\u00fdmi obchodn\u00edmi podm\u00ednkami nelze pokra\u010dovat.","alphabeth_name_url":"abecedne","article_name_url":"clanek","author":"Autor","cc_accept_all":"P\u0159ijmout v\u0161e","cc_close":"Zav\u0159\u00edt","cc_cookie_preferences":"P\u0159edvolby soubor\u016f cookie","cc_cookie_settings":"Nastaven\u00ed Cookies","cc_cookies_description":"Tato webov\u00e1 str\u00e1nka ukl\u00e1d\u00e1 data, jako jsou soubory cookie, aby umo\u017enila z\u00e1kladn\u00ed funk\u010dnost str\u00e1nek a anal\u00fdzu n\u00e1v\u0161t\u011bvnosti. Nastaven\u00ed m\u016f\u017eete kdykoli zm\u011bnit nebo p\u0159ijmout v\u00fdchoz\u00ed nastaven\u00ed.\r\n<br>\r\n<button id=\"decline-cookies\" type=\"button\" class=\"cc-link\">Odm\u00edtnout v\u0161e<\/button>","cc_more_info_description":"Pro v\u00edce informac\u00ed o mo\u017enosti nastaven\u00ed cookies m\u016f\u017eete vyu\u017e\u00edt odkaz <a class=\"cc-link\" href=\"https:\/\/www.tvarchitect.com\/zasady-pouzivani-souboru-cookie\/\">zde<\/a>.","cc_more_info_title":"V\u00edce informac\u00ed","cc_reject_all":"Odm\u00edtnout v\u0161e","cc_save_settings":"Ulo\u017eit nastaven\u00ed","cc_usage_description":"S v\u00fdjimkou z\u00e1kladn\u00edch soubor\u016f cookie (nezbytn\u011b nutn\u00fdch), kter\u00e9 jsou nezbytn\u00e9 pro fungov\u00e1n\u00ed webov\u00e9 str\u00e1nky, soubory cookie nastav\u00edme do va\u0161eho po\u010d\u00edta\u010de, telefonu nebo za\u0159\u00edzen\u00ed a\u017e po z\u00edsk\u00e1n\u00ed va\u0161eho souhlasu. Pro ka\u017edou kategorii si m\u016f\u017eete vybrat, zda se chcete p\u0159ihl\u00e1sit\/odhl\u00e1sit, kdykoli budete cht\u00edt, sta\u010d\u00ed v z\u00e1pat\u00ed webu zvolit mo\u017enost Nastaven\u00ed cookies","cc_usage_title":"Souhlas se soubory cookie","cc_we_use_cookies":"Souhlas se soubory cookie","cin_incorrect":"I\u010cO firmy je zadan\u00e9 ve \u0161patn\u00e9m tvaru.","close":"zav\u0159\u00edt","content_article_title":"\u010cl\u00e1nek","content_gallery_title":"Fotogalerie","content_profil_title":"Profil","created_in":"Vytvo\u0159eno v","customer_exists":"U\u017eivatel s t\u00edmto emailem ji\u017e existuje.","default_sort":"V\u00fdchoz\u00ed","description_title":"Popis","discussion":"Diskuze","email_incorrect":"Zadejte pros\u00edm email ve spr\u00e1vn\u00e9m tvaru.","email_required":"Zadejte pros\u00edm sv\u016fj email.","enter_password":"Zadejte heslo","follow_also":"Sledujte tak\u00e9","follow_news":"Odeb\u00edrat novinky","footer_follow":"Sledujte n\u00e1s na","forgotten_password":"Zapomenut\u00e9 heslo","form_login_header":"Ji\u017e m\u00e1te registraci? P\u0159ihlaste se kliknut\u00edm zde!","form_login_submit":"P\u0159ihl\u00e1sit se","form_registration_header":"Z\u00edskejte p\u0159\u00edstup k cel\u00e9mu kurzu 11 lekc\u00ed","form_registration_standard_price":"5 500 K\u010d","form_registration_standard_price_text":"Standardn\u00ed cena osobn\u00edch kurz\u016f je","form_registration_submit":"Absolvujte kurz 11 lekc\u00ed nyn\u00ed za zv\u00fdhodn\u011bnou cenu","form_registration_switch":"Je\u0161t\u011b nem\u00e1te p\u0159ihla\u0161ovac\u00ed \u00fadaje? Zaregistrujte se kliknut\u00edm zde.","form_registration_vat_inc":"K\u010d v\u010d.\u00a0DPH","full_name_required":"Zadejte pros\u00edm Va\u0161e cel\u00e9 jm\u00e9no odd\u011blen\u00e9 mezerou.","home_most_recent_title":"Nejnov\u011bj\u0161\u00ed","home_most_viewed_title":"Nejsledovan\u011bj\u0161\u00ed","home_news_upradetes_title":"Zpr\u00e1vy a aktuality","channel_list_title":"Seznam po\u0159ad\u016f","channel_title":"Po\u0159ad","choose_section":"Vybrat sekci","inactive_account":"\u00da\u010det bohu\u017eel nen\u00ed aktivovan\u00fd.","input_company":"Nakupujete na firmu? Zadejte I\u010c (nepovinn\u00e9)","input_condition_agreement":"Souhlas\u00edm s <a href=\"\/obchodni-podminky\" target=\"_blank\">V\u0161eobecn\u00fdmi obchodn\u00edmi podm\u00ednkami<\/a>","input_email":"Email","input_name":"Jm\u00e9no a p\u0159\u00edjmen\u00ed","input_new_password":"Vytvo\u0159te si vlastn\u00ed heslo, kter\u00fdm se budete p\u0159ihla\u0161ovat","input_newsletter_agreement":"Nesouhlas\u00edm se zas\u00edl\u00e1m novinek pravideln\u00fdm newsletterem","input_password":"Heslo","input_password_validate":"Heslo pro kontrolu","login":"P\u0159ihl\u00e1sit","logo_claim":"Spojujeme sv\u011bt architektury","logout":"Odhl\u00e1sit se","missing_pass":"Nen\u00ed zadan\u00e9 heslo.","more":"v\u00edce","more_channels":"V\u00edce po\u0159ad\u016f","more_news":"v\u00edce novinek","more_news_updates":"V\u00edce","most_recent_name_url":"nejnovejsi","most_viewed_name_url":"nejsledovanejsi","name_required":"Zadejte pros\u00edm sv\u00e9 cel\u00e9 jm\u00e9no.","name_url_profile":"profil","name_url_subscribe":"odber-novinek","new_password_success":"Heslo bylo \u00fasp\u011b\u0161n\u011b zm\u011bn\u011bno. <a href=\"https:\/\/tvarchitect.com\/channel\/akademie-navrhovani\/\">Pokra\u010dujte na videa <\/a>","news_updates_name_url":"zpravy-a-aktuality","newsletter":"Odb\u011br novinek","newsletter_description":"Zaj\u00edmaj\u00ed V\u00e1s\u00a0novinky ze\u00a0sv\u011bta architektury, stavebnictv\u00ed a\u00a0developmentu?<br>\r\nZanechte n\u00e1m\u00a0sv\u016fj\u00a0e-mail a\u00a0nic\u00a0V\u00e1m\u00a0neunikne!","newsletter_email_error":"Zadali jste neplatnou e-mailovou adresu.","newsletter_email_success":"V\u00e1\u0161 e-mail byl \u00fasp\u011b\u0161n\u011b zaregistrov\u00e1n.","newsletter_placeholder":"Chci odeb\u00edrat novinky","newsletter_placeholder_email":"V\u00e1\u0161 e-mail","next_content":"Dal\u0161\u00ed obsah","no_email_found":"Zadan\u00fd email neexistuje v datab\u00e1zi.","no_result":"\u017d\u00e1dn\u00e1 videa","no_user_found":"U\u017eivatel s t\u00edmto emailem nebyl nalezen.","only_lang_videos":"Jen videa v CZ","other_channels":"Dal\u0161\u00ed po\u0159ady","paid_section_pending_subject":"Zm\u011bna stavu platby","paid_section_repeat_subject":"Mo\u017enost opakovat platbu","paid_section_success_subject":"V\u00edtejte v Akademii navrhov\u00e1n\u00ed","partners_title":"Partne\u0159i","password_change":"Zm\u011bnit heslo","password_length":"D\u00e9lka hesla mus\u00ed b\u00fdt alespo\u0148 8 znak\u016f.","password_recovery":"Obnova hesla","password_recovery_success":"Odkaz pro zm\u011bnu hesla byl odesl\u00e1n.","password_required":"Zadejte pros\u00edm heslo k \u00fa\u010dtu.","password_verify":"Zadejte pros\u00edm sv\u00e9 heslo pro kontrolu.","password_wrong":"Heslo k \u00fa\u010dtu nen\u00ed spr\u00e1vn\u00e9.","passwords_not_same":"Zadan\u00e1 hesla se neshoduj\u00ed.","payment_pending_header":"\u010cek\u00e1me na p\u0159ips\u00e1n\u00ed platby","payment_pending_link":"Stav platby m\u016f\u017eete zj\u00edstit zde","payment_pending_text":"\u010c\u00e1stka za plnou verzi Akademii navrhov\u00e1n\u00ed zat\u00edm nedorazila na n\u00e1\u0161 \u00fa\u010det. Jakmile bude transakce prost\u0159ednictv\u00edm platebn\u00ed br\u00e1ny GoPay dokon\u010dena, bude V\u00e1\u0161 \u00fa\u010det aktivov\u00e1n.","payment_success_header":"Platba \u00fasp\u011b\u0161n\u00e1","payment_success_text":"Poda\u0159ilo se realizovat platbu. M\u016f\u017eete se p\u0159ihl\u00e1sit a sledovat plnou verzi Akademie navrhov\u00e1n\u00ed. ","popup_paid_section_show":"Absolvovat cel\u00fd kurz jen za","popup_short_video_button":"P\u0159ej\u00edt k p\u0159ihl\u00e1\u0161en\u00ed","popup_short_video_show":"Z\u00edskat p\u0159\u00edstup k cel\u00e9mu kurzu","popup_short_video_text":"Pro zhl\u00e9dnut\u00ed cel\u00e9ho videa se mus\u00edte p\u0159ihl\u00e1sit.","profiles_list_title":"Seznam profil\u016f","project_title":"Projekt","read_more":"\u010d\u00edst v\u00edce","recommended":"Doporu\u010dujeme","redakce_sk":"SK redakce TV Architect","registration":"Registrace","registration_confirmation_subject":"Akademie navrhov\u00e1n\u00ed interi\u00e9r\u016f - Potvrzen\u00ed registrace","review_add":"P\u0159idat recenzi","review_bad_stars":"Po\u010det hv\u011bzdi\u010dek nespad\u00e1 do povolen\u00e9ho intervalu.","review_edit_disabled":"Recenzi aktu\u00e1ln\u011b nelze editovat.","review_exists":"Va\u0161e recenze ji\u017e byla ulo\u017eena. Recenzi nelze editovat.","review_form_header":"Recenze Akademie navrhov\u00e1n\u00ed","review_header":"Zku\u0161enosti absolvent\u016f","review_long_text":"Zadan\u00fd text je p\u0159\u00edli\u0161 dlouh\u00fd.","review_no_stars":"Pros\u00edm zadejte po\u010det hv\u011bzdi\u010dek.","review_no_text":"Pros\u00edm zadejte text recenze.","review_stars":"Po\u010det hv\u011bzdi\u010dek *","review_submit":"Odeslat recenzi","review_success":"Recenze byla \u00fasp\u011b\u0161n\u011b p\u0159id\u00e1na.","review_text":"Text recenze *","search_articles_name_url":"clanky","search_articles_title":"\u010cl\u00e1nky","search_btn":"Vyhledat","search_categories_name_url":"kategorie","search_category_title":"Po\u0159ady","search_contents_name_url":"obsah","search_channels_title":"Po\u0159ady","search_more":"V\u00edce","search_more_articles":"V\u00edce \u010dl\u00e1nk\u016f","search_name_url":"vyhledavani","search_profile_name_url":"profil","search_profile_title":"Profily","search_title":"Vyhled\u00e1v\u00e1n\u00ed","search_videos_title":"Videa","share":"Sd\u00edlet na","share_copy_clipboard":"Zkop\u00edrovat do schr\u00e1nky","share_copy_code":"K\u00f3d byl zkop\u00edrov\u00e1n","share_link_title":"Vlo\u017eit","share_title":"Vlo\u017ete video na sv\u016fj web","sort_alphabeth":"Abecedn\u011b","sort_by":"\u0158adit dle","submenu_categories":"Podkategorie","submenu_recent":"Nejnov\u011bj\u0161\u00ed videa v kategorii","subscribe_newsletters":"Odeb\u00edrat novinky","tag_next":"dal\u0161\u00ed","token_expired":"Token pro obnovu hesla nen\u00ed spr\u00e1vn\u00fd nebo ji\u017e vypr\u0161ela expirace.","video_name_url":"video","wrong_pass":"Chybn\u011b zadan\u00e9 heslo."};
+    </script>
+
+        </head>
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5734ZR7"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div id="fb-root"></div>
+    <script type="text/plain" data-cookiecategory="gtm">(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+
+        js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.9&appId=488431421492942";
+
+
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+
+    
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-108010315-1', 'auto', {
+                'anonymizeIp': true,
+                'storage': 'none'
+            });
+            ga('send', 'pageview');
+        </script>
+    
+
+<div class="topbar">
+    <div class="topbar__in">
+        <div class="topbar__list">
+            <li class="topbar__item">
+                <a href="https://www.tvarchitect.com/" class="topbar__link  topbar__link--active" title="tvarchitect.com">
+                    <img src="https://www.tvarchitect.com/images/logo-tvarchitect-com.svg?v3" alt="tvarchitect.com" title="tvarchitect.com"
+                         style="height:28px;">
+                </a>
+            </li>
+            <li class="topbar__item">
+                <a href="https://www.tvbydleni.cz/" class="topbar__link" title="tvbydleni.cz">
+                    <img src="https://www.tvarchitect.com/images/logo-tvbydleni.svg?v2" alt="tvbydleni.cz" title="tvbydleni.cz"
+                         style="width: 100px; height:28px;">
+                </a>
+            </li>
+        </div>
+
+        <div class="topbar__nav">
+            <div class="nav">
+                <div class="nav__in">
+                    <div class="nav__overlay"></div>
+                    <div class="nav__toggle">
+                        <span class="nav__burger"></span>
+                        <span class="nav__burger"></span>
+                        <span class="nav__burger"></span>
+                        <span class="nav__toggle__text">MENU</span>
+                    </div>
+                    <div class="nav__list">
+                        <ul>
+                                                            <li class="nav__item ">
+                                    <a href="https://www.tvarchitect.com/channel/"
+                                       title="Pořady">
+                                        <span class="nav__title">
+                                            Pořady
+                                        </span>
+                                    </a>
+
+                                </li>
+                                                            <li class="nav__item ">
+                                    <a href="https://www.tvarchitect.com/architektura-a-development/"
+                                       title="Kategorie">
+                                        <span class="nav__title">
+                                            Kategorie
+                                        </span>
+                                    </a>
+
+                                </li>
+                                                            <li class="nav__item ">
+                                    <a href="https://www.tvarchitect.com/profil/"
+                                       title="Architekti, developeři a firmy">
+                                        <span class="nav__title">
+                                            Architekti, developeři a firmy
+                                        </span>
+                                    </a>
+
+                                </li>
+                                                            <li class="nav__item ">
+                                    <a href="https://www.tvarchitect.com/channel/akademie-navrhovani/"
+                                       title="Akademie navrhování">
+                                        <span class="nav__title">
+                                            Akademie navrhování
+                                        </span>
+                                    </a>
+
+                                </li>
+                            
+                            <li class="nav__item nav__item--subscribe--new">
+                                <a class="btn btn--subscribe popup-show-float" href="#subscribe" title="ODEBÍRAT NOVINKY">
+                                    ODEBÍRAT NOVINKY
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--/.nav-->
+        </div>
+
+        <div class="head__search">
+            <div class="head__search__overlay"></div>
+            <div class="head__search__toggle"></div>
+            <div class="head__search__form">
+                <form action="https://www.tvarchitect.com/vyhledavani/">
+                    <input type="text" name="q" autocomplete="off" id="search" placeholder="Napište, co hledáte...">
+                    <input type="submit" value="Hledej">
+                </form>
+            </div>
+        </div>
+            </div>
+</div>
+
+<div class="head">
+    <a class="head__subscribe popup-show-float" href="#subscribe" title="ODEBÍRAT NOVINKY">
+        ODEBÍRAT NOVINKY
+    </a>
+
+</div><!--/.head-->
+
+
+    <section class="section--gray section--categories section--categories--small">
+        <div class="container">
+                        <h2 class="mt-0">Architektura a Development</h2>
+                        <div class="categories categories-slider">
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15255-214-157-.jpg"
+                                     alt="Zajímavé projekty" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Zajímavé projekty</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/zajimave-projekty/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15259-214-157-.jpg"
+                                     alt="Města a urbanismus" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Města a urbanismus</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/urbanismus/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15268-214-157-.jpg"
+                                     alt="Osobnosti" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Osobnosti</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/osobnosti/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15256-214-157-.jpg"
+                                     alt="Historické budovy" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Historické budovy</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/historicke-budovy/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15266-214-157-.jpg"
+                                     alt="Brownfield" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Brownfield</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/brownfield/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15247-214-157-.jpg"
+                                     alt="Zajímavosti" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Zajímavosti</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/zajimavosti/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-17698-214-157-.jpg"
+                                     alt="Zajímavá místa a památky" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Zajímavá místa a památky</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/zajimava-mista-a-pamatky/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-19147-214-157-.png"
+                                     alt="Krajinářská architektura" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Krajinářská architektura</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/krajinarska-architektura/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-19346-214-157-.jpg"
+                                     alt="Interiéry" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Interiéry</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/interiery/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-19347-214-157-.jpg"
+                                     alt="Umění a design" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Umění a design</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/umeni-a-design/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15250-214-157-.jpg"
+                                     alt="Materiály, technologie a konstrukce" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Materiály, technologie a...</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/materialy-technologie-konstrukce/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-23436-214-157-.jpg"
+                                     alt="Projekty a stavby ze dřeva" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Projekty a stavby ze dřeva</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/projekty-a-stavby-ze-dreva/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15257-214-157-.jpg"
+                                     alt="Udržitelná architektura" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Udržitelná architektura</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/zelena-architektura/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15264-214-157-.jpg"
+                                     alt="Moderní stavby" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Moderní stavby</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/nejmodernejsi-stavby/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15252-214-157-.jpg"
+                                     alt="Energeticky nezávislé stavby" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Energeticky nezávislé stavby</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/energeticky-nezavisle-stavby/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-17357-214-157-.jpg"
+                                     alt="Investice a financování" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Investice a financování</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/investice-a-financovani/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15246-214-157-.jpg"
+                                     alt="Bytové a rezidenční projekty" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Bytové a rezidenční projekty</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/bytove-projekty/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15260-214-157-.jpg"
+                                     alt="Administrativní budovy" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Administrativní budovy</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/administrativni-budovy/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15258-214-157-.jpg"
+                                     alt="Revitalizace a rekonstrukce" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Revitalizace a rekonstrukce</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/revitalizace-a-rekonstrukce/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15270-214-157-.jpg"
+                                     alt="Hotely, obchodní a zábavní centra" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Hotely, obchodní a zábavní...</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/obchodni-a-zabavni-centra/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15263-214-157-.jpg"
+                                     alt="Veřejné stavby" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Veřejné stavby</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/verejne-stavby/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15251-214-157-.jpg"
+                                     alt="Dopravní infrastruktura" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Dopravní infrastruktura</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/dopravni-infrastruktura/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15271-214-157-.jpg"
+                                     alt="Průmyslové zóny" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Průmyslové zóny</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/prumyslove-zony/"></a>
+                    </div>
+                                    <div class="categories__item categories__item--hoverable">
+                        <div class="categories__item__img">
+                                                            <img src="https://www.tvarchitect.com/photo-pg-15262-214-157-.jpg"
+                                     alt="Veřejný prostor" height="70" width="95" class="img-responsive" loading="lazy">
+                                                    </div>
+                        <h3 class="categories__item__title">Veřejný prostor</h3>
+                        <a class="categories__item__link" href="https://www.tvarchitect.com/volnocasove-zony/"></a>
+                    </div>
+                            </div>
+        </div>
+    </section>
+
+    <div class="home">
+        <div class="col-md-7 text-under-img">
+                <div class="slider">
+        <div class="slider__list">
+                                                <div class="slider__item slider__item--article" data-video='null' title="Hledá se 1 969 lidí! Přesně tolik návštěv chybělo TVbydleni.cz a TVarchitect.com do historického rekordu půl milionu návštěv za měsíc">
+
+                        <div class="slider__video fp-edgy">
+                                                                                                                                        <div class="slider__title">
+                                    <span>
+                                                                                    ZPRÁVA DNE
+                                                                            </span>
+                                        </div>
+                                                                                                                            <img src="https://www.tvarchitect.com/hleda-se-1-969-lidi-presne-tolik-navstev-chybelo-tvbydleni-cz-a-tvarchitect-com-do-historickeho-rekordu-pul-milionu-navstev-za-mesic-photo-v-6221-498-250-.png" width="498" height="250" alt="Hledá se 1 969 lidí! Přesně tolik návštěv chybělo TVbydleni.cz a TVarchitect.com do historického rekordu půl milionu návštěv za měsíc" title="Hledá se 1 969 lidí! Přesně tolik návštěv chybělo TVbydleni.cz a TVarchitect.com do historického rekordu půl milionu návštěv za měsíc">
+                        </div>
+                        <div class="slider__text slider__text--long">
+                                                                                    Hledá se 1 969 lidí! Přesně tolik návštěv chybělo TVbydleni.cz a TVarchitect.com do historického rekordu půl milionu návštěv za měsíc
+                        </div>
+                        <a href="https://www.tvarchitect.com/video/hleda-se-1-969-lidi-presne-tolik-navstev-chybelo-tvbydleni-cz-a-tvarchitect-com-do-historickeho-rekordu-pul-milionu-navstev-za-mesic/" class="slider__link" title="Hledá se 1 969 lidí! Přesně tolik návštěv chybělo TVbydleni.cz a TVarchitect.com do historického rekordu půl milionu návštěv za měsíc"></a>
+                    </div>
+                                                                <div class="slider__item slider__item--video" data-video='null' title="Event Keramiky Soukup představil nové trendy a budoucnost výběru materiálů v developerských projektech">
+
+                        <div class="slider__video fp-edgy">
+                                                                                                                                        <div class="slider__title">
+                                    <span>
+                                                                                    DOPORUČUJEME
+                                                                            </span>
+                                        </div>
+                                                                                                                            <img src="https://www.tvarchitect.com/event-keramiky-soukup-predstavil-nove-trendy-a-budoucnost-vyberu-materialu-v-developerskych-projektech-photo-v-6205-498-250-.png" width="498" height="250" alt="Event Keramiky Soukup představil nové trendy a budoucnost výběru materiálů v developerských projektech" title="Event Keramiky Soukup představil nové trendy a budoucnost výběru materiálů v developerských projektech">
+                        </div>
+                        <div class="slider__text slider__text--long">
+                                                                                    Event Keramiky Soukup představil nové trendy a budoucnost výběru materiálů v developerských projektech
+                        </div>
+                        <a href="https://www.tvarchitect.com/video/event-keramiky-soukup-predstavil-nove-trendy-a-budoucnost-vyberu-materialu-v-developerskych-projektech/" class="slider__link" title="Event Keramiky Soukup představil nové trendy a budoucnost výběru materiálů v developerských projektech"></a>
+                    </div>
+                                                                <div class="slider__item slider__item--video" data-video='null' title="Klimatická odolnost jako nový standard stavebnictví. Odborníci z ČR i ze zahraničí představili své vize na konferenci Šetrné budovy 2026">
+
+                        <div class="slider__video fp-edgy">
+                                                                                                                                        <div class="slider__title">
+                                    <span>
+                                                                                    DOPORUČUJEME
+                                                                            </span>
+                                        </div>
+                                                                                                                            <img src="https://www.tvarchitect.com/klimaticka-odolnost-jako-novy-standard-stavebnictvi-odbornici-z-cr-i-ze-zahranici-predstavili-sve-vize-na-konferenci-setrne-budovy-2026-photo-v-6163-498-250-.jpg" width="498" height="250" alt="Klimatická odolnost jako nový standard stavebnictví. Odborníci z ČR i ze zahraničí představili své vize na konferenci Šetrné budovy 2026" title="Klimatická odolnost jako nový standard stavebnictví. Odborníci z ČR i ze zahraničí představili své vize na konferenci Šetrné budovy 2026">
+                        </div>
+                        <div class="slider__text slider__text--long">
+                                                                                    Klimatická odolnost jako nový standard stavebnictví. Odborníci z ČR i ze zahraničí představili své vize na konferenci Šetrné budovy 2026
+                        </div>
+                        <a href="https://www.tvarchitect.com/video/klimaticka-odolnost-jako-novy-standard-stavebnictvi-odbornici-z-cr-i-ze-zahranici-predstavili-sve-vize-na-konferenci-setrne-budovy-2026/" class="slider__link" title="Klimatická odolnost jako nový standard stavebnictví. Odborníci z ČR i ze zahraničí představili své vize na konferenci Šetrné budovy 2026"></a>
+                    </div>
+                                                                <div class="slider__item slider__item--video" data-video='null' title="TV Architect v regionech - Reportáž s architekty: Baník se vrátí na Bazaly. Stadion Nové Bazaly bude pro Ostravu jednou z nejvýznamnějších staveb posledních desetiletí.">
+
+                        <div class="slider__video fp-edgy">
+                                                                                                                                        <div class="slider__title">
+                                    <span>
+                                                                                    DOPORUČUJEME
+                                                                            </span>
+                                        </div>
+                                                                                                                            <img src="https://www.tvarchitect.com/reportaz-s-architekty-banik-se-vrati-na-bazaly-stadion-nove-bazaly-bude-pro-ostravu-jednou-z-nejvyznamnejsich-staveb-poslednich-desetileti-photo-v-6134-498-250-.png" width="498" height="250" alt="TV Architect v regionech - Reportáž s architekty: Baník se vrátí na Bazaly. Stadion Nové Bazaly bude pro Ostravu jednou z nejvýznamnějších staveb posledních desetiletí." title="Reportáž s architekty: Baník se vrátí na Bazaly. Stadion Nové Bazaly bude pro Ostravu jednou z nejvýznamnějších staveb posledních desetiletí.">
+                        </div>
+                        <div class="slider__text slider__text--long">
+                                                                                    Reportáž s architekty: Baník se vrátí na Bazaly. Stadion Nové Bazaly bude pro Ostravu jednou z nejvýznamnějších staveb posledních desetiletí.
+                        </div>
+                        <a href="https://www.tvarchitect.com/video/reportaz-s-architekty-banik-se-vrati-na-bazaly-stadion-nove-bazaly-bude-pro-ostravu-jednou-z-nejvyznamnejsich-staveb-poslednich-desetileti/" class="slider__link" title="TV Architect v regionech - Reportáž s architekty: Baník se vrátí na Bazaly. Stadion Nové Bazaly bude pro Ostravu jednou z nejvýznamnějších staveb posledních desetiletí."></a>
+                    </div>
+                                                                <div class="slider__item slider__item--video" data-video='null' title="Potřebujete profesionální propagaci vaší společnosti nebo projektu?">
+
+                        <div class="slider__video fp-edgy">
+                                                                                                                                        <div class="slider__title">
+                                    <span>
+                                                                                    VYBRALI JSME PRO VÁS...
+                                                                            </span>
+                                        </div>
+                                                                                                                            <img src="https://www.tvarchitect.com/bydleni-bude-davat-smysl-vzdy-i-kdyby-vse-kolem-uz-smysl-nedavalo-dekujeme-ze-jste-s-nami-photo-v-5399-498-250-.jpg" width="498" height="250" alt="Potřebujete profesionální propagaci vaší společnosti nebo projektu?" title="Potřebujete profesionální propagaci vaší společnosti nebo projektu?">
+                        </div>
+                        <div class="slider__text slider__text--long">
+                                                                                    Potřebujete profesionální propagaci vaší společnosti nebo projektu?
+                        </div>
+                        <a href="https://www.tvarchitect.com/video/bydleni-bude-davat-smysl-vzdy-i-kdyby-vse-kolem-uz-smysl-nedavalo-dekujeme-ze-jste-s-nami/" class="slider__link" title="Potřebujete profesionální propagaci vaší společnosti nebo projektu?"></a>
+                    </div>
+                                    </div>
+    </div>
+        </div>
+        <div class="col-md-5">
+            <div class="news">
+                <h2>Zprávy a aktuality</h2>
+
+                <div class="news__list">
+                                            <a class="news__item" href="https://www.tvarchitect.com/clanek/hleda-se-1-969-lidi-presne-tolik-navstev-chybelo-tvbydleni-cz-a-tvarchitect-com-do-historickeho-rekordu-pul-milionu-navstev-za-mesic/">
+                                                            <div class="news__img">
+                                    <img src="https://www.tvarchitect.com/photo-v-6221-316-187-.png" alt="Hledá se 1 969 lidí! Přesně tolik návštěv chybělo TVbydleni.cz a TVarchitect.com do historického rekordu půl milionu návštěv za měsíc">
+                                </div>
+                                                        <div class="news__title">
+                                <h3>
+                                    Hledá se 1 969 lidí! Přesně tolik návštěv chybělo TVbydleni.cz a TVarchitect.com do historického rekordu půl milionu návštěv za měsíc
+                                </h3>
+
+                                                                    Včera
+                                                            </div>
+                        </a>
+                                            <a class="news__item" href="https://www.tvarchitect.com/clanek/architektura-a-design-v-ere-socialnich-siti/">
+                                                            <div class="news__img">
+                                    <img src="https://www.tvarchitect.com/photo-v-5960-316-187-.png" alt="Architektura a design v éře sociálních sítí">
+                                </div>
+                                                        <div class="news__title">
+                                <h3>
+                                    Architektura a design v éře sociálních sítí
+                                </h3>
+
+                                                                    13. 7. 2026
+                                                            </div>
+                        </a>
+                                            <a class="news__item" href="https://www.tvarchitect.com/clanek/rekonstrukce-ostravskeho-mrakodrapu-zacne-v-cervenci-ikonickou-budovu-promeni-bytova-rezidence/">
+                                                            <div class="news__img">
+                                    <img src="https://www.tvarchitect.com/photo-v-6219-316-187-.png" alt="Rekonstrukce ostravského mrakodrapu začne v červenci. Ikonickou budovu promění bytová rezidence">
+                                </div>
+                                                        <div class="news__title">
+                                <h3>
+                                    Rekonstrukce ostravského mrakodrapu začne v červenci. Ikonickou budovu promění bytová rezidence
+                                </h3>
+
+                                                                    9. 7. 2026
+                                                            </div>
+                        </a>
+                                    </div>
+
+                <div class="more">
+                    <a href="https://www.tvarchitect.com/zpravy-a-aktuality/">
+                        Více
+                    </a>
+                </div>
+            </div><!--/.news-->
+            <div class="news">
+                    <h2 title="Zprávy a aktuality na TVbydlení.cz">Zprávy a aktuality na <a href="https://www.tvbydleni.cz/" target="_blank"><img src="https://www.tvarchitect.com/images/logo-tvbydleni-black.svg?v2" alt="TVBydlení.cz" style="width:auto;height:19px;"></a></h2>
+
+                <div class="news__list">
+                                            <a class="news__item"
+                           href="https://www.tvbydleni.cz/clanek/hleda-se-1-969-lidi-presne-tolik-navstev-chybelo-tvbydleni-cz-a-tvarchitect-com-do-historickeho-rekordu-pul-milionu-navstev-za-mesic/"
+                           title="Hledá se 1 969 lidí! Přesně tolik návštěv chybělo TVbydleni.cz a TVarchitect.com do historického rekordu půl milionu návštěv za měsíc" target="_blank">
+                                                            <div class="news__img" style="background-image: url(https://www.tvbydleni.cz/photo-v-5541-1200-630-.png)">
+                                </div>
+                                                        <div class="news__title">
+                                <h3 title="Hledá se 1 969 lidí! Přesně tolik návštěv chybělo TVbydleni.cz a TVarchitect.com do historického rekordu půl milionu návštěv za měsíc">
+                                    Hledá se 1 969 lidí! Přesně tolik návštěv chybělo TVbydleni.cz a TVarchitect.com do historického rekordu půl milionu návštěv za měsíc
+                                </h3>
+                                                                    Včera
+                                                            </div>
+                        </a>
+                                    </div>
+                <div class="more">
+                        <a href="https://www.tvbydleni.cz/aktuality/" target="_blank">
+                            Více
+                        </a>
+                </div>
+            </div><!--/.news-->
+        </div>
+    </div>
+    <section class="section--categories section--categories--large pb-0">
+    <div class="container">
+
+                    <h2 class="mt-0">Pořady</h2>
+        
+        <div class="categories categories--large categories-slider-2">
+                            <div class="categories__item categories__item--hoverable">
+                    <div class="categories__item__img">
+                                                    <img src="https://www.tvarchitect.com/photo-ct-415-177-100-.png"
+                                 alt="TV Architect v regionech" height="100" width="177" class="img-responsive" loading="lazy">
+                                                                    </div>
+                    <h3 class="categories__item__title">TV Architect v regionech</h3>
+                    <a class="categories__item__link" href="https://www.tvarchitect.com/channel/tv-architect-v-regionech/"></a>
+                </div>
+                            <div class="categories__item categories__item--hoverable">
+                    <div class="categories__item__img">
+                                                    <img src="https://www.tvarchitect.com/photo-ct-394-177-100-.png"
+                                 alt="Díla architektů a designérů" height="100" width="177" class="img-responsive" loading="lazy">
+                                                                    </div>
+                    <h3 class="categories__item__title">Díla architektů a designérů</h3>
+                    <a class="categories__item__link" href="https://www.tvarchitect.com/channel/dila-architektu-a-designeru/"></a>
+                </div>
+                            <div class="categories__item categories__item--hoverable">
+                    <div class="categories__item__img">
+                                                    <img src="https://www.tvarchitect.com/photo-ct-177-177-100-.png"
+                                 alt="TV Architect představuje..." height="100" width="177" class="img-responsive" loading="lazy">
+                                                                    </div>
+                    <h3 class="categories__item__title">TV Architect představuje...</h3>
+                    <a class="categories__item__link" href="https://www.tvarchitect.com/channel/tv-architect-predstavuje/"></a>
+                </div>
+                            <div class="categories__item categories__item--hoverable">
+                    <div class="categories__item__img">
+                                                    <img src="https://www.tvarchitect.com/photo-ct-344-177-100-.png"
+                                 alt="Osobnosti současné architektury" height="100" width="177" class="img-responsive" loading="lazy">
+                                                                    </div>
+                    <h3 class="categories__item__title">Osobnosti současné architektury</h3>
+                    <a class="categories__item__link" href="https://www.tvarchitect.com/channel/osobnosti-soucasne-architektury/"></a>
+                </div>
+                            <div class="categories__item categories__item--hoverable">
+                    <div class="categories__item__img">
+                                                    <img src="https://www.tvarchitect.com/photo-ct-176-177-100-.png"
+                                 alt="Skryté poklady architektury pohledem Zdeňka Lukeše" height="100" width="177" class="img-responsive" loading="lazy">
+                                                                    </div>
+                    <h3 class="categories__item__title">Skryté poklady architektury pohledem Zdeňka Lukeše</h3>
+                    <a class="categories__item__link" href="https://www.tvarchitect.com/channel/skryte-poklady-architektury-pohledem-zdenka-lukese/"></a>
+                </div>
+                            <div class="categories__item categories__item--hoverable">
+                    <div class="categories__item__img">
+                                                    <img src="https://www.tvarchitect.com/photo-ct-657-177-100-.jpg"
+                                 alt="TV Architect na Slovensku" height="100" width="177" class="img-responsive" loading="lazy">
+                                                                    </div>
+                    <h3 class="categories__item__title">TV Architect na Slovensku</h3>
+                    <a class="categories__item__link" href="https://www.tvarchitect.com/channel/tv-architect-na-slovensku/"></a>
+                </div>
+                            <div class="categories__item categories__item--hoverable">
+                    <div class="categories__item__img">
+                                                    <img src="https://www.tvarchitect.com/photo-ct-518-177-100-.png"
+                                 alt="U jednoho stolu" height="100" width="177" class="img-responsive" loading="lazy">
+                                                                    </div>
+                    <h3 class="categories__item__title">U jednoho stolu</h3>
+                    <a class="categories__item__link" href="https://www.tvarchitect.com/channel/u-jednoho-stolu/"></a>
+                </div>
+                            <div class="categories__item categories__item--hoverable">
+                    <div class="categories__item__img">
+                                                    <img src="https://www.tvarchitect.com/photo-ct-418-177-100-.png"
+                                 alt="Chátrající skvosty" height="100" width="177" class="img-responsive" loading="lazy">
+                                                                    </div>
+                    <h3 class="categories__item__title">Chátrající skvosty</h3>
+                    <a class="categories__item__link" href="https://www.tvarchitect.com/channel/chatrajici-skvosty/"></a>
+                </div>
+                            <div class="categories__item categories__item--hoverable">
+                    <div class="categories__item__img">
+                                                    <img src="https://www.tvarchitect.com/photo-ct-540-177-100-.png"
+                                 alt="Architekti nové generace" height="100" width="177" class="img-responsive" loading="lazy">
+                                                                    </div>
+                    <h3 class="categories__item__title">Architekti nové generace</h3>
+                    <a class="categories__item__link" href="https://www.tvarchitect.com/channel/architekti-nove-generace/"></a>
+                </div>
+                            <div class="categories__item categories__item--hoverable">
+                    <div class="categories__item__img">
+                                                    <img src="https://www.tvarchitect.com/photo-ct-381-177-100-.png"
+                                 alt="Konference architektury" height="100" width="177" class="img-responsive" loading="lazy">
+                                                                    </div>
+                    <h3 class="categories__item__title">Konference architektury</h3>
+                    <a class="categories__item__link" href="https://www.tvarchitect.com/channel/konference-architektury/"></a>
+                </div>
+                            <div class="categories__item categories__item--hoverable">
+                    <div class="categories__item__img">
+                                                    <img src="https://www.tvarchitect.com/photo-ct-551-177-100-.png"
+                                 alt="Akademie navrhování interiérů" height="100" width="177" class="img-responsive" loading="lazy">
+                                                                    </div>
+                    <h3 class="categories__item__title">Akademie navrhování interiérů</h3>
+                    <a class="categories__item__link" href="https://www.tvarchitect.com/channel/akademie-navrhovani/"></a>
+                </div>
+                    </div>
+        <hr class="mt-3 mb-3">
+    </div>
+</section>
+<div class="main">
+        <div class="image-box image-box--lead">
+        <div class="image-box__in banner-desktop">
+            <a href="https://www.tvarchitect.com/redirect/918/?url=https%3A%2F%2Fwww.rdrymarov.cz%2F" target="_blank">                <img src="https://www.tvarchitect.com/photo-b-1830--.png?t=1784221238" alt="" title="">
+                </a>        </div>
+                    <div class="image-box image-box--lead banner-mobile">
+
+                <a href="https://www.tvarchitect.com/redirect/918/?url=https%3A%2F%2Fwww.rdrymarov.cz%2F" target="_blank">                    <div style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; clip: rect(0px auto auto 0px)">
+                        <div style="background: url('https://www.tvarchitect.com/photo-b-1831--.png') no-repeat 50% 50%; background-size: contain; height: 100vh; width: 100%; max-width: 300px; left: 50%; top: 0; transform: translateX(-50%); position: fixed; animation: ios-interscroller-clipping-hack .1s infinite">
+                        </div>
+                    </div>
+                    </a>
+                <style type="text/css">
+                    @keyframes ios-interscroller-clipping-hack {
+                        from {
+                            top: 0
+                        }
+                        to {
+                            top: 0.01px;
+                        }
+                    }
+                </style>
+            </div>
+            </div>
+
+<h2 class="mb-4 h2--small">
+    Doporučujeme z <a href="https://www.tvarchitect.com/" target="_blank"><img src="https://www.tvarchitect.com/images/logo.svg?v2" alt="TVarchitect.com" style="height: 30px;"></a>
+</h2>
+
+    <div class="video">
+        <div class="video__list video__list--compact">
+            
+                        <div class="video__item  video__item--video">
+                <span class="video__cat">
+                                            Zajímavé projekty
+                                    </span>
+                                <a href="https://www.tvarchitect.com/video/event-keramiky-soukup-predstavil-nove-trendy-a-budoucnost-vyberu-materialu-v-developerskych-projektech/"
+                   class="video__link">
+                    <div class="video__img ">
+                        <img src="https://www.tvarchitect.com/event-keramiky-soukup-predstavil-nove-trendy-a-budoucnost-vyberu-materialu-v-developerskych-projektech-photo-v-6205-316-187-.png"
+                             alt="Event Keramiky Soukup představil nové trendy a budoucnost výběru materiálů v developerských projektech" title="Event Keramiky Soukup představil nové trendy a budoucnost výběru materiálů v developerských projektech">
+                    </div>
+
+                    
+                    <div class="video__title">
+                                                <h3 title="Event Keramiky Soukup představil nové trendy a budoucnost výběru materiálů v developerských projektech">
+                            Event Keramiky Soukup představil nové trendy a budoucnost výběru materiálů v developerských projektech
+                        </h3>
+                    </div>
+                                                                                                            <div class="video__meta">
+                                                            5 m 41 s                                                                                            </div>
+                                                                    </a>
+            </div><!--/.video__item-->
+
+                                                    
+                                                                    <div class="video__item  video__item--video">
+                <span class="video__cat">
+                                            Udržitelná architektura
+                                    </span>
+                                <a href="https://www.tvarchitect.com/video/klimaticka-odolnost-jako-novy-standard-stavebnictvi-odbornici-z-cr-i-ze-zahranici-predstavili-sve-vize-na-konferenci-setrne-budovy-2026/"
+                   class="video__link">
+                    <div class="video__img ">
+                        <img src="https://www.tvarchitect.com/klimaticka-odolnost-jako-novy-standard-stavebnictvi-odbornici-z-cr-i-ze-zahranici-predstavili-sve-vize-na-konferenci-setrne-budovy-2026-photo-v-6163-316-187-.jpg"
+                             alt="Klimatická odolnost jako nový standard stavebnictví. Odborníci z ČR i ze zahraničí představili své vize na konferenci Šetrné budovy 2026" title="Klimatická odolnost jako nový standard stavebnictví. Odborníci z ČR i ze zahraničí představili své vize na konferenci Šetrné budovy 2026">
+                    </div>
+
+                    
+                    <div class="video__title">
+                                                <h3 title="Klimatická odolnost jako nový standard stavebnictví. Odborníci z ČR i ze zahraničí představili své vize na konferenci Šetrné budovy 2026">
+                            Klimatická odolnost jako nový standard stavebnictví. Odborníci z ČR i ze zahraničí představili své vize na konferenci Šetrné budovy 2026
+                        </h3>
+                    </div>
+                                                                                                            <div class="video__meta">
+                                                            7 m 39 s                                                                                            </div>
+                                                                    </a>
+            </div><!--/.video__item-->
+
+                                                    
+                                                                    <div class="video__item  video__item--video">
+                <span class="video__cat">
+                                            TV Architect v regionech
+                                    </span>
+                                <a href="https://www.tvarchitect.com/video/reportaz-s-architekty-banik-se-vrati-na-bazaly-stadion-nove-bazaly-bude-pro-ostravu-jednou-z-nejvyznamnejsich-staveb-poslednich-desetileti/"
+                   class="video__link">
+                    <div class="video__img ">
+                        <img src="https://www.tvarchitect.com/reportaz-s-architekty-banik-se-vrati-na-bazaly-stadion-nove-bazaly-bude-pro-ostravu-jednou-z-nejvyznamnejsich-staveb-poslednich-desetileti-photo-v-6134-316-187-.png"
+                             alt="Reportáž s architekty: Baník se vrátí na Bazaly. Stadion Nové Bazaly bude pro Ostravu jednou z nejvýznamnějších staveb posledních desetiletí." title="Reportáž s architekty: Baník se vrátí na Bazaly. Stadion Nové Bazaly bude pro Ostravu jednou z nejvýznamnějších staveb posledních desetiletí.">
+                    </div>
+
+                    
+                    <div class="video__title">
+                                                <h3 title="TV Architect v regionech - Reportáž s architekty: Baník se vrátí na Bazaly. Stadion Nové Bazaly bude pro Ostravu jednou z nejvýznamnějších staveb posledních desetiletí.">
+                            Reportáž s architekty: Baník se vrátí na Bazaly. Stadion Nové Bazaly bude pro Ostravu jednou z nejvýznamnějších staveb posledních desetiletí.
+                        </h3>
+                    </div>
+                                                                                                            <div class="video__meta">
+                                                            10 m 07 s                                                                                            </div>
+                                                                    </a>
+            </div><!--/.video__item-->
+
+                                                    
+                                                                    <div class="video__item  video__item--video">
+                <span class="video__cat video__cat--number">
+                                            Díla architektů a designérů
+                                    </span>
+                                    <span class="video__number">
+                        12. díl
+                    </span>
+                                <a href="https://www.tvarchitect.com/video/dila-architektu-a-designeru-dum-pod-vrbou-beton-svetlo-a-propojeni-s-krajinou/"
+                   class="video__link">
+                    <div class="video__img ">
+                        <img src="https://www.tvarchitect.com/dila-architektu-a-designeru-dum-pod-vrbou-beton-svetlo-a-propojeni-s-krajinou-photo-v-6104-316-187-.jpg"
+                             alt="Dům pod vrbou: beton, světlo a propojení s krajinou" title="Dům pod vrbou: beton, světlo a propojení s krajinou">
+                    </div>
+
+                    
+                    <div class="video__title">
+                                                <h3 title="Díla architektů a designérů - Dům pod vrbou: beton, světlo a propojení s krajinou">
+                            Dům pod vrbou: beton, světlo a propojení s krajinou
+                        </h3>
+                    </div>
+                                                                                                            <div class="video__meta">
+                                                            5 m 40 s                                                                                            </div>
+                                                                    </a>
+            </div><!--/.video__item-->
+
+                                                    
+                                                        
+                    </div><!--/.video__list-->
+    </div>
+    <!--/.video-->
+
+                
+<div class="more mb-5">
+    <a class="btn--outline" href="https://www.tvarchitect.com/nejnovejsi/" title="více videí">
+        více videí
+    </a>
+</div>
+
+
+
+    <h2 class="h2--small">
+        Doporučujeme z <a href="https://www.tvbydleni.cz/" target="_blank"><img src="https://www.tvarchitect.com/images/logo-tvbydleni.svg?v2" alt="TVbydlení.cz" style="height: 30px;"></a>
+    </h2>
+        <div class="video">
+        <div class="video__list video__list--compact">
+
+                        <div class="video__item video__item--video">
+
+                    <a class="video__cat" href="https://www.tvbydleni.cz/video/developerske-projekty-kladno-living-byty-na-prodej/" title="Developerské projekty - 79. díl - Kladno Living - byty na prodej" >
+                    </a>
+                <a href="https://www.tvbydleni.cz/video/developerske-projekty-kladno-living-byty-na-prodej/" title="Developerské projekty - 79. díl - Kladno Living - byty na prodej" class="video__link">
+                                            <div class="video__img">
+                            <img src="https://www.tvbydleni.cz/photo-v-5515-316-187-.jpg?v2" alt="Developerské projekty - 79. díl - Kladno Living - byty na prodej" title="Developerské projekty - 79. díl - Kladno Living - byty na prodej">
+                        </div>
+                                        <div class="video__title">
+                        <h3 title="Developerské projekty - 79. díl - Kladno Living - byty na prodej">
+                            Developerské projekty - 79. díl - Kladno Living - byty na prodej
+                        </h3>
+                    </div>
+                    <div class="video__meta">
+                                                    Video
+                                            </div>
+                </a>
+            </div>
+                        <div class="video__item video__item--video">
+
+                    <a class="video__cat" href="https://www.tvbydleni.cz/video/stavba-neni-sen-11-zelena-hora-oziva-novi-majitele-zamku-predstavuji-vize-budoucnosti-a-dobrovolnici-pomahaji-s-obnovou/" title="Stavba není sen 11 - 2. díl - Zelená Hora ožívá. Noví majitelé zámku představují vize budoucnosti a dobrovolníci pomáhají s obnovou" >
+                    </a>
+                <a href="https://www.tvbydleni.cz/video/stavba-neni-sen-11-zelena-hora-oziva-novi-majitele-zamku-predstavuji-vize-budoucnosti-a-dobrovolnici-pomahaji-s-obnovou/" title="Stavba není sen 11 - 2. díl - Zelená Hora ožívá. Noví majitelé zámku představují vize budoucnosti a dobrovolníci pomáhají s obnovou" class="video__link">
+                                            <div class="video__img">
+                            <img src="https://www.tvbydleni.cz/photo-v-5503-316-187-.png?v2" alt="Stavba není sen 11 - 2. díl - Zelená Hora ožívá. Noví majitelé zámku představují vize budoucnosti a dobrovolníci pomáhají s obnovou" title="Stavba není sen 11 - 2. díl - Zelená Hora ožívá. Noví majitelé zámku představují vize budoucnosti a dobrovolníci pomáhají s obnovou">
+                        </div>
+                                        <div class="video__title">
+                        <h3 title="Stavba není sen 11 - 2. díl - Zelená Hora ožívá. Noví majitelé zámku představují vize budoucnosti a dobrovolníci pomáhají s obnovou">
+                            Stavba není sen 11 - 2. díl - Zelená Hora ožívá. Noví majitelé zámku představují vize budoucnosti a dobrovolníci pomáhají s obnovou
+                        </h3>
+                    </div>
+                    <div class="video__meta">
+                                                    Video
+                                            </div>
+                </a>
+            </div>
+                        <div class="video__item video__item--video">
+
+                    <a class="video__cat" href="https://www.tvbydleni.cz/video/nemovitostni-podcast-kriticka-rizika-i-magicke-benefity-zahranicnich-nemovitosti/" title="NEMOVITOSTNÍ PODCAST: Kritická rizika i magické benefity zahraničních nemovitostí" >
+                    </a>
+                <a href="https://www.tvbydleni.cz/video/nemovitostni-podcast-kriticka-rizika-i-magicke-benefity-zahranicnich-nemovitosti/" title="NEMOVITOSTNÍ PODCAST: Kritická rizika i magické benefity zahraničních nemovitostí" class="video__link">
+                                            <div class="video__img">
+                            <img src="https://www.tvbydleni.cz/photo-v-5489-316-187-.jpg?v2" alt="NEMOVITOSTNÍ PODCAST: Kritická rizika i magické benefity zahraničních nemovitostí" title="NEMOVITOSTNÍ PODCAST: Kritická rizika i magické benefity zahraničních nemovitostí">
+                        </div>
+                                        <div class="video__title">
+                        <h3 title="NEMOVITOSTNÍ PODCAST: Kritická rizika i magické benefity zahraničních nemovitostí">
+                            NEMOVITOSTNÍ PODCAST: Kritická rizika i magické benefity zahraničních nemovitostí
+                        </h3>
+                    </div>
+                    <div class="video__meta">
+                                                    Video
+                                            </div>
+                </a>
+            </div>
+                        <div class="video__item video__item--video">
+
+                    <a class="video__cat" href="https://www.tvbydleni.cz/video/stavba-neni-sen-9-zchatraly-hotel-hladina-mizi-aby-dal-prostor-novemu-konceptu-apartmanoveho-bydleni/" title="Stavba není sen 9 - 2. díl - Zchátralý hotel Hladina mizí, aby dal prostor novému konceptu apartmánového bydlení"  target="_blank" >
+                    </a>
+                <a href="https://www.tvbydleni.cz/video/stavba-neni-sen-9-zchatraly-hotel-hladina-mizi-aby-dal-prostor-novemu-konceptu-apartmanoveho-bydleni/" title="Stavba není sen 9 - 2. díl - Zchátralý hotel Hladina mizí, aby dal prostor novému konceptu apartmánového bydlení" class="video__link" target="_blank" >
+                                            <div class="video__img">
+                            <img src="https://www.tvbydleni.cz/photo-v-5179-316-187-.jpg?v2" alt="Stavba není sen 9 - 2. díl - Zchátralý hotel Hladina mizí, aby dal prostor novému konceptu apartmánového bydlení" title="Stavba není sen 9 - 2. díl - Zchátralý hotel Hladina mizí, aby dal prostor novému konceptu apartmánového bydlení">
+                        </div>
+                                        <div class="video__title">
+                        <h3 title="Stavba není sen 9 - 2. díl - Zchátralý hotel Hladina mizí, aby dal prostor novému konceptu apartmánového bydlení">
+                            Stavba není sen 9 - 2. díl - Zchátralý hotel Hladina mizí, aby dal prostor novému konceptu apartmánového bydlení
+                        </h3>
+                    </div>
+                    <div class="video__meta">
+                                                    Video
+                                            </div>
+                </a>
+            </div>
+                    </div>
+    </div>
+    <!--/.video-->
+
+
+
+<section class="section--ig">
+    <div class="container">
+        <h2 class="text-center">Akademie navrhování interiérů</h2>
+        <div class="video">
+            <div class="video__list">
+
+                <div class="video__item  video__item--video">
+                    <a class="video__cat " href="https://www.tvarchitect.com/channel/akademie-navrhovani/" style="color: #000000; border-bottom-color: #000000;" title="Akademie navrhování">
+                        Akademie navrhování
+                    </a>
+                    <a href="https://www.tvarchitect.com/video/akademie-navrhovani-1-dil-kompozice-a-koncepce/" class="video__link">
+                        <div class="video__img video__paid">
+                            <img src="https://www.tvarchitect.com/akademie-navrhovani-1-dil-kompozice-a-koncepce-photo-v-3539-316-187-.png" alt="Akademie navrhování interiérů - 1. díl - Kompozice a koncepce" title="Akademie navrhování interiérů - 1. díl - Kompozice a koncepce">
+                        </div>
+
+
+                        <div class="video__title">
+                            <h3 title="Akademie navrhování interiérů - 1. díl - Kompozice a koncepce">
+                                Akademie navrhování interiérů - 1. díl - Kompozice a koncepce
+                            </h3>
+                        </div>
+                        <div class="video__meta">
+                            9 m 20 s                                                                                            </div>
+                    </a>
+                </div><!--/.video__item-->
+                <div class="video__item  video__item--video">
+                    <a class="video__cat " href="https://www.tvarchitect.com/channel/akademie-navrhovani/" style="color: #000000; border-bottom-color: #000000;" title="Akademie navrhování">
+                        Akademie navrhování
+                    </a>
+                    <a href="https://www.tvarchitect.com/video/akademie-navrhovani-2-dil-dispozice/" class="video__link">
+                        <div class="video__img video__paid">
+                            <img src="https://www.tvarchitect.com/akademie-navrhovani-2-dil-dispozice-photo-v-3540-316-187-.png" alt="Akademie navrhování interiérů - 2. díl - Dispozice" title="Akademie navrhování interiérů - 2. díl - Dispozice">
+                        </div>
+
+
+                        <div class="video__title">
+                            <h3 title="Akademie navrhování interiérů - 2. díl - Dispozice">
+                                Akademie navrhování interiérů - 2. díl - Dispozice
+                            </h3>
+                        </div>
+                        <div class="video__meta">
+                            10 m 04 s                                                                                            </div>
+                    </a>
+                </div><!--/.video__item-->
+                <div class="video__item  video__item--video">
+                    <a class="video__cat " href="https://www.tvarchitect.com/channel/akademie-navrhovani/" style="color: #000000; border-bottom-color: #000000;" title="Akademie navrhování">
+                        Akademie navrhování
+                    </a>
+                    <a href="https://www.tvarchitect.com/video/akademie-navrhovani-3-dil-mistnosti-spolecenske-zony/" class="video__link">
+                        <div class="video__img video__paid">
+                            <img src="https://www.tvarchitect.com/akademie-navrhovani-3-dil-mistnosti-spolecenske-zony-photo-v-3541-316-187-.png" alt="Akademie navrhování interiérů - 3. díl - Místnosti společenské zóny" title="Akademie navrhování interiérů - 3. díl - Místnosti společenské zóny">
+                        </div>
+
+
+                        <div class="video__title">
+                            <h3 title="Akademie navrhování interiérů - 3. díl - Místnosti společenské zóny">
+                                Akademie navrhování interiérů - 3. díl - Místnosti společenské zóny
+                            </h3>
+                        </div>
+                        <div class="video__meta">
+                            6 m 57 s                                                                                            </div>
+                    </a>
+                </div><!--/.video__item-->
+
+            </div><!--/.video__list-->
+        </div>
+
+        <div class="text-center mt-0 mb-5">
+            <a href="https://www.tvarchitect.com/channel/akademie-navrhovani/" class="btn btn--primary">
+                Absolvovat kurz
+            </a>
+        </div>
+    </div>
+</section>
+
+    <div class="container container-partners">
+        <div class="row">
+                                                <div class="col-md-4 ">
+                        <h3 class="text-center" title="Partneři">Partneři</h3>
+                        <div class="partners">
+                            <div class="partners__list">
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.proceram.cz"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-15--60-.png" alt="ProCeram" title="ProCeram">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.ostrava.cz/cs"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-636--60-.jpg" alt="Statutární město Ostrava" title="Statutární město Ostrava">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://amadeus.okna.eu/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-369--60-.png" alt="Okna.eu" title="Okna.eu">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.pkv.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-682--60-.png" alt="PKV" title="PKV">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.jungleinteriors.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-654--60-.jpg" alt="Jungle Interiors" title="Jungle Interiors">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.keramikasoukup.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-689--60-.png" alt="Keramika Soukup" title="Keramika Soukup">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://archina.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-581--60-.jpg" alt="Archina Design" title="Archina Design">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.cltcz.info/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-582--60-.jpg" alt="CLT Czechia" title="CLT Czechia">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://navigo3.com/cs/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-571--60-.jpg" alt="Navigo3" title="Navigo3">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://muj-ed.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-662--60-.jpg" alt="Efektivní dům" title="Efektivní dům">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.pentarealestate.com/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-652--60-.jpg" alt="Penta Real Estate" title="Penta Real Estate">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.psn.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-631--60-.jpg" alt="PSN" title="PSN">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://sekyragroup.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-632--60-.jpg" alt="Sekyra Group" title="Sekyra Group">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.natland.cz/real-estate"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-388--60-.png" alt="Natland Real Estate" title="Natland Real Estate">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://reality.skanska.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-384--60-.png" alt="Skanska Reality" title="Skanska Reality">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.horizonholding.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-387--60-.png" alt="Horizon Holding" title="Horizon Holding">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.yit.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-386--60-.png" alt="YIT" title="YIT">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.ubm-development.com/cs/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-371--60-.png" alt="UBM Development" title="UBM Development">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.crescon.cz/cs/uvod"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-389--60-.png" alt="Crescon" title="Crescon">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.daramis.com/cs/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-385--60-.png" alt="Daramis" title="Daramis">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.finep.cz/cs"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-465--60-.png" alt="Finep" title="Finep">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.satpo.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-392--60-.png" alt="SATPO" title="SATPO">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.progresus.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-651--60-.jpg" alt="Progresus" title="Progresus">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://capekco.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-674--60-.jpg" alt="CAPEK&CO." title="CAPEK&CO.">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://ppas.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-428--60-.png" alt="Pražská plynárenská" title="Pražská plynárenská">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.kaldewei.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-570--60-.png" alt="Kaldewei" title="Kaldewei">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.zeleznarudasemeni.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-390--60-.png" alt="Železná Ruda se mění" title="Železná Ruda se mění">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://javorapartmany.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-427--60-.png" alt="Rezidence Javor" title="Rezidence Javor">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.jvreality.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-391--60-.png" alt="JV REALITY" title="JV REALITY">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.cvzd.cz/cs/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-383--60-.png" alt="Centrum vzorových domů" title="Centrum vzorových domů">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.canaba.cz/cs/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-370--60-.png" alt="Canaba" title="Canaba">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.marek-development.com/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-466--60-.png" alt="Marek Development" title="Marek Development">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://gedosta.cz"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-468--60-.png" alt="Gedosta" title="Gedosta">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.bcas.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-467--60-.png" alt="Broker Consulting" title="Broker Consulting">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://pozemni-stavby.algon.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-498--60-.png" alt="Algon" title="Algon">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.klinovecuvleku.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-499--60-.png" alt="ICV" title="ICV">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.avanticz.eu/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-573--60-.jpg" alt="Avanti" title="Avanti">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://gyoza.eu/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-572--60-.jpg" alt="Gyoza" title="Gyoza">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://tjdevelopment.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-676--60-.jpg" alt="TJ Development" title="TJ Development">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.klaustimber.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-675--60-.jpg" alt="KLAUS Timber" title="KLAUS Timber">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.2mkz.eu/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-574--60-.jpg" alt="2MKZ" title="2MKZ">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.atira.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-583--60-.jpg" alt="Atira" title="Atira">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.greenhills.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-584--60-.jpg" alt="Green Hills" title="Green Hills">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.luxent.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-585--60-.jpg" alt="Luxent" title="Luxent">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.newlivingcenter.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-373--60-.png" alt="New Living Center" title="New Living Center">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.interiors-mnd.com/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-502--60-.png" alt="Interiors manufacture & design" title="Interiors manufacture & design">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.mechdekor.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-469--60-.png" alt="Mechdekor" title="Mechdekor">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.eglo.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-503--60-.png" alt="Eglo" title="Eglo">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.absolut-design.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-500--60-.png" alt="Absolut Design" title="Absolut Design">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.buildbuild.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-580--60-.jpg" alt="Build & Build" title="Build & Build">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.koma-modular.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-501--60-.png" alt="KOMA modular" title="KOMA modular">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.glastetik.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-504--60-.png" alt="AGC" title="AGC">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://ecoten.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-431--60-.png" alt="Ecoten" title="Ecoten">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.eliodservis.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-422--60-.png" alt="ELIOD servis" title="ELIOD servis">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.technoart.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-375--60-.png" alt="TechnoArt" title="TechnoArt">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.a-keramika.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-379--60-.png" alt="A-keramika" title="A-keramika">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.devon-devon.com/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-376--60-.png" alt="Devon&Devon" title="Devon&Devon">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.lomax.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-575--60-.png" alt="Lomax" title="Lomax">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://cz.prefa.com/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-576--60-.jpg" alt="Prefa" title="Prefa">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.voix.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-577--60-.png" alt="VOIX Audio & Cinema" title="VOIX Audio & Cinema">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://web.hettich.com/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-578--60-.jpg" alt="Hettich" title="Hettich">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.schiedel.com/cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-579--60-.png" alt="Schiedel" title="Schiedel">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.meffert.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-660--60-.jpg" alt="Meffert" title="Meffert">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.afrycz.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-633--60-.jpg" alt="AFRY" title="AFRY">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.stavplan.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-637--60-.jpg" alt="StavPlan" title="StavPlan">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://pontiro.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-653--60-.jpg" alt="Pontiro" title="Pontiro">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://omnimedia.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-437--60-.png" alt="Omnimedia" title="Omnimedia">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://lumon.com/cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-685--60-.jpg" alt="LUMON" title="LUMON">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.czvzduchotechnika.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-677--60-.jpg" alt="CZVzduchotechnika" title="CZVzduchotechnika">
+                                                                                    </a>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 ">
+                        <h3 class="text-center" title="Odborní partneři">Odborní partneři</h3>
+                        <div class="partners">
+                            <div class="partners__list">
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.czgbc.org"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-59--60-.jpg" alt="Česká rada pro šetrné budovy" title="Česká rada pro šetrné budovy">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.skgbc.org/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-678--60-.jpg" alt="Slovenská rada pre zelené budovy" title="Slovenská rada pre zelené budovy">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.grandprixarchitektu.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-634--60-.jpg" alt="Obec architektů" title="Obec architektů">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://openhousepraha.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-61--60-.jpg" alt="OpenHousePraha" title="OpenHousePraha">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.grandprixarchitektu.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-635--60-.jpg" alt="Grand Prix Architektů" title="Grand Prix Architektů">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.csdum.cz"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-378--60-.png" alt="Český soběstačný dům" title="Český soběstačný dům">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://prazdnedomy.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-377--60-.png" alt="Prazdnedomy.cz" title="Prazdnedomy.cz">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.rxakademie.cz/pages/home"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-606--60-.jpg" alt="RX Akademie" title="RX Akademie">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://www.iprpraha.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-50--60-.jpg" alt="Institut plánování a rozvoje hl. m. Prahy" title="Institut plánování a rozvoje hl. m. Prahy">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://praha.camp/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-51--60-.jpg" alt="Centrum architektury a městského plánování" title="Centrum architektury a městského plánování">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://wedevelop.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-42--60-.png" alt="Asociace developerů" title="Asociace developerů">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="http://spa-fa.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-70--60-.png" alt="Spolek Posluchačů Architektury" title="Spolek Posluchačů Architektury">
+                                                                                    </a>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 ">
+                        <h3 class="text-center" title="Mediální partneři">Mediální partneři</h3>
+                        <div class="partners">
+                            <div class="partners__list">
+                                                                    <div class="partners__item">
+                                                                                <a href="http://abf.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-372--60-.png" alt="ABF" title="ABF">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.ziprealty.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-486--60-.png" alt="ZipRealty" title="ZipRealty">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.info-praha.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-458--60-.png" alt="Info-Praha.cz" title="Info-Praha.cz">
+                                                                                    </a>
+                                                                            </div>
+                                                                    <div class="partners__item">
+                                                                                <a href="https://www.informuji.cz/"
+                                           target="_blank">
+                                            
+                                            
+                                                                                        <img src="https://www.tvarchitect.com/photo-ct-269--60-.png" alt="Informuji.cz" title="Informuji.cz">
+                                                                                    </a>
+                                                                            </div>
+                                                            </div>
+                        </div>
+                    </div>
+                                    </div>
+    </div>
+
+</div><!--/.main-->
+
+<div class="foot">
+    <div class="foot__in">
+        <div class="foot__logo">
+                            <a href="https://www.tvarchitect.com/" title="TVbydleni.cz">
+                    <img src="https://www.tvarchitect.com/images/logo-foot.svg" alt="TVbydleni.cz" title="TVbydleni.cz">
+                </a>
+                <div class="foot__claim">Spojujeme svět architektury</div>
+                    </div>
+
+                    <div class="foot__nav foot__nav--1">
+<h4>O nás</h4>
+<ul>
+<ul>
+<ul>
+<ul>
+<li><a href="https://www.tvarchitect.com/provozovatel/">Provozovatel</a></li>
+<li><a href="https://www.tvarchitect.com/kontakt/">Kontakt</a></li>
+<li><a href="https://www.tvarchitect.com/spolupracujte-s-nami-predstaveni-sluzeb/">Spolupracujte s námi</a></li>
+</ul>
+</ul>
+</ul>
+</ul>
+</div>
+<div class="foot__nav foot__nav--2">
+<h4>O portálu</h4>
+<ul>
+<li><a href="https://www.tvarchitect.com/obchodni-podminky/">Obchodní podmínky</a></li>
+<li><a href="https://www.tvarchitect.com/ochrana-osobnich-udaju/">Ochrana osobních údajů</a></li>
+<li><a href="https://www.tvarchitect.com/prohlaseni-o-pristupnosti/">Prohlášení o přístupnosti</a></li>
+</ul>
+</div>
+<div class="foot__nav foot__nav--3">
+<h4>Hledáte inspiraci pro bydlení?</h4>
+<ul>
+<ul>
+<li><a href="https://www.tvbydleni.cz" target="_blank" rel="noopener noreferrer">www.TVbydleni.cz</a></li>
+</ul>
+</ul>
+</div>
+                <div class="foot__social">
+                <h4 title="Sledujte nás na">Sledujte nás na</h4>
+            <div class="foot__social__icons">
+                                    <a href="https://www.facebook.com/tvarchitect/" class="foot-fcb" target="_blank" title="facebook">facebook</a>
+                                                    <a href="https://www.instagram.com/tvarchitect/" class="foot-instagram" target="_blank" title="instagram">instagram</a>
+                                                                <a href="https://www.tvarchitect.com/rss/" class="foot-rss" target="_blank" title="rss">rss</a>
+            </div>
+        </div>
+        <div class="row foot__wrapper">
+            <div class="col-xs-12">
+                <hr>
+            </div>
+            <div class="col-md-8">
+                <div class="foot__law">
+                    <a href="javascript:void(0);" aria-label="Nastavení Cookies" data-cc="c-settings">Nastavení Cookies</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="foot__copy">
+                    &copy; 2026 Living Media s.r.o.<br>
+                    Vytvořeno v <a href="https://www.benes-michl.cz" target="_blank" title="Beneš & Michl">Beneš & Michl</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="subscribe" style="display: none">
+    <div class="popup__in">
+        <h2 title="Odběr novinek">Odběr novinek</h2>
+        <form action="#" class="newsletter-form">
+            <div class="notice success">
+                Váš e-mail byl úspěšně zaregistrován.
+            </div>
+
+            <div class="notice error">
+                Zadali jste neplatnou e-mailovou adresu.
+            </div>
+            <div class="newsletter-form-visible">
+                <div class="form__row">
+                    <div class="form__field newsletter-form">
+                        <input type="email" name="param[email]" placeholder="Váš e-mail">
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__field text-center">
+                        <input type="submit" value="Chci odebírat novinky" class="btn--primary">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <p class="popup__note">
+            Přihlášením k odběru videí souhlasím se <a href="https://www.tvarchitect.com/souhlas-se-zpracovanim-osobnich-udaju/" target="_blank">zpracováním osobních údajů</a>.
+        </p>
+    </div>
+</div>
+<div class="popup" id="form-popup" style="display: none">
+    <div class="popup__in">
+        
+        <p class="popup__lead">
+        <h3 class="text-center">
+                    </h3>
+        </p>
+
+        <form action="#" class="interest-popup-form" id="interest-form">
+            <input type="hidden" name="param[url]" value="https://www.tvarchitect.com//home/">
+            <input type="hidden" name="param[title]" value="TVarchitect.com - online televize o architektuře a stavebnictví">
+            <input type="hidden" name="param[type]" value="" id="interest-popup-type">
+            <div class="notice success">
+                Děkujeme za odeslání.
+            </div>
+
+
+            <div class="interest-form-visible">
+                <div class="form__row">
+                    <div class="form__field newsletter-form">
+                        <label for="form-company">Název společnosti / projektu*:</label>
+                        <input type="text" name="param[company]" placeholder=""  required id="form-company">
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__field newsletter-form">
+                        <label for="form-name">Jméno a příjmení*:</label>
+                        <input type="text" name="param[name]" placeholder="" required id="form-name">
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__field newsletter-form">
+                        <label for="form-email">Váš e-mail*:</label>
+                        <input type="email" name="param[email]" placeholder="" required id="form-email">
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__field newsletter-form">
+                        <label for="form-phone">Telefon*</label>
+                        <input type="text" name="param[phone]" placeholder="" required id="form-phone">
+                    </div>
+                </div>
+                <p>* povinné položky</p>
+
+                <div class="notice error">
+                    Zadejte platnou e-mailovou adresu.
+                </div>
+
+                <div class="form__row">
+                    <div class="form__field text-center">
+                        <input type="submit" value="Odeslat" class="btn--primary btn--big">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <p class="popup__note">
+            Odesláním formuláře souhlasím se <a
+                    href="https://www.tvbydleni.cz/souhlas-se-zpracovanim-osobnich-udaju/" target="_blank">zpracováním
+                osobních údajů</a>.
+        </p>
+    </div>
+</div>
+<div class="popup" id="subscribe--auto" style="display: none">
+    <div class="popup__in">
+        <p class="popup__lead text-center">
+            Zajímají Vás novinky ze světa architektury, stavebnictví a developmentu?<br>
+Zanechte nám svůj e-mail a nic Vám neunikne!
+        </p>
+        <form action="#" class="newsletter-form">
+            <div class="notice success">
+                Váš e-mail byl úspěšně zaregistrován.
+            </div>
+
+            <div class="notice error">
+                Zadali jste neplatnou e-mailovou adresu.
+            </div>
+            <div class="newsletter-form-visible">
+                <div class="form__row">
+                    <div class="form__field newsletter-form">
+                        <input type="email" name="param[email]" placeholder="Váš e-mail">
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__field text-center">
+                        <input type="submit" value="Chci odebírat novinky" class="btn--primary btn--big">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <p class="popup__note">
+            Přihlášením k odběru videí souhlasím se <a href="https://www.tvarchitect.com/souhlas-se-zpracovanim-osobnich-udaju/" target="_blank">zpracováním osobních údajů</a>.
+        </p>
+
+    </div>
+</div>
+
+
+<div class="social">
+            <a href="https://www.facebook.com/tvarchitect/" target="_blank">
+            <span class="social-fcb">
+                facebook
+            </span>
+        </a>
+                <a href="https://www.instagram.com/tvarchitect/" target="_blank">
+            <span class="social-instagram">
+                instagram
+            </span>
+        </a>
+                <a href="https://www.tvarchitect.com/rss/" target="_blank">
+            <span class="social-rss">
+                RSS
+            </span>
+    </a>
+</div>
+
+
+<script>var Engine_lang = {"agreement_required":"Bez souhlasu s V\u0161eobecn\u00fdmi obchodn\u00edmi podm\u00ednkami nelze pokra\u010dovat.","alphabeth_name_url":"abecedne","article_name_url":"clanek","author":"Autor","cc_accept_all":"P\u0159ijmout v\u0161e","cc_close":"Zav\u0159\u00edt","cc_cookie_preferences":"P\u0159edvolby soubor\u016f cookie","cc_cookie_settings":"Nastaven\u00ed Cookies","cc_cookies_description":"Tato webov\u00e1 str\u00e1nka ukl\u00e1d\u00e1 data, jako jsou soubory cookie, aby umo\u017enila z\u00e1kladn\u00ed funk\u010dnost str\u00e1nek a anal\u00fdzu n\u00e1v\u0161t\u011bvnosti. Nastaven\u00ed m\u016f\u017eete kdykoli zm\u011bnit nebo p\u0159ijmout v\u00fdchoz\u00ed nastaven\u00ed.\r\n<br>\r\n<button id=\"decline-cookies\" type=\"button\" class=\"cc-link\">Odm\u00edtnout v\u0161e<\/button>","cc_more_info_description":"Pro v\u00edce informac\u00ed o mo\u017enosti nastaven\u00ed cookies m\u016f\u017eete vyu\u017e\u00edt odkaz <a class=\"cc-link\" href=\"https:\/\/www.tvarchitect.com\/zasady-pouzivani-souboru-cookie\/\">zde<\/a>.","cc_more_info_title":"V\u00edce informac\u00ed","cc_reject_all":"Odm\u00edtnout v\u0161e","cc_save_settings":"Ulo\u017eit nastaven\u00ed","cc_usage_description":"S v\u00fdjimkou z\u00e1kladn\u00edch soubor\u016f cookie (nezbytn\u011b nutn\u00fdch), kter\u00e9 jsou nezbytn\u00e9 pro fungov\u00e1n\u00ed webov\u00e9 str\u00e1nky, soubory cookie nastav\u00edme do va\u0161eho po\u010d\u00edta\u010de, telefonu nebo za\u0159\u00edzen\u00ed a\u017e po z\u00edsk\u00e1n\u00ed va\u0161eho souhlasu. Pro ka\u017edou kategorii si m\u016f\u017eete vybrat, zda se chcete p\u0159ihl\u00e1sit\/odhl\u00e1sit, kdykoli budete cht\u00edt, sta\u010d\u00ed v z\u00e1pat\u00ed webu zvolit mo\u017enost Nastaven\u00ed cookies","cc_usage_title":"Souhlas se soubory cookie","cc_we_use_cookies":"Souhlas se soubory cookie","cin_incorrect":"I\u010cO firmy je zadan\u00e9 ve \u0161patn\u00e9m tvaru.","close":"zav\u0159\u00edt","content_article_title":"\u010cl\u00e1nek","content_gallery_title":"Fotogalerie","content_profil_title":"Profil","created_in":"Vytvo\u0159eno v","customer_exists":"U\u017eivatel s t\u00edmto emailem ji\u017e existuje.","default_sort":"V\u00fdchoz\u00ed","description_title":"Popis","discussion":"Diskuze","email_incorrect":"Zadejte pros\u00edm email ve spr\u00e1vn\u00e9m tvaru.","email_required":"Zadejte pros\u00edm sv\u016fj email.","enter_password":"Zadejte heslo","follow_also":"Sledujte tak\u00e9","follow_news":"Odeb\u00edrat novinky","footer_follow":"Sledujte n\u00e1s na","forgotten_password":"Zapomenut\u00e9 heslo","form_login_header":"Ji\u017e m\u00e1te registraci? P\u0159ihlaste se kliknut\u00edm zde!","form_login_submit":"P\u0159ihl\u00e1sit se","form_registration_header":"Z\u00edskejte p\u0159\u00edstup k cel\u00e9mu kurzu 11 lekc\u00ed","form_registration_standard_price":"5 500 K\u010d","form_registration_standard_price_text":"Standardn\u00ed cena osobn\u00edch kurz\u016f je","form_registration_submit":"Absolvujte kurz 11 lekc\u00ed nyn\u00ed za zv\u00fdhodn\u011bnou cenu","form_registration_switch":"Je\u0161t\u011b nem\u00e1te p\u0159ihla\u0161ovac\u00ed \u00fadaje? Zaregistrujte se kliknut\u00edm zde.","form_registration_vat_inc":"K\u010d v\u010d.\u00a0DPH","full_name_required":"Zadejte pros\u00edm Va\u0161e cel\u00e9 jm\u00e9no odd\u011blen\u00e9 mezerou.","home_most_recent_title":"Nejnov\u011bj\u0161\u00ed","home_most_viewed_title":"Nejsledovan\u011bj\u0161\u00ed","home_news_upradetes_title":"Zpr\u00e1vy a aktuality","channel_list_title":"Seznam po\u0159ad\u016f","channel_title":"Po\u0159ad","choose_section":"Vybrat sekci","inactive_account":"\u00da\u010det bohu\u017eel nen\u00ed aktivovan\u00fd.","input_company":"Nakupujete na firmu? Zadejte I\u010c (nepovinn\u00e9)","input_condition_agreement":"Souhlas\u00edm s <a href=\"\/obchodni-podminky\" target=\"_blank\">V\u0161eobecn\u00fdmi obchodn\u00edmi podm\u00ednkami<\/a>","input_email":"Email","input_name":"Jm\u00e9no a p\u0159\u00edjmen\u00ed","input_new_password":"Vytvo\u0159te si vlastn\u00ed heslo, kter\u00fdm se budete p\u0159ihla\u0161ovat","input_newsletter_agreement":"Nesouhlas\u00edm se zas\u00edl\u00e1m novinek pravideln\u00fdm newsletterem","input_password":"Heslo","input_password_validate":"Heslo pro kontrolu","login":"P\u0159ihl\u00e1sit","logo_claim":"Spojujeme sv\u011bt architektury","logout":"Odhl\u00e1sit se","missing_pass":"Nen\u00ed zadan\u00e9 heslo.","more":"v\u00edce","more_channels":"V\u00edce po\u0159ad\u016f","more_news":"v\u00edce novinek","more_news_updates":"V\u00edce","most_recent_name_url":"nejnovejsi","most_viewed_name_url":"nejsledovanejsi","name_required":"Zadejte pros\u00edm sv\u00e9 cel\u00e9 jm\u00e9no.","name_url_profile":"profil","name_url_subscribe":"odber-novinek","new_password_success":"Heslo bylo \u00fasp\u011b\u0161n\u011b zm\u011bn\u011bno. <a href=\"https:\/\/tvarchitect.com\/channel\/akademie-navrhovani\/\">Pokra\u010dujte na videa <\/a>","news_updates_name_url":"zpravy-a-aktuality","newsletter":"Odb\u011br novinek","newsletter_description":"Zaj\u00edmaj\u00ed V\u00e1s\u00a0novinky ze\u00a0sv\u011bta architektury, stavebnictv\u00ed a\u00a0developmentu?<br>\r\nZanechte n\u00e1m\u00a0sv\u016fj\u00a0e-mail a\u00a0nic\u00a0V\u00e1m\u00a0neunikne!","newsletter_email_error":"Zadali jste neplatnou e-mailovou adresu.","newsletter_email_success":"V\u00e1\u0161 e-mail byl \u00fasp\u011b\u0161n\u011b zaregistrov\u00e1n.","newsletter_placeholder":"Chci odeb\u00edrat novinky","newsletter_placeholder_email":"V\u00e1\u0161 e-mail","next_content":"Dal\u0161\u00ed obsah","no_email_found":"Zadan\u00fd email neexistuje v datab\u00e1zi.","no_result":"\u017d\u00e1dn\u00e1 videa","no_user_found":"U\u017eivatel s t\u00edmto emailem nebyl nalezen.","only_lang_videos":"Jen videa v CZ","other_channels":"Dal\u0161\u00ed po\u0159ady","paid_section_pending_subject":"Zm\u011bna stavu platby","paid_section_repeat_subject":"Mo\u017enost opakovat platbu","paid_section_success_subject":"V\u00edtejte v Akademii navrhov\u00e1n\u00ed","partners_title":"Partne\u0159i","password_change":"Zm\u011bnit heslo","password_length":"D\u00e9lka hesla mus\u00ed b\u00fdt alespo\u0148 8 znak\u016f.","password_recovery":"Obnova hesla","password_recovery_success":"Odkaz pro zm\u011bnu hesla byl odesl\u00e1n.","password_required":"Zadejte pros\u00edm heslo k \u00fa\u010dtu.","password_verify":"Zadejte pros\u00edm sv\u00e9 heslo pro kontrolu.","password_wrong":"Heslo k \u00fa\u010dtu nen\u00ed spr\u00e1vn\u00e9.","passwords_not_same":"Zadan\u00e1 hesla se neshoduj\u00ed.","payment_pending_header":"\u010cek\u00e1me na p\u0159ips\u00e1n\u00ed platby","payment_pending_link":"Stav platby m\u016f\u017eete zj\u00edstit zde","payment_pending_text":"\u010c\u00e1stka za plnou verzi Akademii navrhov\u00e1n\u00ed zat\u00edm nedorazila na n\u00e1\u0161 \u00fa\u010det. Jakmile bude transakce prost\u0159ednictv\u00edm platebn\u00ed br\u00e1ny GoPay dokon\u010dena, bude V\u00e1\u0161 \u00fa\u010det aktivov\u00e1n.","payment_success_header":"Platba \u00fasp\u011b\u0161n\u00e1","payment_success_text":"Poda\u0159ilo se realizovat platbu. M\u016f\u017eete se p\u0159ihl\u00e1sit a sledovat plnou verzi Akademie navrhov\u00e1n\u00ed. ","popup_paid_section_show":"Absolvovat cel\u00fd kurz jen za","popup_short_video_button":"P\u0159ej\u00edt k p\u0159ihl\u00e1\u0161en\u00ed","popup_short_video_show":"Z\u00edskat p\u0159\u00edstup k cel\u00e9mu kurzu","popup_short_video_text":"Pro zhl\u00e9dnut\u00ed cel\u00e9ho videa se mus\u00edte p\u0159ihl\u00e1sit.","profiles_list_title":"Seznam profil\u016f","project_title":"Projekt","read_more":"\u010d\u00edst v\u00edce","recommended":"Doporu\u010dujeme","redakce_sk":"SK redakce TV Architect","registration":"Registrace","registration_confirmation_subject":"Akademie navrhov\u00e1n\u00ed interi\u00e9r\u016f - Potvrzen\u00ed registrace","review_add":"P\u0159idat recenzi","review_bad_stars":"Po\u010det hv\u011bzdi\u010dek nespad\u00e1 do povolen\u00e9ho intervalu.","review_edit_disabled":"Recenzi aktu\u00e1ln\u011b nelze editovat.","review_exists":"Va\u0161e recenze ji\u017e byla ulo\u017eena. Recenzi nelze editovat.","review_form_header":"Recenze Akademie navrhov\u00e1n\u00ed","review_header":"Zku\u0161enosti absolvent\u016f","review_long_text":"Zadan\u00fd text je p\u0159\u00edli\u0161 dlouh\u00fd.","review_no_stars":"Pros\u00edm zadejte po\u010det hv\u011bzdi\u010dek.","review_no_text":"Pros\u00edm zadejte text recenze.","review_stars":"Po\u010det hv\u011bzdi\u010dek *","review_submit":"Odeslat recenzi","review_success":"Recenze byla \u00fasp\u011b\u0161n\u011b p\u0159id\u00e1na.","review_text":"Text recenze *","search_articles_name_url":"clanky","search_articles_title":"\u010cl\u00e1nky","search_btn":"Vyhledat","search_categories_name_url":"kategorie","search_category_title":"Po\u0159ady","search_contents_name_url":"obsah","search_channels_title":"Po\u0159ady","search_more":"V\u00edce","search_more_articles":"V\u00edce \u010dl\u00e1nk\u016f","search_name_url":"vyhledavani","search_profile_name_url":"profil","search_profile_title":"Profily","search_title":"Vyhled\u00e1v\u00e1n\u00ed","search_videos_title":"Videa","share":"Sd\u00edlet na","share_copy_clipboard":"Zkop\u00edrovat do schr\u00e1nky","share_copy_code":"K\u00f3d byl zkop\u00edrov\u00e1n","share_link_title":"Vlo\u017eit","share_title":"Vlo\u017ete video na sv\u016fj web","sort_alphabeth":"Abecedn\u011b","sort_by":"\u0158adit dle","submenu_categories":"Podkategorie","submenu_recent":"Nejnov\u011bj\u0161\u00ed videa v kategorii","subscribe_newsletters":"Odeb\u00edrat novinky","tag_next":"dal\u0161\u00ed","token_expired":"Token pro obnovu hesla nen\u00ed spr\u00e1vn\u00fd nebo ji\u017e vypr\u0161ela expirace.","video_name_url":"video","wrong_pass":"Chybn\u011b zadan\u00e9 heslo."};</script>
+<script src="https://www.tvarchitect.com/public/scripts.min.js?v1709619097"></script>
+
+<script defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.7.2/dist/cookieconsent.js"></script>
+<script defer src="https://www.tvarchitect.com/public/cookieconsent-init.js?v3"></script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+</body>
+</html>
