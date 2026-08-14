@@ -23,6 +23,7 @@ import TeamSection from "./components/TeamSection";
 import StudioBanner from "./components/StudioBanner";
 import Footer from "./components/Footer";
 import ScrollProgressButton from "./components/ScrollProgressButton";
+import SEO from "./components/SEO";
 import { initUniversalTextAnimations } from "./utils/textAnimations";
 
 import "lenis/dist/lenis.css";
@@ -167,6 +168,7 @@ export default function App() {
 
   return (
     <div data-barba="wrapper" className="bg-ink min-h-screen relative">
+      <SEO />
       <BarbaTransition active={isTransitioning} />
       {loading && <Loader onFinish={handleFinishLoading} />}
       <div className="relative z-10">
