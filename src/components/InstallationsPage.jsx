@@ -272,7 +272,7 @@ export default function InstallationsPage() {
     if (activeSwiperId === proj.id || layoutAnimationRef.current?.isActive()) return;
     layoutStateRef.current = Flip.getState(".installation-layout-panel, .installation-image-frame");
     setActiveSwiperId(proj.id);
-    window.history.replaceState(null, "", `/installations/${proj.slug}`);
+    window.history.replaceState(null, "", `${import.meta.env.BASE_URL}installations/${proj.slug}`);
     
   }, [activeSwiperId]);
 
@@ -280,13 +280,13 @@ export default function InstallationsPage() {
   const handleCollapse = useCallback(() => {
     layoutStateRef.current = Flip.getState(".installation-layout-panel, .installation-image-frame");
     setActiveSwiperId(null);
-    window.history.replaceState(null, "", "/installations");
+    window.history.replaceState(null, "", `${import.meta.env.BASE_URL}installations`);
   }, []);
 
   // Share handler: Web Share API fallback to Clipboard Copy with /installations/slug URL
   const handleShare = useCallback((e, proj) => {
     e.stopPropagation();
-    const shareUrl = `${window.location.origin}/installations/${proj.slug}`;
+    const shareUrl = `${window.location.origin}${import.meta.env.BASE_URL}installations/${proj.slug}`;
     
     if (navigator.share) {
       navigator.share({
@@ -349,7 +349,7 @@ export default function InstallationsPage() {
           "name": "Vibhor Sogani"
         },
         "image": proj.images?.[0] ? `${window.location.origin}${proj.images[0]}` : undefined,
-        "url": `${window.location.origin}/installations#${proj.slug}`
+        "url": `${window.location.origin}${import.meta.env.BASE_URL}installations/${proj.slug}`
       }
     }))
   };

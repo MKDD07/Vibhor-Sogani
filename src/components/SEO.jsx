@@ -2,48 +2,11 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { projectsData } from "../data/projectsData";
 
-const BASE_URL = "https://vibhorsogani.com";
-
-const PAGE_META = {
-  "/": {
-    title: "Studio Vibhor Sogani — Monumental Public Art & Contemporary Installations",
-    description: "Explore monumental public art, spatial lighting installations, and contemporary sculptures by Indian artist Vibhor Sogani.",
-    schemaType: "Organization",
-  },
-  "/about": {
-    title: "About Vibhor Sogani — Philosophy, Mastery & Monumental Practice",
-    description: "Learn about artist Vibhor Sogani's trajectory, materials mastery in stainless steel and light, studio ethos, and global landmarks.",
-    schemaType: "Person",
-  },
-  "/installations": {
-    title: "Sculptural Works & Public Installations — Studio Vibhor Sogani",
-    description: "Curated collection of 38+ site-specific public monuments, light sculptures, and architectural installations worldwide.",
-    schemaType: "CollectionPage",
-  },
-  "/press": {
-    title: "Press, Editorials & Media Coverage — Studio Vibhor Sogani",
-    description: "Archival record of publications, global design editorials, architectural magazines, and broadsheet features covering Vibhor Sogani.",
-    schemaType: "CollectionPage",
-  },
-  "/contact": {
-    title: "Contact & Commissions — Studio Vibhor Sogani",
-    description: "Direct inquiries for site-specific public commissions, bespoke architectural lighting, and monumental masterplanning.",
-    schemaType: "ContactPage",
-  },
-  "/privacy-policy": {
-    title: "Privacy Policy — Studio Vibhor Sogani",
-    description: "Studio Vibhor Sogani privacy policies, communication data protection, and terms.",
-    schemaType: "WebPage",
-  },
-  "/terms": {
-    title: "Terms & Conditions — Studio Vibhor Sogani",
-    description: "Studio Vibhor Sogani terms of service and commission agreements.",
-    schemaType: "WebPage",
-  },
-};
+import { BASE_URL, PAGE_META } from "../data/pageMeta";
 
 export function SEO() {
-  const { pathname } = useLocation();
+  const { pathname: rawPathname } = useLocation();
+  const pathname = rawPathname.replace(/\/+$/, "") || "/";
 
   useEffect(() => {
     // 1. Identify current project if slug route
@@ -66,6 +29,11 @@ export function SEO() {
       currentMeta = PAGE_META["/"];
     }
 
+    const canonicalPath = project ? '/installations/' + project.slug : PAGE_META[pathname] ? pathname : null;
+    const canonicalUrl = BASE_URL + (canonicalPath || pathname);
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) { canonical = document.createElement('link'); canonical.rel = 'canonical'; document.head.appendChild(canonical); }
+    canonical.href = canonicalUrl;
     // 2. Set document title
     document.title = currentMeta.title;
 
@@ -81,7 +49,7 @@ export function SEO() {
     };
 
     setMetaTag("description", currentMeta.description);
-    setMetaTag("robots", "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1");
+    setMetaTag("robots", canonicalPath ? "index, follow, max-image-preview:large" : "noindex, follow");
     setMetaTag("og:title", currentMeta.title, "property");
     setMetaTag("og:description", currentMeta.description, "property");
     setMetaTag("og:url", `${BASE_URL}${pathname}`, "property");
@@ -107,7 +75,7 @@ export function SEO() {
         artMedium: "Stainless Steel / Light Sculpture",
         locationCreated: project.location,
         url: `${BASE_URL}${pathname}`,
-        image: project.images && project.images[0] ? `${BASE_URL}${project.images[0]}` : undefined,
+        image: project.images && project.images[0] ? new URL(project.images[0], BASE_URL + "/").href : undefined,
       };
     } else {
       jsonLdData = {

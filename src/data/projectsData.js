@@ -519,7 +519,6 @@ export const projectsData = [
     images: [
       "/images/projects/rooted_in_diversity/image_1.jpg",
       "/images/projects/rooted_in_diversity/image_2.jpg",
-      "/images/projects/rooted_in_diversity/image_3.png",
     ],
   },
   {

@@ -183,6 +183,7 @@ export default function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             <Route path="/terms" element={<TermsPage />} />
+            <Route path="*" element={<main className="site-container min-h-screen pt-40"><h1 className="page-heading">Page not found</h1><a href={import.meta.env.BASE_URL} className="text-bronze">Return to the portfolio</a></main>} />
           </Routes>
         </div>
 
