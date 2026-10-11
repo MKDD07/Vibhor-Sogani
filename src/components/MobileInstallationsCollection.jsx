@@ -63,7 +63,7 @@ export default function MobileInstallationsCollection() {
   }, [filteredProjects]);
 
   return (
-    <div ref={containerRef} className="min-h-screen bg-ink text-parchment pt-28 pb-20 px-5">
+    <div ref={containerRef} className="min-h-screen bg-ink text-parchment site-container pt-28 pb-20">
       {/* ── Page Header ───────────────────────────────────────────────────────── */}
       <div className="space-y-2 mb-6">
         <div className="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-[0.25em] text-bronze font-mono font-semibold">
@@ -79,7 +79,7 @@ export default function MobileInstallationsCollection() {
       </div>
 
       {/* ── Search Bar (Sticky at Top on Scroll Down) ────────────────────────── */}
-      <div className="sticky top-0 z-30 -mx-5 px-5 py-3.5 bg-ink/95 backdrop-blur-md border-b border-white/10 mb-6 transition-all duration-300">
+      <div className="sticky top-0 z-30 -mx-6 px-6 py-3.5 bg-ink/95 backdrop-blur-md border-b border-white/10 mb-6 transition-all duration-300">
         <div className="relative">
           <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-mute" />
           <input

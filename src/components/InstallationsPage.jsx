@@ -1,6 +1,9 @@
-import React, { useState, useRef, useCallback, useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import React, { useState, useRef, useCallback, useEffect, useLayoutEffect, useMemo } from "react";
+import { useParams } from "react-router-dom";
 import gsap from "gsap";
+import { Flip } from "gsap/Flip";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+gsap.registerPlugin(Flip, ScrollToPlugin);
 import { projectsData } from "../data/projectsData";
 import { ChevronLeft, ChevronRight, Share2, Link2, Check } from "lucide-react";
 import Newsletter from "./Newsletter";
@@ -14,23 +17,21 @@ function InlineSwiper({ images, paragraphs }) {
   const containerRef = useRef(null);
   const [current, setCurrent] = useState(0);
   const startX = useRef(0);
+  const suppressClickRef = useRef(false);
   const isDragging = useRef(false);
 
-  const SLIDE_PERCENT = 92;
   const GAP = 20;
 
   // Build strictly alternating sequence: Image -> Text -> Image -> Text -> Image -> Text
-  const slideItems = [];
-  const maxLen = Math.max(images.length, paragraphs ? paragraphs.length : 0);
-
-  for (let i = 0; i < maxLen; i++) {
-    if (i < images.length) {
-      slideItems.push({ type: "image", content: images[i], index: i, id: `img-${i}` });
+  const slideItems = useMemo(() => {
+    const items = [];
+    const maxLen = Math.max(images.length, paragraphs?.length || 0);
+    for (let i = 0; i < maxLen; i++) {
+      if (i < images.length) items.push({ type: 'image', content: images[i], index: i, id: 'img-' + i });
+      if (paragraphs && i < paragraphs.length) items.push({ type: 'text', content: paragraphs[i], index: i, id: 'para-' + i });
     }
-    if (paragraphs && i < paragraphs.length) {
-      slideItems.push({ type: "text", content: paragraphs[i], index: i, id: `para-${i}` });
-    }
-  }
+    return items;
+  }, [images, paragraphs]);
 
   const totalSlides = slideItems.length;
 
@@ -40,7 +41,7 @@ function InlineSwiper({ images, paragraphs }) {
     let offset = 0;
     for (let idx = 0; idx < i; idx++) {
       const item = slideItems[idx];
-      const wPercent = item.type === "image" ? 85 : 45;
+      const wPercent = item.type === "image" ? (idx === 0 ? 100 : 85) : 45;
       offset += (containerW * wPercent) / 100 + GAP;
     }
     return -offset;
@@ -53,11 +54,24 @@ function InlineSwiper({ images, paragraphs }) {
         x: getOffset(clamped),
         duration: 0.65,
         ease: "power3.inOut",
+        overwrite: "auto",
       });
       setCurrent(clamped);
     },
     [totalSlides, getOffset]
   );
+
+  const currentRef = useRef(current);
+  currentRef.current = current;
+  useEffect(() => {
+    const track = trackRef.current;
+    const observer = new ResizeObserver(() => {
+      gsap.killTweensOf(track);
+      gsap.set(track, { x: getOffset(currentRef.current) });
+    });
+    observer.observe(containerRef.current);
+    return () => { observer.disconnect(); gsap.killTweensOf(track); };
+  }, [getOffset]);
 
   const prev = (e) => {
     if (e) e.stopPropagation();
@@ -70,6 +84,8 @@ function InlineSwiper({ images, paragraphs }) {
   };
 
   const handleMouseDown = (e) => {
+    if (e.target.closest("button")) return;
+    suppressClickRef.current = false;
     isDragging.current = true;
     startX.current = e.clientX || e.touches?.[0]?.clientX || 0;
   };
@@ -79,6 +95,7 @@ function InlineSwiper({ images, paragraphs }) {
     isDragging.current = false;
     const endX = e.clientX || e.changedTouches?.[0]?.clientX || 0;
     const diffX = startX.current - endX;
+    suppressClickRef.current = Math.abs(diffX) > 40;
 
     if (diffX > 40) {
       next();
@@ -89,23 +106,30 @@ function InlineSwiper({ images, paragraphs }) {
 
   return (
     <div
-      className="relative w-full select-none cursor-grab active:cursor-grabbing overflow-hidden"
+      className="relative h-full w-full select-none cursor-grab active:cursor-grabbing overflow-hidden"
       ref={containerRef}
+      onClickCapture={(event) => {
+        if (suppressClickRef.current) {
+          event.preventDefault();
+          event.stopPropagation();
+          suppressClickRef.current = false;
+        }
+      }}
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
       onTouchStart={handleMouseDown}
       onTouchEnd={handleMouseUp}
     >
       {/* Interleaved Track Slider: Images (85% width) + Compact Paragraph Cards (45% width) */}
-      <div ref={trackRef} className="flex items-center" style={{ gap: `${GAP}px` }}>
+      <div ref={trackRef} className="flex h-full items-center" style={{ gap: `${GAP}px` }}>
         {slideItems.map((item, i) => {
           const isText = item.type === "text";
-          const slideW = isText ? 45 : 85;
+          const slideW = isText ? 45 : (i === 0 ? 100 : 85);
 
           return isText ? (
             <div
               key={item.id}
-              className="relative flex-shrink-0 justify-center p-6 flex flex-col overflow-y-auto rounded-none transition-all duration-700 cursor-pointer"
+              className="relative flex-shrink-0 justify-center p-6 flex flex-col h-full overflow-y-auto rounded-none transition-opacity duration-300 cursor-pointer"
               style={{
                 width: `${slideW}%`,
                 opacity: current === i ? 1 : 0.5,
@@ -118,7 +142,7 @@ function InlineSwiper({ images, paragraphs }) {
                 </span>
                 <p
                   className={
-                    "text-xs sm:text-sm leading-relaxed font-medium transition-opacity duration-700 ease-in-out delay-[600ms] " +
+                    "text-xs sm:text-sm leading-relaxed font-medium transition-opacity duration-700 ease-in-out  " +
                     (current === i ? "opacity-100" : "opacity-0 pointer-events-none")
                   }
                 >
@@ -129,7 +153,7 @@ function InlineSwiper({ images, paragraphs }) {
           ) : (
             <div
               key={item.id}
-              className="relative flex-shrink-0 aspect-[16/9] overflow-hidden rounded-none transition-all duration-700 cursor-pointer"
+              className="relative h-full flex-shrink-0 overflow-hidden rounded-none transition-opacity duration-300 cursor-pointer"
               style={{
                 width: `${slideW}%`,
                 opacity: current === i ? 1 : 0.45,
@@ -177,11 +201,48 @@ import MobileInstallationsCollection from "./MobileInstallationsCollection";
 
 export default function InstallationsPage() {
   const { slug } = useParams();
-  const navigate = useNavigate();
   const [activeSwiperId, setActiveSwiperId] = useState(null);
   const [copiedId, setCopiedId] = useState(null);
   const [isMobile, setIsMobile] = useState(() => window.innerWidth < 768);
   const idleTimerRef = useRef(null);
+  const layoutStateRef = useRef(null);
+  const layoutAnimationRef = useRef(null);
+  const scrollTweenRef = useRef(null);
+
+  useLayoutEffect(() => {
+    scrollTweenRef.current?.kill();
+    const centerWork = () => {
+      if (!activeSwiperId || isMobile) return;
+      const project = projectsData.find((item) => item.id === activeSwiperId);
+      const article = document.getElementById(project?.slug);
+      const frame = article?.querySelector('.installation-image-frame');
+      if (!frame) return;
+      const rect = frame.getBoundingClientRect();
+      // Center the artwork below the fixed navigation, using its final dimensions.
+      const headerHeight = 80;
+      const availableHeight = window.innerHeight - headerHeight;
+      const target = window.scrollY + rect.top - headerHeight - (availableHeight - rect.height) / 2;
+      scrollTweenRef.current = gsap.to(window, {
+        scrollTo: { y: Math.max(0, target), autoKill: true },
+        duration: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 0.9,
+        ease: 'power3.inOut',
+      });
+    };
+    if (layoutStateRef.current) {
+      layoutAnimationRef.current?.kill();
+      layoutAnimationRef.current = Flip.from(layoutStateRef.current, {
+        duration: 0.6, ease: 'power3.inOut', onComplete: centerWork,
+      });
+      layoutStateRef.current = null;
+    } else {
+      centerWork();
+    }
+  }, [activeSwiperId, isMobile]);
+
+  useEffect(() => () => {
+    layoutAnimationRef.current?.kill();
+    scrollTweenRef.current?.kill();
+  }, []);
 
   // Monitor window resize to switch between mobile and desktop layout cleanly
   useEffect(() => {
@@ -202,33 +263,22 @@ export default function InstallationsPage() {
       const matchedProj = projectsData.find((p) => p.slug === targetSlug || p.id === targetSlug);
       if (matchedProj) {
         setActiveSwiperId(matchedProj.id);
-        const timer = setTimeout(() => {
-          const el = document.getElementById(matchedProj.slug) || document.getElementById(matchedProj.id);
-          if (el) {
-            el.scrollIntoView({ behavior: "smooth", block: "center" });
-          }
-        }, 500);
-        return () => clearTimeout(timer);
       }
     }
   }, [slug]);
 
   // Handle item click / expand: Updates URL slug dynamically like BIG.dk and centers the item in viewport
   const handleItemClick = useCallback((proj) => {
+    if (activeSwiperId === proj.id || layoutAnimationRef.current?.isActive()) return;
+    layoutStateRef.current = Flip.getState(".installation-layout-panel, .installation-image-frame");
     setActiveSwiperId(proj.id);
     window.history.replaceState(null, "", `/installations/${proj.slug}`);
     
-    // Smoothly scroll the clicked article into the center of the viewport
-    setTimeout(() => {
-      const el = document.getElementById(proj.slug);
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth", block: "center" });
-      }
-    }, 100);
-  }, []);
+  }, [activeSwiperId]);
 
   // Handle collapse: Resets URL back to /installations
   const handleCollapse = useCallback(() => {
+    layoutStateRef.current = Flip.getState(".installation-layout-panel, .installation-image-frame");
     setActiveSwiperId(null);
     window.history.replaceState(null, "", "/installations");
   }, []);
@@ -316,24 +366,24 @@ export default function InstallationsPage() {
 
   // ── On Desktop & Tablets (> 768px): Render original architectural layout ──────
   return (
-    <div id="installations-page" className="min-h-screen pt-32 pb-28 px-6 lg:px-16 overflow-x-clip">
+    <div id="installations-page" className="min-h-screen pt-32 pb-28 overflow-x-clip">
       {/* Google SEO JSON-LD Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
       />
       {/* Page Header */}
-      <div className="mx-auto max-w-[1800px] mb-16 border-b border-current/10 pb-8">
+      <div className="site-container mb-16 border-b border-current/10 pb-8">
         <span className="text-[11px] uppercase tracking-[0.3em] opacity-60 font-semibold">
           Architectural Portfolio
         </span>
-        <h1 className="about-title-words font-display text-3xl sm:text-5xl font-light mt-2">
+        <h1 className="page-heading about-title-words font-display font-light mt-2">
           Installations &amp; Public Art
         </h1>
       </div>
 
       {/* Vertical List of Architectural Items */}
-      <div className="mx-auto max-w-[1800px] space-y-6">
+      <div className="site-container space-y-6">
         {projectsData.map((proj) => {
           const isSwiperActive = activeSwiperId === proj.id;
           const mainImg = proj.images?.[0] ?? "";
@@ -350,24 +400,14 @@ export default function InstallationsPage() {
                 {/* LEFT INFO PANEL - Dynamic Column Span Expansion */}
                 <div
                   className={
-                    "flex flex-col items-end justify-center text-right space-y-4 pr-0 lg:pr-4 pt-2 transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] " +
+                    "installation-layout-panel flex flex-col items-end justify-center text-right space-y-4 pr-0 lg:pr-4 pt-2 " +
                     (isSwiperActive ? "lg:col-span-3" : "lg:col-span-4")
                   }
                 >
-                  {/* Icon Box */}
-                  <div className="w-10 h-10 border border-current/20 flex items-center justify-center rounded-sm shadow-sm">
-                    <div className="grid grid-cols-2 gap-0.5 w-4 h-4">
-                      <div className="bg-current rounded-[1px]" />
-                      <div className="bg-current/60 rounded-[1px]" />
-                      <div className="bg-current/30 rounded-[1px]" />
-                      <div className="bg-current rounded-[1px]" />
-                    </div>
-                  </div>
-
                   <div>
                     <h2
                       className={
-                        "font-display leading-tight transition-all duration-700 ease-in-out " +
+                        "font-display leading-tight " +
                         (isSwiperActive
                           ? "text-2xl sm:text-3xl font-normal tracking-wide"
                           : "text-[20px] font-light opacity-80 hover:opacity-100 tracking-normal")
@@ -383,13 +423,13 @@ export default function InstallationsPage() {
                   {/* Single Summary Description & Bottom Social Share Icons */}
                   <div
                     className={
-                      "overflow-hidden transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] max-w-sm " +
+                      "overflow-hidden max-w-sm " +
                       (isSwiperActive
                         ? "max-h-96 opacity-100 pt-3 border-t border-current/10"
                         : "max-h-0 opacity-0 pt-0 border-t-0")
                     }
                   >
-                    <p className="text-sm leading-relaxed font-medium opacity-90">
+                    <p className="site-prose text-sm leading-relaxed font-medium opacity-90">
                       {proj.description}
                     </p>
 
@@ -427,14 +467,14 @@ export default function InstallationsPage() {
                 {/* RIGHT PANEL - Large Image / Swiper Container */}
                 <div
                   className={
-                    "overflow-hidden transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] " +
+                    "installation-layout-panel overflow-hidden " +
                     (isSwiperActive ? "lg:col-span-9" : "lg:col-span-8")
                   }
                 >
                   <div
                     onClick={() => handleItemClick(proj)}
                     className={
-                      "relative aspect-[16/10] overflow-hidden rounded-none cursor-pointer group/img transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] " +
+                      "installation-image-frame relative aspect-[16/10] overflow-hidden rounded-none cursor-pointer group/img " +
                       (isSwiperActive ? "w-full max-w-none" : "w-full max-w-2xl lg:w-[700px]")
                     }
                   >

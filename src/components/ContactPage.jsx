@@ -77,27 +77,27 @@ export default function ContactPage() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 w-full">
+        <div className="site-container relative z-10 w-full">
           <span className="text-xs uppercase tracking-wide-x text-bronze-light font-semibold block mb-3">
             Contact &amp; Commissions
           </span>
-          <h1 className="about-title-words font-display text-4xl sm:text-6xl lg:text-7xl font-light text-parchment">
+          <h1 className="page-heading about-title-words font-display font-light text-parchment">
             Start a Conversation
           </h1>
         </div>
       </section>
 
       {/* ── Minimalist Contact Section ──────────────────────────────────── */}
-      <section ref={formSectionRef} className="py-24 max-w-7xl mx-auto px-6 lg:px-10">
+      <section ref={formSectionRef} className="site-container py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-start">
           
           {/* Left Column: Clean Editorial Studio Info */}
           <div className="lg:col-span-5 space-y-10 minimal-contact-reveal">
             <div>
-              <h2 className="about-title-lift font-display text-2xl sm:text-3xl font-light leading-snug">
+              <h2 className="section-heading about-title-lift font-display text-2xl sm:text-3xl font-light leading-snug">
                 Studio Vibhor Sogani
               </h2>
-              <p className="text-mute text-sm sm:text-base font-light mt-3 leading-relaxed">
+              <p className="site-prose text-mute text-sm sm:text-base font-light mt-3 leading-relaxed">
                 Sculptures engineered for urban public environments and architectural landmark commissions globally.
               </p>
             </div>

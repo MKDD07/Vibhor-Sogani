@@ -1,2074 +1,1564 @@
 [
   {
-    "id": "a1-lighting,-uk,-cover-feature",
-    "title": "A1 Lighting, Uk, Cover Feature",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/a1-lighting,-uk,-cover-feature.jpg",
-    "pdf": "/images/press/pdfs/a1-lighting,-uk,-cover-feature.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "a1-lighting-1",
-    "title": "A1 Lighting",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/a1-lighting-1.jpg",
-    "pdf": "/images/press/pdfs/a1-lighting-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "a1-lighting-magazine-1",
-    "title": "A1 Lighting Magazine",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/a1-lighting-magazine-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "a1-lighting-magazine",
-    "title": "A1 Lighting Magazine",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/a1-lighting-magazine.jpg",
-    "pdf": "/images/press/pdfs/a1-lighting-magazine.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "a1-lighting",
-    "title": "A1 Lighting",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/a1-lighting.jpg",
-    "pdf": "/images/press/pdfs/a1-lighting.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "ad-design-show",
-    "title": "Ad Design Show",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/ad-design-show.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "american-craft",
-    "title": "American Craft",
-    "category": "Art & Exhibitions",
-    "image": "/images/press/images/american-craft.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "annual-society-interiors-1",
-    "title": "Annual Society Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/annual-society-interiors-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "annual-society-interiors",
-    "title": "Annual Society Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/annual-society-interiors.jpg",
-    "pdf": "/images/press/pdfs/annual-society-interiors.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "archello-1",
-    "title": "Archello",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/archello-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "archello",
-    "title": "Archello",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/archello.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "architect-and-interiors-india-1",
-    "title": "Architect And Interiors India",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architect-and-interiors-india-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "architect-and-interiors-india",
-    "title": "Architect And Interiors India",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architect-and-interiors-india.jpg",
-    "pdf": "/images/press/pdfs/architect-and-interiors-india.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "architects-&-interiors-india",
-    "title": "Architects & Interiors India",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architects-&-interiors-india.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "architectura-digest",
-    "title": "Architectura Digest",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architectura-digest.jpg",
-    "pdf": "/images/press/pdfs/architectura-digest.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "architectural-&-builder-magazine",
-    "title": "Architectural & Builder Magazine",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architectural-&-builder-magazine.jpg",
-    "pdf": "/images/press/pdfs/architectural-&-builder-magazine.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "architectural-digest",
-    "title": "Architectural Digest",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architectural-digest.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "architecture+design-1",
-    "title": "Architecture+Design",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architecture+design-1.jpg",
-    "pdf": "/images/press/pdfs/architecture+design-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "architecture+design-2",
-    "title": "Architecture+Design",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architecture+design-2.jpg",
-    "pdf": "/images/press/pdfs/architecture+design-2.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "architecture+design-3",
-    "title": "Architecture+Design",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architecture+design-3.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "architecture+design",
-    "title": "Architecture+Design",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architecture+design.jpg",
-    "pdf": "/images/press/pdfs/architecture+design.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "architecture-asia",
-    "title": "Architecture Asia",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architecture-asia.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "architecture-design",
-    "title": "Architecture Design",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architecture-design.jpg",
-    "pdf": "/images/press/pdfs/architecture-design.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "architecture-live",
-    "title": "Architecture Live",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architecture-live.jpg",
-    "pdf": "/images/press/pdfs/architecture-live.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "architecture-update",
-    "title": "Architecture Update",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architecture-update.jpg",
-    "pdf": "/images/press/pdfs/architecture-update.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "architect’s-diary",
-    "title": "Architect’S Diary",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architect’s-diary.jpg",
-    "pdf": "/images/press/pdfs/architect’s-diary.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "architecure-design",
-    "title": "Architecure Design",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architecure-design.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "architonic",
-    "title": "Architonic",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/architonic.jpg",
-    "pdf": "/images/press/pdfs/architonic.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "aroma-darc",
-    "title": "Aroma Darc",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/aroma-darc.jpg",
-    "pdf": "/images/press/pdfs/aroma-darc.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "art-&-design-show",
-    "title": "Art & Design Show",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/art-&-design-show.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "art-culture-festival",
-    "title": "Art Culture Festival",
-    "category": "Art & Exhibitions",
-    "image": "/images/press/images/art-culture-festival.jpg",
-    "pdf": "/images/press/pdfs/art-culture-festival.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "art-india",
-    "title": "Art India",
-    "category": "Art & Exhibitions",
-    "image": "/images/press/images/art-india.jpeg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "asian-age-1",
-    "title": "Asian Age",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/asian-age-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "asian-age-2",
-    "title": "Asian Age",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/asian-age-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "asian-age-3",
-    "title": "Asian Age",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/asian-age-3.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "asian-age-4",
-    "title": "Asian Age",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/asian-age-4.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "asian-age",
-    "title": "Asian Age",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/asian-age.jpg",
-    "pdf": "/images/press/pdfs/asian-age.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "better-interiors-1",
-    "title": "Better Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/better-interiors-1.jpg",
-    "pdf": "/images/press/pdfs/better-interiors-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "better-interiors-2",
-    "title": "Better Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/better-interiors-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "better-interiors-3",
-    "title": "Better Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/better-interiors-3.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "better-interiors-4",
-    "title": "Better Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/better-interiors-4.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "better-interiors",
-    "title": "Better Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/better-interiors.jpg",
-    "pdf": "/images/press/pdfs/better-interiors.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "black-book",
-    "title": "Black Book",
-    "category": "International & Digital",
-    "image": "/images/press/images/black-book.jpg",
-    "pdf": "/images/press/pdfs/black-book.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "business-standard-1",
-    "title": "Business Standard",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/business-standard-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "business-standard-2",
-    "title": "Business Standard",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/business-standard-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "business-standard-3",
-    "title": "Business Standard",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/business-standard-3.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "business-standard-4",
-    "title": "Business Standard",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/business-standard-4.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "business-standard",
-    "title": "Business Standard",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/business-standard.jpg",
-    "pdf": "/images/press/pdfs/business-standard.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "casaviva",
-    "title": "Casaviva",
-    "category": "International & Digital",
-    "image": "/images/press/images/casaviva.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "commune",
-    "title": "Commune",
+    "id": "2025-05-the-light-sculptor-insite-india-design-magzine-2025",
+    "title": "The Light Sculptor : Insite India Design Magzine 2025",
+    "date": "May 2025",
     "category": "Magazines & Features",
-    "image": "/images/press/images/commune.jpg",
-    "pdf": "/images/press/pdfs/commune.pdf",
+    "image": "/assets/press/images/2025-05-the-light-sculptor-insite-india-design-magzine-2025-cover.jpg",
+    "link": "/assets/press/pdfs/2025-05-the-light-sculptor-insite-india-design-magzine-2025-article.pdf",
+    "pdf": "/assets/press/pdfs/2025-05-the-light-sculptor-insite-india-design-magzine-2025-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "contemporist",
-    "title": "Contemporist",
-    "category": "International & Digital",
-    "image": "/images/press/images/contemporist.jpg",
-    "pdf": "/images/press/pdfs/contemporist.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "curve-magazine",
-    "title": "Curve Magazine",
+    "id": "2025-03-india-today",
+    "title": "India Today",
+    "date": "March 2025",
     "category": "Magazines & Features",
-    "image": "/images/press/images/curve-magazine.jpg",
-    "pdf": "/images/press/pdfs/curve-magazine.pdf",
+    "image": "/assets/press/images/2025-03-india-today-cover.jpg",
+    "link": "/assets/press/pdfs/2025-03-india-today-article.pdf",
+    "pdf": "/assets/press/pdfs/2025-03-india-today-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "cw-interiors-1",
-    "title": "Cw Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/cw-interiors-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "cw-interiors",
-    "title": "Cw Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/cw-interiors.jpg",
-    "pdf": "/images/press/pdfs/cw-interiors.pdf",
+    "id": "2025-01-the-hindu-deepam",
+    "title": "The Hindu Deepam",
+    "date": "January 2025",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2025-01-the-hindu-deepam-cover.png",
+    "link": "/assets/press/pdfs/2025-01-the-hindu-deepam-article.pdf",
+    "pdf": "/assets/press/pdfs/2025-01-the-hindu-deepam-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "dainik-bhaskar",
+    "id": "2024-12-ananya-soch",
+    "title": "Ananya Soch",
+    "date": "December 2024",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2024-12-ananya-soch-cover.jpg",
+    "link": "/assets/press/pdfs/2024-12-ananya-soch-article.pdf",
+    "pdf": "/assets/press/pdfs/2024-12-ananya-soch-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2024-12-dainik-bhaskar",
     "title": "Dainik Bhaskar",
+    "date": "December 2024",
     "category": "National News & Broadsheets",
-    "image": "/images/press/images/dainik-bhaskar.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "darc",
-    "title": "Darc",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/darc.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "darpan",
-    "title": "Darpan",
-    "category": "International & Digital",
-    "image": "/images/press/images/darpan.jpg",
-    "pdf": "/images/press/pdfs/darpan.pdf",
+    "image": "/assets/press/images/2024-12-dainik-bhaskar-cover.jpg",
+    "link": "/assets/press/pdfs/2024-12-dainik-bhaskar-article.pdf",
+    "pdf": "/assets/press/pdfs/2024-12-dainik-bhaskar-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "deccan-chronicle",
-    "title": "Deccan Chronicle",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/deccan-chronicle.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "deccan-herald-1",
-    "title": "Deccan Herald",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/deccan-herald-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "deccan-herald-2",
-    "title": "Deccan Herald",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/deccan-herald-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "deccan-herald",
-    "title": "Deccan Herald",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/deccan-herald.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "delhi-beat",
-    "title": "Delhi Beat",
-    "category": "International & Digital",
-    "image": "/images/press/images/delhi-beat.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "delhi-times-1",
-    "title": "Delhi Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/delhi-times-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "delhi-times",
-    "title": "Delhi Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/delhi-times.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "design-interiors",
-    "title": "Design Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/design-interiors.jpg",
-    "pdf": "/images/press/pdfs/design-interiors.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "design-today-1",
-    "title": "Design Today",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/design-today-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "design-today",
-    "title": "Design Today",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/design-today.jpg",
-    "pdf": "/images/press/pdfs/design-today.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "designboom-1",
-    "title": "Designboom",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/designboom-1.jpg",
-    "pdf": "/images/press/pdfs/designboom-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "designboom",
-    "title": "Designboom",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/designboom.jpg",
-    "pdf": "/images/press/pdfs/designboom.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "digital-journal-1",
-    "title": "Digital Journal",
-    "category": "International & Digital",
-    "image": "/images/press/images/digital-journal-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "digital-journal",
-    "title": "Digital Journal",
-    "category": "International & Digital",
-    "image": "/images/press/images/digital-journal.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "dna-ahmedabad",
-    "title": "Dna Ahmedabad",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/dna-ahmedabad.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "economic-times",
-    "title": "Economic Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/economic-times.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "elle-decor-1",
-    "title": "Elle Decor",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle-decor-1.jpg",
-    "pdf": "/images/press/pdfs/elle-decor-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "elle-decor-2",
-    "title": "Elle Decor",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle-decor-2.jpg",
-    "pdf": "/images/press/pdfs/elle-decor-2.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "elle-decor-3",
-    "title": "Elle Decor",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle-decor-3.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "elle-decor-4",
-    "title": "Elle Decor",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle-decor-4.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "elle-decor-5",
-    "title": "Elle Decor",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle-decor-5.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "elle-decor-6",
-    "title": "Elle Decor",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle-decor-6.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "elle-decor-7",
-    "title": "Elle Decor",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle-decor-7.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "elle-decor-8",
-    "title": "Elle Decor",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle-decor-8.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "elle-decor-9",
-    "title": "Elle Decor",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle-decor-9.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "elle-decor-spring-edition",
-    "title": "Elle Decor Spring Edition",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle-decor-spring-edition.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "elle-decor",
-    "title": "Elle Decor",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle-decor.jpg",
-    "pdf": "/images/press/pdfs/elle-decor.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "elle",
-    "title": "Elle",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/elle.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "ergo-weekend",
-    "title": "Ergo Weekend",
+    "id": "2024-08-world-atlas-of-public-art",
+    "title": "World Atlas of Public Art",
+    "date": "August 2024",
     "category": "Magazines & Features",
-    "image": "/images/press/images/ergo-weekend.jpg",
-    "pdf": null,
-    "type": "image"
+    "image": "/assets/press/images/2024-08-world-atlas-of-public-art-cover.jpeg",
+    "link": "/assets/press/pdfs/2024-08-world-atlas-of-public-art-article.pdf",
+    "pdf": "/assets/press/pdfs/2024-08-world-atlas-of-public-art-article.pdf",
+    "scan": null,
+    "type": "pdf"
   },
   {
-    "id": "exotica",
-    "title": "Exotica",
+    "id": "2024-03-the-print",
+    "title": "The Print",
+    "date": "March 2024",
     "category": "Magazines & Features",
-    "image": "/images/press/images/exotica.jpg",
-    "pdf": "/images/press/pdfs/exotica.pdf",
+    "image": "/assets/press/images/2024-03-the-print-cover.jpg",
+    "link": "/assets/press/pdfs/2024-03-the-print-article.pdf",
+    "pdf": "/assets/press/pdfs/2024-03-the-print-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "financial-times",
-    "title": "Financial Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/financial-times.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "first-city",
-    "title": "First City",
+    "id": "2024-02-ifj",
+    "title": "IFJ",
+    "date": "February 2024",
     "category": "International & Digital",
-    "image": "/images/press/images/first-city.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "first-report",
-    "title": "First Report",
-    "category": "International & Digital",
-    "image": "/images/press/images/first-report.jpg",
-    "pdf": "/images/press/pdfs/first-report.pdf",
+    "image": "/assets/press/images/2024-02-ifj-cover.jpeg",
+    "link": "/assets/press/pdfs/2024-02-ifj-article.pdf",
+    "pdf": "/assets/press/pdfs/2024-02-ifj-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "forbes-india",
-    "title": "Forbes India",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/forbes-india.jpg",
-    "pdf": "/images/press/pdfs/forbes-india.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "fubiz",
-    "title": "Fubiz",
-    "category": "International & Digital",
-    "image": "/images/press/images/fubiz.jpg",
-    "pdf": "/images/press/pdfs/fubiz.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "g-town",
-    "title": "G Town",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/g-town.jpg",
-    "pdf": "/images/press/pdfs/g-town.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "good-homes-1",
-    "title": "Good Homes",
-    "category": "International & Digital",
-    "image": "/images/press/images/good-homes-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "good-homes",
-    "title": "Good Homes",
-    "category": "International & Digital",
-    "image": "/images/press/images/good-homes.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "gurgaon-times",
-    "title": "Gurgaon Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/gurgaon-times.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "harper’s-bazaar",
-    "title": "Harper’S Bazaar",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/harper’s-bazaar.jpg",
-    "pdf": "/images/press/pdfs/harper’s-bazaar.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "hindusatan-times",
-    "title": "Hindusatan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hindusatan-times.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "hindustan-times-1",
-    "title": "Hindustan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hindustan-times-1.jpg",
-    "pdf": "/images/press/pdfs/hindustan-times-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "hindustan-times-2",
-    "title": "Hindustan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hindustan-times-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "hindustan-times-3",
-    "title": "Hindustan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hindustan-times-3.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "hindustan-times-4",
-    "title": "Hindustan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hindustan-times-4.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "hindustan-times-5",
-    "title": "Hindustan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hindustan-times-5.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "hindustan-times-6",
-    "title": "Hindustan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hindustan-times-6.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "hindustan-times-7",
-    "title": "Hindustan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hindustan-times-7.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "hindustan-times-8",
-    "title": "Hindustan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hindustan-times-8.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "hindustan-times-gurugram",
-    "title": "Hindustan Times Gurugram",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hindustan-times-gurugram.jpg",
-    "pdf": "/images/press/pdfs/hindustan-times-gurugram.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "hindustan-times",
-    "title": "Hindustan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hindustan-times.jpg",
-    "pdf": "/images/press/pdfs/hindustan-times.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "hinudstan-times",
-    "title": "Hinudstan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/hinudstan-times.jpeg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "home-and-design-trends",
-    "title": "Home And Design Trends",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/home-and-design-trends.jpg",
-    "pdf": "/images/press/pdfs/home-and-design-trends.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "home-review",
-    "title": "Home Review",
-    "category": "International & Digital",
-    "image": "/images/press/images/home-review.jpg",
-    "pdf": "/images/press/pdfs/home-review.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "home-trends",
-    "title": "Home Trends",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/home-trends.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "hotelier-india",
-    "title": "Hotelier India",
-    "category": "International & Digital",
-    "image": "/images/press/images/hotelier-india.jpg",
-    "pdf": "/images/press/pdfs/hotelier-india.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "houzz",
-    "title": "Houzz",
-    "category": "International & Digital",
-    "image": "/images/press/images/houzz.jpg",
-    "pdf": "/images/press/pdfs/houzz.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "ht-city,hindustan-times",
-    "title": "Ht City, Hindustan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/ht-city,hindustan-times.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "ht-city-brunch",
-    "title": "Ht City Brunch",
-    "category": "International & Digital",
-    "image": "/images/press/images/ht-city-brunch.jpg",
-    "pdf": "/images/press/pdfs/ht-city-brunch.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "ht-city",
-    "title": "Ht City",
-    "category": "International & Digital",
-    "image": "/images/press/images/ht-city.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "ht-jaipur-live,-hindustan-times",
-    "title": "Ht Jaipur Live, Hindustan Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/ht-jaipur-live,-hindustan-times.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "ianslife.in",
-    "title": "Ianslife.In",
-    "category": "International & Digital",
-    "image": "/images/press/images/ianslife.in.png",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "id-journal",
-    "title": "Id Journal",
-    "category": "International & Digital",
-    "image": "/images/press/images/id-journal.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "ideal-home",
-    "title": "Ideal Home",
-    "category": "International & Digital",
-    "image": "/images/press/images/ideal-home.jpg",
-    "pdf": "/images/press/pdfs/ideal-home.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "idecorama",
-    "title": "Idecorama",
-    "category": "International & Digital",
-    "image": "/images/press/images/idecorama.jpg",
-    "pdf": "/images/press/pdfs/idecorama.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "ifj-collector’s-edition",
-    "title": "Ifj Collector’S Edition",
-    "category": "International & Digital",
-    "image": "/images/press/images/ifj-collector’s-edition.jpg",
-    "pdf": "/images/press/pdfs/ifj-collector’s-edition.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "ifj-magazine",
-    "title": "Ifj Magazine",
-    "category": "International & Digital",
-    "image": "/images/press/images/ifj-magazine.png",
-    "pdf": "/images/press/pdfs/ifj-magazine.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "ifj-sogani-furniture",
-    "title": "Ifj Sogani Furniture",
-    "category": "International & Digital",
-    "image": "/images/press/images/ifj-sogani-furniture.jpg",
-    "pdf": "/images/press/pdfs/ifj-sogani-furniture.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "ifj",
-    "title": "Ifj",
-    "category": "International & Digital",
-    "image": "/images/press/images/ifj.jpg",
-    "pdf": "/images/press/pdfs/ifj.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "incredible-india-1",
-    "title": "Incredible India",
-    "category": "International & Digital",
-    "image": "/images/press/images/incredible-india-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "incredible-india",
-    "title": "Incredible India",
-    "category": "International & Digital",
-    "image": "/images/press/images/incredible-india.jpg",
-    "pdf": "/images/press/pdfs/incredible-india.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "india-pages",
-    "title": "India Pages",
-    "category": "International & Digital",
-    "image": "/images/press/images/india-pages.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "india-today-1",
-    "title": "India Today",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/india-today-1.jpg",
-    "pdf": "/images/press/pdfs/india-today-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "india-today-2",
-    "title": "India Today",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/india-today-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "india-today-3",
-    "title": "India Today",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/india-today-3.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "india-today-4",
-    "title": "India Today",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/india-today-4.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "india-today-home-1",
-    "title": "India Today Home",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/india-today-home-1.jpg",
-    "pdf": "/images/press/pdfs/india-today-home-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "india-today-home-2",
-    "title": "India Today Home",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/india-today-home-2.jpg",
-    "pdf": "/images/press/pdfs/india-today-home-2.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "india-today-home",
-    "title": "India Today Home",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/india-today-home.jpg",
-    "pdf": "/images/press/pdfs/india-today-home.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "india-today-plus-1",
-    "title": "India Today Plus",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/india-today-plus-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "india-today-plus",
-    "title": "India Today Plus",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/india-today-plus.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "india-today",
-    "title": "India Today",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/india-today.jpe",
-    "pdf": "/images/press/pdfs/india-today.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "indian-design-&-interiors-1",
-    "title": "Indian Design & Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/indian-design-&-interiors-1.jpg",
-    "pdf": "/images/press/pdfs/indian-design-&-interiors-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "indian-design-&-interiors",
-    "title": "Indian Design & Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/indian-design-&-interiors.jpg",
-    "pdf": "/images/press/pdfs/indian-design-&-interiors.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "indian-design-and-interiors",
-    "title": "Indian Design And Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/indian-design-and-interiors.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "indian-express",
-    "title": "Indian Express",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/indian-express.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "inside-outside-1",
-    "title": "Inside Outside",
-    "category": "International & Digital",
-    "image": "/images/press/images/inside-outside-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "inside-outside",
-    "title": "Inside Outside",
-    "category": "International & Digital",
-    "image": "/images/press/images/inside-outside.jpg",
-    "pdf": "/images/press/pdfs/inside-outside.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "inside-track",
-    "title": "Inside Track",
-    "category": "International & Digital",
-    "image": "/images/press/images/inside-track.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "insite",
-    "title": "Insite",
-    "category": "International & Digital",
-    "image": "/images/press/images/insite.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "interiors-&-decor",
-    "title": "Interiors & Decor",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/interiors-&-decor.jpg",
-    "pdf": "/images/press/pdfs/interiors-&-decor.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "joy-art-soul-life",
-    "title": "Joy Art Soul Life",
-    "category": "Art & Exhibitions",
-    "image": "/images/press/images/joy-art-soul-life.jpg",
-    "pdf": "/images/press/pdfs/joy-art-soul-life.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "joy-of-life",
-    "title": "Joy Of Life",
-    "category": "Art & Exhibitions",
-    "image": "/images/press/images/joy-of-life.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "ld+a",
-    "title": "Ld+A",
-    "category": "International & Digital",
-    "image": "/images/press/images/ld+a.jpg",
-    "pdf": "/images/press/pdfs/ld+a.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "lighting-india-1",
-    "title": "Lighting India",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/lighting-india-1.jpg",
-    "pdf": "/images/press/pdfs/lighting-india-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "lighting-india-2",
-    "title": "Lighting India",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/lighting-india-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "lighting-india",
-    "title": "Lighting India",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/lighting-india.jpg",
-    "pdf": "/images/press/pdfs/lighting-india.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "living-etc-1",
-    "title": "Living Etc",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/living-etc-1.jpg",
-    "pdf": "/images/press/pdfs/living-etc-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "living-etc-2",
-    "title": "Living Etc",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/living-etc-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "living-etc",
-    "title": "Living Etc",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/living-etc.jpg",
-    "pdf": "/images/press/pdfs/living-etc.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "luxebook",
+    "id": "2024-01-luxebook",
     "title": "Luxebook",
+    "date": "January 2024",
     "category": "Magazines & Features",
-    "image": "/images/press/images/luxebook.jpg",
-    "pdf": "/images/press/pdfs/luxebook.pdf",
+    "image": "/assets/press/images/2024-01-luxebook-cover.jpg",
+    "link": "/assets/press/pdfs/2024-01-luxebook-article.pdf",
+    "pdf": "/assets/press/pdfs/2024-01-luxebook-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "l’officiel",
-    "title": "L’Officiel",
+    "id": "2024-01-architecture-design",
+    "title": "Architecture + Design",
+    "date": "January 2024",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2024-01-architecture-design-cover.jpg",
+    "link": "/assets/press/pdfs/2024-01-architecture-design-article.pdf",
+    "pdf": "/assets/press/pdfs/2024-01-architecture-design-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2023-12-stir-world",
+    "title": "Stir World",
+    "date": "December 2023",
     "category": "Magazines & Features",
-    "image": "/images/press/images/l’officiel.jpg",
-    "pdf": "/images/press/pdfs/l’officiel.pdf",
+    "image": "/assets/press/images/2023-12-stir-world-cover.jpg",
+    "link": "/assets/press/pdfs/2023-12-stir-world-article.pdf",
+    "pdf": "/assets/press/pdfs/2023-12-stir-world-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "mail-today",
-    "title": "Mail Today",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/mail-today.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "mans-world",
-    "title": "Mans World",
+    "id": "2024-02-harpers-bazaar",
+    "title": "Harper's Bazaar",
+    "date": "February 2024",
     "category": "Magazines & Features",
-    "image": "/images/press/images/mans-world.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "marigold-diary",
-    "title": "Marigold Diary",
-    "category": "International & Digital",
-    "image": "/images/press/images/marigold-diary.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "metro-now-1",
-    "title": "Metro Now",
-    "category": "International & Digital",
-    "image": "/images/press/images/metro-now-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "metro-now-2",
-    "title": "Metro Now",
-    "category": "International & Digital",
-    "image": "/images/press/images/metro-now-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "metro-now",
-    "title": "Metro Now",
-    "category": "International & Digital",
-    "image": "/images/press/images/metro-now.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "midday-cover",
-    "title": "Midday Cover",
-    "category": "International & Digital",
-    "image": "/images/press/images/midday-cover.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "millionaire-asia",
-    "title": "Millionaire Asia",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/millionaire-asia.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "mint",
-    "title": "Mint",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/mint.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "mondo-1",
-    "title": "Mondo",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/mondo-1.jpg",
-    "pdf": "/images/press/pdfs/mondo-1.pdf",
+    "image": "/assets/press/images/2024-02-harpers-bazaar-cover.jpg",
+    "link": "/assets/press/pdfs/2024-02-harpers-bazaar-article.pdf",
+    "pdf": "/assets/press/pdfs/2024-02-harpers-bazaar-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "mondo-2",
-    "title": "Mondo",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/mondo-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "mondo-arc",
-    "title": "Mondo Arc",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/mondo-arc.jpg",
-    "pdf": "/images/press/pdfs/mondo-arc.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "mondo",
-    "title": "Mondo",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/mondo.jpg",
-    "pdf": "/images/press/pdfs/mondo.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "moulded-magic",
-    "title": "Moulded Magic",
-    "category": "International & Digital",
-    "image": "/images/press/images/moulded-magic.jpg",
-    "pdf": "/images/press/pdfs/moulded-magic.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "nebula",
-    "title": "Nebula",
-    "category": "International & Digital",
-    "image": "/images/press/images/nebula.jpg",
-    "pdf": "/images/press/pdfs/nebula.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "neptune-glitz",
-    "title": "Neptune Glitz",
-    "category": "International & Digital",
-    "image": "/images/press/images/neptune-glitz.jpg",
-    "pdf": "/images/press/pdfs/neptune-glitz.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "new-indian-express-1",
-    "title": "New Indian Express",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/new-indian-express-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "new-indian-express",
-    "title": "New Indian Express",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/new-indian-express.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "new-women’s",
-    "title": "New Women’S",
-    "category": "International & Digital",
-    "image": "/images/press/images/new-women’s.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "news-super-fast",
-    "title": "News Super Fast",
-    "category": "International & Digital",
-    "image": "/images/press/images/news-super-fast.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "nickel-japan",
-    "title": "Nickel Japan",
-    "category": "International & Digital",
-    "image": "/images/press/images/nickel-japan.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "outlook-1",
-    "title": "Outlook",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/outlook-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "outlook",
-    "title": "Outlook",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/outlook.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "patriot",
-    "title": "Patriot",
-    "category": "International & Digital",
-    "image": "/images/press/images/patriot.jpg",
-    "pdf": "/images/press/pdfs/patriot.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "phaidon-cover",
-    "title": "Phaidon Cover",
-    "category": "International & Digital",
-    "image": "/images/press/images/phaidon-cover.jpg",
-    "pdf": "/images/press/pdfs/phaidon-cover.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "pioneer",
-    "title": "Pioneer",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/pioneer.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "pm-vishwakarma",
-    "title": "Pm Vishwakarma",
-    "category": "International & Digital",
-    "image": "/images/press/images/pm-vishwakarma.jpg",
-    "pdf": "/images/press/pdfs/pm-vishwakarma.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "pool",
-    "title": "Pool",
-    "category": "International & Digital",
-    "image": "/images/press/images/pool.jpg",
-    "pdf": "/images/press/pdfs/pool.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "press_image_19",
-    "title": "Press Image",
-    "category": "International & Digital",
-    "image": "/images/press/images/press_image_19.png",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "rajasthan-patrika-1",
-    "title": "Rajasthan Patrika",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/rajasthan-patrika-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "rajasthan-patrika",
-    "title": "Rajasthan Patrika",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/rajasthan-patrika.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "rajasthan-plus",
-    "title": "Rajasthan Plus",
-    "category": "International & Digital",
-    "image": "/images/press/images/rajasthan-plus.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "sandesh-ahemdabad",
-    "title": "Sandesh Ahemdabad",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/sandesh-ahemdabad.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "so-delhi",
-    "title": "So Delhi",
-    "category": "International & Digital",
-    "image": "/images/press/images/so-delhi.jpg",
-    "pdf": "/images/press/pdfs/so-delhi.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "society-interiors-1",
-    "title": "Society Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/society-interiors-1.jpg",
-    "pdf": "/images/press/pdfs/society-interiors-1.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "society-interiors",
-    "title": "Society Interiors",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/society-interiors.jpg",
-    "pdf": "/images/press/pdfs/society-interiors.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "society",
-    "title": "Society",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/society.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "spice-route",
-    "title": "Spice Route",
-    "category": "International & Digital",
-    "image": "/images/press/images/spice-route.jpg",
-    "pdf": "/images/press/pdfs/spice-route.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "sportline",
-    "title": "Sportline",
-    "category": "International & Digital",
-    "image": "/images/press/images/sportline.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "stainless-india",
-    "title": "Stainless India",
-    "category": "International & Digital",
-    "image": "/images/press/images/stainless-india.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "star-realty-awards",
-    "title": "Star Realty Awards",
-    "category": "International & Digital",
-    "image": "/images/press/images/star-realty-awards.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "sunday-mid-day",
-    "title": "Sunday Mid Day",
-    "category": "International & Digital",
-    "image": "/images/press/images/sunday-mid-day.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "surfaces-reporter",
-    "title": "Surfaces Reporter",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/surfaces-reporter.jpg",
-    "pdf": "/images/press/pdfs/surfaces-reporter.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "the-business-age",
-    "title": "The Business Age",
-    "category": "International & Digital",
-    "image": "/images/press/images/the-business-age.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-conran",
-    "title": "The Conran",
-    "category": "International & Digital",
-    "image": "/images/press/images/the-conran.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-economic-times-1",
-    "title": "The Economic Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-economic-times-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-economic-times-2",
-    "title": "The Economic Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-economic-times-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-economic-times",
-    "title": "The Economic Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-economic-times.jpeg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-financial-express-1",
-    "title": "The Financial Express",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-financial-express-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-financial-express",
-    "title": "The Financial Express",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-financial-express.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-hindu,-delhi-metro",
-    "title": "The Hindu, Delhi Metro",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-hindu,-delhi-metro.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-hindu-1",
-    "title": "The Hindu",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-hindu-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-hindu",
-    "title": "The Hindu",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-hindu.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-hinge",
-    "title": "The Hinge",
-    "category": "International & Digital",
-    "image": "/images/press/images/the-hinge.jpg",
-    "pdf": "/images/press/pdfs/the-hinge.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "the-ihc-art-journal",
-    "title": "The Ihc Art Journal",
-    "category": "Art & Exhibitions",
-    "image": "/images/press/images/the-ihc-art-journal.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-indian-express",
-    "title": "The Indian Express",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-indian-express.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-morning-standard",
-    "title": "The Morning Standard",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-morning-standard.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-new-indian-express",
+    "id": "2024-01-the-new-indian-express",
     "title": "The New Indian Express",
+    "date": "January 2024",
     "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-new-indian-express.png",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-new-sunday-express",
-    "title": "The New Sunday Express",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-new-sunday-express.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-pioneer-1",
-    "title": "The Pioneer",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-pioneer-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-pioneer-2",
-    "title": "The Pioneer",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-pioneer-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-pioneer-3",
-    "title": "The Pioneer",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-pioneer-3.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-pioneer-authored-piece",
-    "title": "The Pioneer Authored Piece",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-pioneer-authored-piece.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-pioneer",
-    "title": "The Pioneer",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-pioneer.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-statesman-1",
-    "title": "The Statesman",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-statesman-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-statesman-2",
-    "title": "The Statesman",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-statesman-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-statesman",
-    "title": "The Statesman",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-statesman.jpe",
-    "pdf": "/images/press/pdfs/the-statesman.pdf",
+    "image": "/assets/press/images/2024-01-the-new-indian-express-cover.jpg",
+    "link": "/assets/press/pdfs/2024-01-the-new-indian-express-article.pdf",
+    "pdf": "/assets/press/pdfs/2024-01-the-new-indian-express-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "the-sunday-gaurdian",
-    "title": "The Sunday Gaurdian",
+    "id": "2024-01-platform-magazine",
+    "title": "Platform Magazine",
+    "date": "January 2024",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2024-01-platform-magazine-cover.jpg",
+    "link": "/assets/press/pdfs/2024-01-platform-magazine-article.pdf",
+    "pdf": "/assets/press/pdfs/2024-01-platform-magazine-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2023-12-elle-decor",
+    "title": "Elle Decor",
+    "date": "December 2023",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2023-12-elle-decor-cover.jpeg",
+    "link": "/assets/press/pdfs/2023-12-elle-decor-article.pdf",
+    "pdf": "/assets/press/pdfs/2023-12-elle-decor-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2023-11-leading-daily-amsterdam-2024",
+    "title": "Leading Daily Amsterdam 2024",
+    "date": "November 2023",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2023-11-leading-daily-amsterdam-2024-cover.jpg",
+    "link": "/assets/press/pdfs/2023-11-leading-daily-amsterdam-2024-article.pdf",
+    "pdf": "/assets/press/pdfs/2023-11-leading-daily-amsterdam-2024-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2023-09-pm-vishwakarma",
+    "title": "PM Vishwakarma",
+    "date": "September 2023",
     "category": "International & Digital",
-    "image": "/images/press/images/the-sunday-gaurdian.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-sunday-standard",
-    "title": "The Sunday Standard",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-sunday-standard.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-telegraph-1",
-    "title": "The Telegraph",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-telegraph-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-telegraph-2",
-    "title": "The Telegraph",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-telegraph-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-telegraph",
-    "title": "The Telegraph",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-telegraph.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-times-of-india",
-    "title": "The Times Of India",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-times-of-india.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-tribune",
-    "title": "The Tribune",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/the-tribune.jpg",
-    "pdf": "/images/press/pdfs/the-tribune.pdf",
+    "image": "/assets/press/images/2023-09-pm-vishwakarma-cover.jpg",
+    "link": "/assets/press/pdfs/2023-09-pm-vishwakarma-article.pdf",
+    "pdf": "/assets/press/pdfs/2023-09-pm-vishwakarma-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "the-week",
-    "title": "The Week",
+    "id": "2023-07-commune",
+    "title": "Commune",
+    "date": "July 2023",
     "category": "Magazines & Features",
-    "image": "/images/press/images/the-week.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "the-weekend-west",
-    "title": "The Weekend West",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/the-weekend-west.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "time-out",
-    "title": "Time Out",
-    "category": "International & Digital",
-    "image": "/images/press/images/time-out.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "times-magazine",
-    "title": "Times Magazine",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/times-magazine.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "times-of-india,-ahmedabad-cover",
-    "title": "Times Of India, Ahmedabad Cover",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/times-of-india,-ahmedabad-cover.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "times-of-india,-rajasthan",
-    "title": "Times Of India, Rajasthan",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/times-of-india,-rajasthan.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "times-of-india-1",
-    "title": "Times Of India",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/times-of-india-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "times-of-india-2",
-    "title": "Times Of India",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/times-of-india-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "times-of-india",
-    "title": "Times Of India",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/times-of-india.jpeg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "today-1",
-    "title": "Today",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/today-1.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "today-2",
-    "title": "Today",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/today-2.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "today",
-    "title": "Today",
-    "category": "Magazines & Features",
-    "image": "/images/press/images/today.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "trends",
-    "title": "Trends",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/trends.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "tv-architect",
-    "title": "Tv Architect",
-    "category": "Design & Architecture",
-    "image": "/images/press/images/tv-architect.jpg",
-    "pdf": "/images/press/pdfs/tv-architect.pdf",
+    "image": "/assets/press/images/2023-07-commune-cover.jpg",
+    "link": "/assets/press/pdfs/2023-07-commune-article.pdf",
+    "pdf": "/assets/press/pdfs/2023-07-commune-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "uk-financial-times",
-    "title": "Uk Financial Times",
-    "category": "National News & Broadsheets",
-    "image": "/images/press/images/uk-financial-times.jpg",
-    "pdf": "/images/press/pdfs/uk-financial-times.pdf",
-    "type": "pdf"
-  },
-  {
-    "id": "vibhor-sogani-celebrated-artist-&-sculptor-jindal-stainless",
-    "title": "Vibhor Sogani Celebrated Artist & Sculptor Jindal Stainless",
+    "id": "2023-06-vibhor-sogani-celebrated-artist-sculptor-jindal-stainless",
+    "title": "Vibhor Sogani: Celebrated Artist & Sculptor | Jindal Stainless",
+    "date": "June 2023",
     "category": "Art & Exhibitions",
-    "image": "/images/press/images/vibhor-sogani-celebrated-artist-&-sculptor-jindal-stainless.jpg",
-    "pdf": "/images/press/pdfs/vibhor-sogani-celebrated-artist-&-sculptor-jindal-stainless.pdf",
+    "image": "/assets/press/images/2023-06-vibhor-sogani-celebrated-artist-sculptor-jindal-stainless-cover.jpg",
+    "link": "/assets/press/pdfs/2023-06-vibhor-sogani-celebrated-artist-sculptor-jindal-stainless-article.pdf",
+    "pdf": "/assets/press/pdfs/2023-06-vibhor-sogani-celebrated-artist-sculptor-jindal-stainless-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "vis-a-vis-newsletter",
-    "title": "Vis A Vis Newsletter",
+    "id": "2022-12-nebula",
+    "title": "Nebula",
+    "date": "December 2022",
     "category": "International & Digital",
-    "image": "/images/press/images/vis-a-vis-newsletter.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "viva-city",
-    "title": "Viva City",
-    "category": "International & Digital",
-    "image": "/images/press/images/viva-city.jpg",
-    "pdf": null,
-    "type": "image"
-  },
-  {
-    "id": "vm&rd",
-    "title": "Vm&Rd",
-    "category": "International & Digital",
-    "image": "/images/press/images/vm&rd.jpg",
-    "pdf": "/images/press/pdfs/vm&rd.pdf",
+    "image": "/assets/press/images/2022-12-nebula-cover.jpg",
+    "link": "/assets/press/pdfs/2022-12-nebula-article.pdf",
+    "pdf": "/assets/press/pdfs/2022-12-nebula-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "wallpaper",
-    "title": "Wallpaper",
+    "id": "2022-07-moulded-magic",
+    "title": "Moulded Magic",
+    "date": "July 2022",
     "category": "International & Digital",
-    "image": "/images/press/images/wallpaper.jpg",
-    "pdf": null,
-    "type": "image"
+    "image": "/assets/press/images/2022-07-moulded-magic-cover.jpg",
+    "link": "/assets/press/pdfs/2022-07-moulded-magic-article.pdf",
+    "pdf": "/assets/press/pdfs/2022-07-moulded-magic-article.pdf",
+    "scan": null,
+    "type": "pdf"
   },
   {
-    "id": "weekend-planner",
-    "title": "Weekend Planner",
+    "id": "2022-06-world-cities",
+    "title": "World Cities",
+    "date": "June 2022",
     "category": "Magazines & Features",
-    "image": "/images/press/images/weekend-planner.jpg",
-    "pdf": null,
-    "type": "image"
+    "image": "/assets/press/images/2022-06-world-cities-cover.jpg",
+    "link": "/assets/press/pdfs/2022-06-world-cities-article.pdf",
+    "pdf": "/assets/press/pdfs/2022-06-world-cities-article.pdf",
+    "scan": null,
+    "type": "pdf"
   },
   {
-    "id": "whats-up-germany",
-    "title": "Whats Up Germany",
+    "id": "2022-01-ifj-collectors-edition",
+    "title": "IFJ Collector’s Edition",
+    "date": "January 2022",
     "category": "International & Digital",
-    "image": "/images/press/images/whats-up-germany.jpg",
-    "pdf": "/images/press/pdfs/whats-up-germany.pdf",
+    "image": "/assets/press/images/2022-01-ifj-collectors-edition-cover.jpg",
+    "link": "/assets/press/pdfs/2022-01-ifj-collectors-edition-article.pdf",
+    "pdf": "/assets/press/pdfs/2022-01-ifj-collectors-edition-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "world-architecture-community",
-    "title": "World Architecture Community",
+    "id": "2020-11-architecture-design",
+    "title": "Architecture+Design",
+    "date": "November 2020",
     "category": "Design & Architecture",
-    "image": "/images/press/images/world-architecture-community.jpg",
+    "image": "/assets/press/images/2020-11-architecture-design-cover.png",
+    "link": "/assets/press/images/2020-11-architecture-design-article.jpeg",
     "pdf": null,
+    "scan": "/assets/press/images/2020-11-architecture-design-article.jpeg",
     "type": "image"
   },
   {
-    "id": "a1-lighting-2",
-    "title": "A1 Lighting",
+    "id": "2020-11-lighting-special-living-etc",
+    "title": "Lighting Special, Living ETC",
+    "date": "November 2020",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2020-11-lighting-special-living-etc-cover.jpg",
+    "link": "/assets/press/images/2020-11-lighting-special-living-etc-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2020-11-lighting-special-living-etc-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2020-11-the-new-indian-express",
+    "title": "The New Indian Express",
+    "date": "November 2020",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2020-11-the-new-indian-express-cover.jpg",
+    "link": "/assets/press/images/2020-11-the-new-indian-express-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2020-11-the-new-indian-express-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2020-04-goodhomes",
+    "title": "GoodHomes",
+    "date": "April 2020",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2020-04-goodhomes-cover.jpg",
+    "link": "/assets/press/images/2020-04-goodhomes-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2020-04-goodhomes-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2020-03-a1-lighting-uk-cover-feature",
+    "title": "A1 Lighting UK, cover feature",
+    "date": "March 2020",
     "category": "Design & Architecture",
-    "image": "/images/press/images/a1-lighting.jpg",
-    "pdf": "/images/press/pdfs/a1-lighting-2.pdf",
+    "image": "/assets/press/images/2020-03-a1-lighting-uk-cover-feature-cover.png",
+    "link": "/assets/press/pdfs/2020-03-a1-lighting-uk-cover-feature-article.pdf",
+    "pdf": "/assets/press/pdfs/2020-03-a1-lighting-uk-cover-feature-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "hotelier-india-1",
+    "id": "2020-03-ianslife",
+    "title": "IANSLife",
+    "date": "March 2020",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2020-03-ianslife-cover.jpg",
+    "link": "/assets/press/images/2020-03-ianslife-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2020-03-ianslife-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2020-02-digital-journal",
+    "title": "Digital Journal",
+    "date": "February 2020",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2020-02-digital-journal-cover.jpg",
+    "link": "/assets/press/images/2020-02-digital-journal-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2020-02-digital-journal-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2020-02-hotelier-india",
     "title": "Hotelier India",
+    "date": "February 2020",
     "category": "International & Digital",
-    "image": "/images/press/images/hotelier-india.jpg",
-    "pdf": "/images/press/pdfs/hotelier-india-1.pdf",
+    "image": "/assets/press/images/2020-02-hotelier-india-cover.jpg",
+    "link": "/assets/press/pdfs/2020-02-hotelier-india-article.pdf",
+    "pdf": "/assets/press/pdfs/2020-02-hotelier-india-article.pdf",
+    "scan": null,
     "type": "pdf"
   },
   {
-    "id": "ifj-1",
-    "title": "Ifj",
+    "id": "2020-02-elle",
+    "title": "ELLE",
+    "date": "February 2020",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2020-02-elle-cover.jpg",
+    "link": "/assets/press/images/2020-02-elle-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2020-02-elle-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2020-02-digital-journal-2",
+    "title": "Digital Journal",
+    "date": "February 2020",
     "category": "International & Digital",
-    "image": "/images/press/images/ifj.jpg",
-    "pdf": "/images/press/pdfs/ifj-1.pdf",
+    "image": "/assets/press/images/2020-02-digital-journal-2-cover.png",
+    "link": "/assets/press/images/2020-02-digital-journal-2-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2020-02-digital-journal-2-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2020-02-a1-lighting",
+    "title": "A1 Lighting",
+    "date": "February 2020",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2020-02-a1-lighting-cover.jpg",
+    "link": "/assets/press/pdfs/2020-02-a1-lighting-article.pdf",
+    "pdf": "/assets/press/pdfs/2020-02-a1-lighting-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2020-02-ifj",
+    "title": "IFJ",
+    "date": "February 2020",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2020-02-ifj-cover.jpg",
+    "link": "/assets/press/pdfs/2020-02-ifj-article.pdf",
+    "pdf": "/assets/press/pdfs/2020-02-ifj-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-12-aroma-darc",
+    "title": "Aroma Darc",
+    "date": "December 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-12-aroma-darc-cover.jpg",
+    "link": "/assets/press/pdfs/2019-12-aroma-darc-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-12-aroma-darc-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-12-joy-of-life",
+    "title": "Joy of life",
+    "date": "December 2019",
+    "category": "Art & Exhibitions",
+    "image": "/assets/press/images/2019-12-joy-of-life-cover.jpg",
+    "link": "/assets/press/pdfs/2019-12-joy-of-life-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-12-joy-of-life-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-12-joy-art-soul-life",
+    "title": "Joy Art Soul Life",
+    "date": "December 2019",
+    "category": "Art & Exhibitions",
+    "image": "/assets/press/images/2019-12-joy-art-soul-life-cover.jpg",
+    "link": "/assets/press/pdfs/2019-12-joy-art-soul-life-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-12-joy-art-soul-life-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-11-living-etc",
+    "title": "Living ETC",
+    "date": "November 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-11-living-etc-cover.jpg",
+    "link": "/assets/press/pdfs/2019-11-living-etc-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-11-living-etc-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-11-a1-lighting",
+    "title": "A1 Lighting",
+    "date": "November 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-11-a1-lighting-cover.jpg",
+    "link": "/assets/press/pdfs/2019-11-a1-lighting-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-11-a1-lighting-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-10-luxebook",
+    "title": "Luxebook",
+    "date": "October 2019",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2019-10-luxebook-cover.jpg",
+    "link": "/assets/press/pdfs/2019-10-luxebook-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-10-luxebook-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-10-elle-decor",
+    "title": "Elle Decor",
+    "date": "October 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-10-elle-decor-cover.jpg",
+    "link": "/assets/press/pdfs/2019-10-elle-decor-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-10-elle-decor-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-10-hotelier-india",
+    "title": "Hotelier India",
+    "date": "October 2019",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2019-10-hotelier-india-cover.jpg",
+    "link": "/assets/press/pdfs/2019-10-hotelier-india-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-10-hotelier-india-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-10-ideal-home",
+    "title": "Ideal Home",
+    "date": "October 2019",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2019-10-ideal-home-cover.jpg",
+    "link": "/assets/press/pdfs/2019-10-ideal-home-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-10-ideal-home-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-09-interiors-and-decor",
+    "title": "Interiors and Decor",
+    "date": "September 2019",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2019-09-interiors-and-decor-cover.jpg",
+    "link": "/assets/press/pdfs/2019-09-interiors-and-decor-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-09-interiors-and-decor-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-09-architecture-design",
+    "title": "Architecture+Design",
+    "date": "September 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-09-architecture-design-cover.jpg",
+    "link": "/assets/press/pdfs/2019-09-architecture-design-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-09-architecture-design-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-09-india-today-home",
+    "title": "India Today Home",
+    "date": "September 2019",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2019-09-india-today-home-cover.jpg",
+    "link": "/assets/press/pdfs/2019-09-india-today-home-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-09-india-today-home-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-08-ifj-magazine",
+    "title": "IFJ Magazine",
+    "date": "August 2019",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2019-08-ifj-magazine-cover.jpg",
+    "link": "/assets/press/pdfs/2019-08-ifj-magazine-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-08-ifj-magazine-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-08-wallpaper",
+    "title": "Wallpaper",
+    "date": "August 2019",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2019-08-wallpaper-cover.jpg",
+    "link": "/assets/press/images/2019-08-wallpaper-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2019-08-wallpaper-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2019-07-dainik-bhaskar",
+    "title": "Dainik Bhaskar",
+    "date": "July 2019",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2019-07-dainik-bhaskar-cover.jpg",
+    "link": "/assets/press/images/2019-07-dainik-bhaskar-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2019-07-dainik-bhaskar-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2019-07-asian-age",
+    "title": "Asian Age",
+    "date": "July 2019",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2019-07-asian-age-cover.jpg",
+    "link": "/assets/press/pdfs/2019-07-asian-age-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-07-asian-age-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-06-the-tribune",
+    "title": "The Tribune",
+    "date": "June 2019",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2019-06-the-tribune-cover.jpg",
+    "link": "/assets/press/pdfs/2019-06-the-tribune-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-06-the-tribune-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-06-the-hinge",
+    "title": "The Hinge",
+    "date": "June 2019",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2019-06-the-hinge-cover.jpg",
+    "link": "/assets/press/pdfs/2019-06-the-hinge-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-06-the-hinge-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-06-phaidon",
+    "title": "Phaidon",
+    "date": "June 2019",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2019-06-phaidon-cover.jpg",
+    "link": "/assets/press/pdfs/2019-06-phaidon-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-06-phaidon-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-06-luxebook-2019",
+    "title": "LuxeBook 2019",
+    "date": "June 2019",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2019-06-luxebook-2019-cover.jpg",
+    "link": "/assets/press/pdfs/2019-06-luxebook-2019-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-06-luxebook-2019-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-06-better-interiors",
+    "title": "Better Interiors",
+    "date": "June 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-06-better-interiors-cover.jpg",
+    "link": "/assets/press/pdfs/2019-06-better-interiors-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-06-better-interiors-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-05-patriot",
+    "title": "Patriot",
+    "date": "May 2019",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2019-05-patriot-cover.jpg",
+    "link": "/assets/press/pdfs/2019-05-patriot-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-05-patriot-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-05-hindustan-times-gurugram",
+    "title": "Hindustan Times- Gurugram",
+    "date": "May 2019",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2019-05-hindustan-times-gurugram-cover.jpg",
+    "link": "/assets/press/pdfs/2019-05-hindustan-times-gurugram-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-05-hindustan-times-gurugram-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-05-architecture-design",
+    "title": "Architecture+Design",
+    "date": "May 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-05-architecture-design-cover.jpg",
+    "link": "/assets/press/pdfs/2019-05-architecture-design-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-05-architecture-design-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-05-architecture-update",
+    "title": "Architecture Update",
+    "date": "May 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-05-architecture-update-cover.jpg",
+    "link": "/assets/press/pdfs/2019-05-architecture-update-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-05-architecture-update-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-05-the-sunday-gaurdian",
+    "title": "The Sunday Gaurdian",
+    "date": "May 2019",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2019-05-the-sunday-gaurdian-cover.jpg",
+    "link": "/assets/press/images/2019-05-the-sunday-gaurdian-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2019-05-the-sunday-gaurdian-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2019-04-the-hindu-delhi-metro",
+    "title": "The Hindu, Delhi Metro",
+    "date": "April 2019",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2019-04-the-hindu-delhi-metro-cover.jpg",
+    "link": "/assets/press/images/2019-04-the-hindu-delhi-metro-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2019-04-the-hindu-delhi-metro-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2019-03-the-pioneer",
+    "title": "The Pioneer",
+    "date": "March 2019",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2019-03-the-pioneer-cover.jpg",
+    "link": "/assets/press/images/2019-03-the-pioneer-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2019-03-the-pioneer-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2019-03-the-morning-standard",
+    "title": "The Morning Standard",
+    "date": "March 2019",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2019-03-the-morning-standard-cover.jpg",
+    "link": "/assets/press/images/2019-03-the-morning-standard-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2019-03-the-morning-standard-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2019-03-afternoon-dc",
+    "title": "Afternoon DC",
+    "date": "March 2019",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2019-03-afternoon-dc-cover.jpg",
+    "link": "/assets/press/images/2019-03-afternoon-dc-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2019-03-afternoon-dc-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2019-02-a1-lighting-magazine",
+    "title": "A1 Lighting Magazine",
+    "date": "February 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-02-a1-lighting-magazine-cover.jpg",
+    "link": "/assets/press/pdfs/2019-02-a1-lighting-magazine-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-02-a1-lighting-magazine-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-02-a1-lighting",
+    "title": "A1 lighting",
+    "date": "February 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-02-a1-lighting-cover.jpg",
+    "link": "/assets/press/pdfs/2019-02-a1-lighting-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-02-a1-lighting-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-02-the-statesman",
+    "title": "The Statesman",
+    "date": "February 2019",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2019-02-the-statesman-cover.jpg",
+    "link": "/assets/press/images/2019-02-the-statesman-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2019-02-the-statesman-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2019-02-the-pioneer",
+    "title": "The Pioneer",
+    "date": "February 2019",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2019-02-the-pioneer-cover.jpg",
+    "link": "/assets/press/images/2019-02-the-pioneer-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2019-02-the-pioneer-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2019-01-surfaces-reporter",
+    "title": "Surfaces Reporter",
+    "date": "January 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-01-surfaces-reporter-cover.jpg",
+    "link": "/assets/press/pdfs/2019-01-surfaces-reporter-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-01-surfaces-reporter-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-01-india-today-home",
+    "title": "India Today Home",
+    "date": "January 2019",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2019-01-india-today-home-cover.jpg",
+    "link": "/assets/press/pdfs/2019-01-india-today-home-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-01-india-today-home-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-01-architectural-digest",
+    "title": "Architectural Digest",
+    "date": "January 2019",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2019-01-architectural-digest-cover.jpg",
+    "link": "/assets/press/pdfs/2019-01-architectural-digest-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-01-architectural-digest-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2019-01-houzz",
+    "title": "Houzz",
+    "date": "January 2019",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2019-01-houzz-cover.jpg",
+    "link": "/assets/press/pdfs/2019-01-houzz-article.pdf",
+    "pdf": "/assets/press/pdfs/2019-01-houzz-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-12-home-and-design-trends",
+    "title": "Home and Design Trends",
+    "date": "December 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-12-home-and-design-trends-cover.jpg",
+    "link": "/assets/press/pdfs/2018-12-home-and-design-trends-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-12-home-and-design-trends-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-12-lighting-india",
+    "title": "Lighting India",
+    "date": "December 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-12-lighting-india-cover.jpg",
+    "link": "/assets/press/pdfs/2018-12-lighting-india-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-12-lighting-india-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-12-asian-age",
+    "title": "Asian Age",
+    "date": "December 2018",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2018-12-asian-age-cover.jpg",
+    "link": "/assets/press/images/2018-12-asian-age-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2018-12-asian-age-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2018-12-elle-decor",
+    "title": "Elle Decor",
+    "date": "December 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-12-elle-decor-cover.jpg",
+    "link": "/assets/press/pdfs/2018-12-elle-decor-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-12-elle-decor-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-12-exotica",
+    "title": "Exotica",
+    "date": "December 2018",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2018-12-exotica-cover.jpg",
+    "link": "/assets/press/pdfs/2018-12-exotica-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-12-exotica-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-11-living-etc",
+    "title": "Living Etc",
+    "date": "November 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-11-living-etc-cover.jpg",
+    "link": "/assets/press/pdfs/2018-11-living-etc-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-11-living-etc-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-11-the-pioneer",
+    "title": "The Pioneer",
+    "date": "November 2018",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2018-11-the-pioneer-cover.jpg",
+    "link": "/assets/press/images/2018-11-the-pioneer-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2018-11-the-pioneer-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2018-10-architecure-design",
+    "title": "Architecure Design",
+    "date": "October 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-10-architecure-design-cover.jpg",
+    "link": "/assets/press/images/2018-10-architecure-design-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2018-10-architecure-design-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2018-10-asian-age",
+    "title": "Asian Age",
+    "date": "October 2018",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2018-10-asian-age-cover.jpg",
+    "link": "/assets/press/images/2018-10-asian-age-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2018-10-asian-age-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2018-10-whats-up-germany",
+    "title": "Whats Up Germany",
+    "date": "October 2018",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2018-10-whats-up-germany-cover.jpg",
+    "link": "/assets/press/pdfs/2018-10-whats-up-germany-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-10-whats-up-germany-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-10-inside-outside",
+    "title": "Inside Outside",
+    "date": "October 2018",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2018-10-inside-outside-cover.jpg",
+    "link": "/assets/press/pdfs/2018-10-inside-outside-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-10-inside-outside-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-09-architecture-asia",
+    "title": "Architecture Asia",
+    "date": "September 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-09-architecture-asia-cover.jpg",
+    "link": "/assets/press/pdfs/2018-09-architecture-asia-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-09-architecture-asia-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-09-g-town",
+    "title": "G Town",
+    "date": "September 2018",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2018-09-g-town-cover.jpg",
+    "link": "/assets/press/pdfs/2018-09-g-town-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-09-g-town-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-09-architects-diary",
+    "title": "Architect’s Diary",
+    "date": "September 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-09-architects-diary-cover.jpg",
+    "link": "/assets/press/pdfs/2018-09-architects-diary-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-09-architects-diary-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-09-a1-lighting-india",
+    "title": "A1 Lighting India",
+    "date": "September 2018",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2018-09-a1-lighting-india-cover.jpg",
+    "link": "/assets/press/images/2018-09-a1-lighting-india-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2018-09-a1-lighting-india-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2018-09-architectura-digest",
+    "title": "Architectura Digest",
+    "date": "September 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-09-architectura-digest-cover.jpg",
+    "link": "/assets/press/pdfs/2018-09-architectura-digest-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-09-architectura-digest-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-09-architectural-builder-magazine",
+    "title": "Architectural & Builder Magazine",
+    "date": "September 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-09-architectural-builder-magazine-cover.jpg",
+    "link": "/assets/press/pdfs/2018-09-architectural-builder-magazine-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-09-architectural-builder-magazine-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-08-idecorama",
+    "title": "iDecorama",
+    "date": "August 2018",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2018-08-idecorama-cover.jpg",
+    "link": "/assets/press/pdfs/2018-08-idecorama-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-08-idecorama-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-08-mondo",
+    "title": "Mondo",
+    "date": "August 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-08-mondo-cover.jpg",
+    "link": "/assets/press/pdfs/2018-08-mondo-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-08-mondo-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-08-mail-today",
+    "title": "Mail Today",
+    "date": "August 2018",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2018-08-mail-today-cover.jpg",
+    "link": "/assets/press/images/2018-08-mail-today-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2018-08-mail-today-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2018-07-ld-a",
+    "title": "LD+A",
+    "date": "July 2018",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2018-07-ld-a-cover.jpg",
+    "link": "/assets/press/pdfs/2018-07-ld-a-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-07-ld-a-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-07-vm-rd",
+    "title": "VM&RD",
+    "date": "July 2018",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2018-07-vm-rd-cover.jpg",
+    "link": "/assets/press/pdfs/2018-07-vm-rd-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-07-vm-rd-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-07-good-homes",
+    "title": "Good Homes",
+    "date": "July 2018",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2018-07-good-homes-cover.jpg",
+    "link": "/assets/press/images/2018-07-good-homes-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2018-07-good-homes-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2018-07-insite",
+    "title": "Insite",
+    "date": "July 2018",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2018-07-insite-cover.jpg",
+    "link": "/assets/press/pdfs/2018-07-insite-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-07-insite-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-06-better-interiors",
+    "title": "Better Interiors",
+    "date": "June 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-06-better-interiors-cover.jpg",
+    "link": "/assets/press/pdfs/2018-06-better-interiors-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-06-better-interiors-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-05-midday-cover",
+    "title": "Midday Cover",
+    "date": "May 2018",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2018-05-midday-cover-cover.jpg",
+    "link": "/assets/press/images/2018-05-midday-cover-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2018-05-midday-cover-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2018-05-lofficiel",
+    "title": "L’Officiel",
+    "date": "May 2018",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2018-05-lofficiel-cover.jpg",
+    "link": "/assets/press/pdfs/2018-05-lofficiel-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-05-lofficiel-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-04-architect-and-interiors-india",
+    "title": "Architect and Interiors India",
+    "date": "April 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-04-architect-and-interiors-india-cover.jpg",
+    "link": "/assets/press/pdfs/2018-04-architect-and-interiors-india-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-04-architect-and-interiors-india-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-04-curve-magazine",
+    "title": "Curve Magazine",
+    "date": "April 2018",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2018-04-curve-magazine-cover.jpg",
+    "link": "/assets/press/pdfs/2018-04-curve-magazine-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-04-curve-magazine-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-04-pool",
+    "title": "Pool",
+    "date": "April 2018",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2018-04-pool-cover.jpg",
+    "link": "/assets/press/pdfs/2018-04-pool-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-04-pool-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-03-harpers-bazaar",
+    "title": "Harper’s Bazaar",
+    "date": "March 2018",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2018-03-harpers-bazaar-cover.jpg",
+    "link": "/assets/press/pdfs/2018-03-harpers-bazaar-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-03-harpers-bazaar-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-03-sunday-mid-day",
+    "title": "Sunday Mid-day",
+    "date": "March 2018",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2018-03-sunday-mid-day-cover.jpg",
+    "link": "/assets/press/images/2018-03-sunday-mid-day-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2018-03-sunday-mid-day-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2018-03-mint",
+    "title": "Mint",
+    "date": "March 2018",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2018-03-mint-cover.jpg",
+    "link": "/assets/press/pdfs/2018-03-mint-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-03-mint-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-03-dna-ahmedabad",
+    "title": "DNA Ahmedabad",
+    "date": "March 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-03-dna-ahmedabad-cover.jpg",
+    "link": "/assets/press/images/2018-03-dna-ahmedabad-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2018-03-dna-ahmedabad-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2018-03-architecture-design",
+    "title": "Architecture+Design",
+    "date": "March 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-03-architecture-design-cover.jpg",
+    "link": "/assets/press/pdfs/2018-03-architecture-design-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-03-architecture-design-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2018-02-architects-interiors-india",
+    "title": "Architects & Interiors India",
+    "date": "February 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-02-architects-interiors-india-cover.jpg",
+    "link": "/assets/press/images/2018-02-architects-interiors-india-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2018-02-architects-interiors-india-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2018-02-living-etc",
+    "title": "Living Etc",
+    "date": "February 2018",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2018-02-living-etc-cover.jpg",
+    "link": "/assets/press/pdfs/2018-02-living-etc-article.pdf",
+    "pdf": "/assets/press/pdfs/2018-02-living-etc-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2017-12-press-image",
+    "title": "Press Image",
+    "date": "December 2017",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2017-12-press-image-cover.jpg",
+    "link": "/assets/press/pdfs/2017-12-press-image-article.pdf",
+    "pdf": "/assets/press/pdfs/2017-12-press-image-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2017-10-elle-decor",
+    "title": "Elle Decor",
+    "date": "October 2017",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2017-10-elle-decor-cover.jpg",
+    "link": "/assets/press/images/2017-10-elle-decor-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2017-10-elle-decor-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2017-07-architect-and-interiors-india",
+    "title": "Architect and Interiors India",
+    "date": "July 2017",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2017-07-architect-and-interiors-india-cover.jpg",
+    "link": "/assets/press/images/2017-07-architect-and-interiors-india-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2017-07-architect-and-interiors-india-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2017-06-id-journal",
+    "title": "ID Journal",
+    "date": "June 2017",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2017-06-id-journal-cover.jpg",
+    "link": "/assets/press/images/2017-06-id-journal-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2017-06-id-journal-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2017-03-art-culture-festival",
+    "title": "Art Culture Festival",
+    "date": "March 2017",
+    "category": "Art & Exhibitions",
+    "image": "/assets/press/images/2017-03-art-culture-festival-cover.jpg",
+    "link": "/assets/press/pdfs/2017-03-art-culture-festival-article.pdf",
+    "pdf": "/assets/press/pdfs/2017-03-art-culture-festival-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2016-10-the-weekend-west",
+    "title": "The Weekend West",
+    "date": "October 2016",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2016-10-the-weekend-west-cover.jpg",
+    "link": "/assets/press/images/2016-10-the-weekend-west-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2016-10-the-weekend-west-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2016-10-gurgaon-times",
+    "title": "Gurgaon Times",
+    "date": "October 2016",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2016-10-gurgaon-times-cover.jpg",
+    "link": "/assets/press/pdfs/2016-10-gurgaon-times-article.pdf",
+    "pdf": "/assets/press/pdfs/2016-10-gurgaon-times-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2016-10-the-hindu",
+    "title": "The Hindu",
+    "date": "October 2016",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2016-10-the-hindu-cover.jpg",
+    "link": "/assets/press/images/2016-10-the-hindu-article.jpg",
+    "pdf": null,
+    "scan": "/assets/press/images/2016-10-the-hindu-article.jpg",
+    "type": "image"
+  },
+  {
+    "id": "2016-09-spice-route",
+    "title": "Spice Route",
+    "date": "September 2016",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2016-09-spice-route-cover.jpg",
+    "link": "/assets/press/pdfs/2016-09-spice-route-article.pdf",
+    "pdf": "/assets/press/pdfs/2016-09-spice-route-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2016-09-deccan-herald",
+    "title": "Deccan Herald",
+    "date": "September 2016",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2016-09-deccan-herald-cover.jpg",
+    "link": "/assets/press/images/2016-09-deccan-herald-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2016-09-deccan-herald-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2016-06-india-today-home",
+    "title": "India Today Home",
+    "date": "June 2016",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2016-06-india-today-home-cover.jpg",
+    "link": "/assets/press/images/2016-06-india-today-home-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2016-06-india-today-home-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2016-05-deccan-herald",
+    "title": "Deccan Herald",
+    "date": "May 2016",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2016-05-deccan-herald-cover.jpg",
+    "link": "/assets/press/images/2016-05-deccan-herald-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2016-05-deccan-herald-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2016-04-better-interiors",
+    "title": "Better Interiors",
+    "date": "April 2016",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2016-04-better-interiors-cover.jpg",
+    "link": "/assets/press/images/2016-04-better-interiors-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2016-04-better-interiors-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2016-03-elle-decor",
+    "title": "Elle Decor",
+    "date": "March 2016",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2016-03-elle-decor-cover.jpg",
+    "link": "/assets/press/images/2016-03-elle-decor-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2016-03-elle-decor-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2016-03-black-book",
+    "title": "Black Book",
+    "date": "March 2016",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2016-03-black-book-cover.jpg",
+    "link": "/assets/press/images/2016-03-black-book-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2016-03-black-book-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2016-02-the-financial-express",
+    "title": "The Financial Express",
+    "date": "February 2016",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2016-02-the-financial-express-cover.jpg",
+    "link": "/assets/press/images/2016-02-the-financial-express-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2016-02-the-financial-express-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2016-01-india-today",
+    "title": "India Today",
+    "date": "January 2016",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2016-01-india-today-cover.jpg",
+    "link": "/assets/press/images/2016-01-india-today-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2016-01-india-today-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2015-12-the-telegraph",
+    "title": "The Telegraph",
+    "date": "December 2015",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2015-12-the-telegraph-cover.jpg",
+    "link": "/assets/press/images/2015-12-the-telegraph-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2015-12-the-telegraph-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2015-12-the-statesman",
+    "title": "The Statesman",
+    "date": "December 2015",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2015-12-the-statesman-cover.jpg",
+    "link": "/assets/press/images/2015-12-the-statesman-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2015-12-the-statesman-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2015-12-asian-age",
+    "title": "Asian Age",
+    "date": "December 2015",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2015-12-asian-age-cover.jpg",
+    "link": "/assets/press/images/2015-12-asian-age-article.png",
+    "pdf": null,
+    "scan": "/assets/press/images/2015-12-asian-age-article.png",
+    "type": "image"
+  },
+  {
+    "id": "2015-02-mondo",
+    "title": "Mondo",
+    "date": "February 2015",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2015-02-mondo-cover.jpg",
+    "link": "/assets/press/pdfs/2015-02-mondo-article.pdf",
+    "pdf": "/assets/press/pdfs/2015-02-mondo-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2015-01-times-of-india-ahmedabad-cover",
+    "title": "Times of India, Ahmedabad cover",
+    "date": "January 2015",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2015-01-times-of-india-ahmedabad-cover-cover.jpg",
+    "link": "/assets/press/images/2015-01-times-of-india-ahmedabad-cover-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2015-01-times-of-india-ahmedabad-cover-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2015-01-mondo",
+    "title": "Mondo",
+    "date": "January 2015",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2015-01-mondo-cover.jpg",
+    "link": "/assets/press/pdfs/2015-01-mondo-article.pdf",
+    "pdf": "/assets/press/pdfs/2015-01-mondo-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2015-01-sandesh-ahmedabad",
+    "title": "Sandesh Ahmedabad",
+    "date": "January 2015",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2015-01-sandesh-ahmedabad-cover.jpg",
+    "link": "/assets/press/images/2015-01-sandesh-ahmedabad-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2015-01-sandesh-ahmedabad-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2015-01-mondo-2",
+    "title": "Mondo",
+    "date": "January 2015",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2015-01-mondo-2-cover.jpg",
+    "link": "/assets/press/pdfs/2015-01-mondo-2-article.pdf",
+    "pdf": "/assets/press/pdfs/2015-01-mondo-2-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2014-12-asian-age",
+    "title": "Asian Age",
+    "date": "December 2014",
+    "category": "National News & Broadsheets",
+    "image": "/assets/press/images/2014-12-asian-age-cover.jpg",
+    "link": "/assets/press/images/2014-12-asian-age-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2014-12-asian-age-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2014-11-cw-interiors",
+    "title": "CW Interiors",
+    "date": "November 2014",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2014-11-cw-interiors-cover.jpg",
+    "link": "/assets/press/images/2014-11-cw-interiors-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2014-11-cw-interiors-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2014-11-india-today",
+    "title": "India Today",
+    "date": "November 2014",
+    "category": "Magazines & Features",
+    "image": "/assets/press/images/2014-11-india-today-cover.jpg",
+    "link": "/assets/press/images/2014-11-india-today-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2014-11-india-today-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2014-11-home-review",
+    "title": "Home Review",
+    "date": "November 2014",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2014-11-home-review-cover.jpg",
+    "link": "/assets/press/pdfs/2014-11-home-review-article.pdf",
+    "pdf": "/assets/press/pdfs/2014-11-home-review-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2014-10-neptune-glitz",
+    "title": "Neptune Glitz",
+    "date": "October 2014",
+    "category": "International & Digital",
+    "image": "/assets/press/images/2014-10-neptune-glitz-cover.jpg",
+    "link": "/assets/press/pdfs/2014-10-neptune-glitz-article.pdf",
+    "pdf": "/assets/press/pdfs/2014-10-neptune-glitz-article.pdf",
+    "scan": null,
+    "type": "pdf"
+  },
+  {
+    "id": "2014-10-elle-decor",
+    "title": "Elle Decor",
+    "date": "October 2014",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2014-10-elle-decor-cover.jpg",
+    "link": "/assets/press/images/2014-10-elle-decor-article.jpeg",
+    "pdf": null,
+    "scan": "/assets/press/images/2014-10-elle-decor-article.jpeg",
+    "type": "image"
+  },
+  {
+    "id": "2014-01-architecture-design",
+    "title": "Architecture Design",
+    "date": "January 2014",
+    "category": "Design & Architecture",
+    "image": "/assets/press/images/2014-01-architecture-design-cover.jpg",
+    "link": "/assets/press/pdfs/2014-01-architecture-design-article.pdf",
+    "pdf": "/assets/press/pdfs/2014-01-architecture-design-article.pdf",
+    "scan": null,
     "type": "pdf"
   }
 ]

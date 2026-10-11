@@ -22,11 +22,9 @@ export default function MobileInstallationDetail({ project }) {
   const [copied, setCopied] = useState(false);
   const containerRef = useRef(null);
 
-  if (!project) return null;
-
-  const images = project.images || [];
-  const paragraphs = project.paragraphs || [];
-  const currentIndex = projectsData.findIndex((p) => p.id === project.id);
+  const images = project?.images || [];
+  const paragraphs = project?.paragraphs || [];
+  const currentIndex = projectsData.findIndex((p) => p.id === project?.id);
   const prevProject = currentIndex > 0 ? projectsData[currentIndex - 1] : null;
   const nextProject = currentIndex < projectsData.length - 1 ? projectsData[currentIndex + 1] : null;
 
@@ -74,8 +72,8 @@ export default function MobileInstallationDetail({ project }) {
       });
     }, containerRef);
 
-    return () => ctx.revert();
-  }, [project.id]);
+  return () => ctx.revert();
+  }, [project]);
 
   const handleShare = () => {
     const shareUrl = window.location.href;
@@ -127,7 +125,7 @@ export default function MobileInstallationDetail({ project }) {
       </div>
 
       {/* ── 2. Heading, Location, Metadata & Lead Synopsis ───────────────────── */}
-      <div className="px-5 pt-6 pb-6 space-y-4">
+      <div className="site-container pt-6 pb-6 space-y-4">
         <div className="space-y-2">
           {project.location && (
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-bronze/15 border border-bronze/30 text-bronze text-[10px] uppercase tracking-wider font-semibold">
@@ -162,7 +160,7 @@ export default function MobileInstallationDetail({ project }) {
 
       {/* ── 3. Remaining Alternating Story Stream: Image -> Text -> Image -> Text with GSAP Scroll Scaling ── */}
       {remainingBlocks.length > 0 && (
-        <div className="px-5 space-y-6 pt-2">
+        <div className="site-container space-y-6 pt-2">
           {remainingBlocks.map((block, idx) => {
             if (block.type === "image") {
               return (
@@ -195,7 +193,7 @@ export default function MobileInstallationDetail({ project }) {
       )}
 
       {/* ── Next / Previous Project Navigation ────────────────────────────────── */}
-      <div className="px-5 pt-12 mt-12 border-t border-white/10 space-y-4">
+      <div className="site-container pt-12 mt-12 border-t border-white/10 space-y-4">
         <span className="text-[10px] uppercase tracking-widest text-mute block font-mono">
           Explore Other Works
         </span>

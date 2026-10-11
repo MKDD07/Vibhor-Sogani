@@ -7,13 +7,13 @@ export default function PrivacyPolicyPage() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-ink text-parchment pt-28 sm:pt-36 pb-24 px-6 lg:px-12 select-none">
-      <div className="max-w-4xl mx-auto">
+    <main className="min-h-screen bg-ink text-parchment pt-28 sm:pt-36 pb-24 select-none">
+      <div className="site-container">
         <div className="mb-10 text-center sm:text-left">
           <span className="text-[11px] uppercase tracking-[0.3em] text-bronze font-semibold block mb-3">
             Studio Vibhor Sogani
           </span>
-          <h1 className="font-display text-4xl sm:text-6xl font-light text-parchment leading-tight">
+          <h1 className="page-heading font-display font-light text-parchment">
             Privacy Policy
           </h1>
           <p className="mt-3 text-xs uppercase tracking-widest text-mute">

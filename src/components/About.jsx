@@ -7,8 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const STATS = [
   { value: 25, suffix: "+", label: "Years Practice" },
-  { value: 40, suffix: "+", label: "Public Works" },
-  { value: 8, suffix: "", label: "Countries" },
+  { value: 10, suffix: "", label: "Countries" },
 ];
 
 export default function About() {
@@ -93,7 +92,7 @@ export default function About() {
 
   return (
     <section id="about" ref={sectionRef} className="relative bg-ink py-28 lg:py-36">
-      <div className="mx-auto grid max-w-7xl gap-16 px-6 lg:grid-cols-[0.9fr_1.1fr] lg:gap-24 lg:px-10">
+      <div className="site-container grid gap-16 lg:grid-cols-[0.9fr_1.1fr] lg:gap-24">
         <div className="about-reveal relative aspect-[4/5] overflow-hidden rounded-sm">
           <img
             ref={imgRef}
@@ -109,7 +108,7 @@ export default function About() {
             About the Artist
           </p>
           <div className="overflow-hidden">
-            <h2 className="about-title font-display text-4xl leading-tight text-parchment sm:text-5xl flex flex-wrap">
+            <h2 className="section-heading about-title font-display text-4xl leading-tight text-parchment sm:text-5xl flex flex-wrap">
               {titleText.split("").map((char, index) => (
                 <span key={index} className="about-char inline-block origin-bottom transition-transform">
                   {char === " " ? "\u00A0" : char}
@@ -117,17 +116,17 @@ export default function About() {
               ))}
             </h2>
           </div>
-          <p className="about-reveal mt-6 max-w-xl text-[14px] leading-relaxed text-mute">
+          <p className="site-prose about-reveal mt-6 max-w-xl text-[14px] leading-relaxed text-mute">
             For over two decades, Vibhor Sogani has translated raw steel and
             aluminium into public monuments that sit at the meeting point of
             engineering and instinct. His practice moves between the studio
-            and the street &mdash; sculptures conceived at the scale of a
+            and the street  sculptures conceived at the scale of a
             hand, then built at the scale of a city.
           </p>
-          <p className="about-reveal mt-4 max-w-xl text-[14px] leading-relaxed text-mute">
+          <p className="site-prose about-reveal mt-4 max-w-xl text-[14px] leading-relaxed text-mute">
             Rooted in organic form and industrial material, his installations
-            &mdash; from the sprouts of <em className="text-bronze-light not-italic">Kalpataru</em> to
-            the coiled steel of <em className="text-bronze-light not-italic">Shankha</em> &mdash;
+             from the sprouts of <em className="text-bronze-light not-italic">Kalpataru</em> to
+            the coiled steel of <em className="text-bronze-light not-italic">Shankha </em> 
             have become landmarks across India and the Gulf.
           </p>
 
@@ -139,7 +138,7 @@ export default function About() {
               <div key={stat.label}>
                 <p
                   ref={(el) => (countRefs.current[i] = el)}
-                  className="font-display !text-3xl text-bronze-light font-medium"
+                  className="font-display !text-4xl text-bronze font-medium"
                 >
                   0{stat.suffix}
                 </p>

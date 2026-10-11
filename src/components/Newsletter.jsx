@@ -181,7 +181,7 @@ export default function Newsletter({
       )}
 
       {/* Content Container */}
-      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-12">
+      <div className="site-container relative z-10">
         {layout === "center" ? (
           /* Center Layout */
           <div className="max-w-4xl mx-auto text-center space-y-6">

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
+import { subscribeToNewsletter } from "../utils/newsletterApi";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -10,101 +9,63 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Footer() {
   const location = useLocation();
   const isInstallationPage = location.pathname.startsWith("/installations");
-  const isHomePage = location.pathname === "/";
   // Exclude Index / Home page and Installations page (they render their own standalone sections)
-  const showCompactNewsletter = !isHomePage && !isInstallationPage;
+  const showCompactNewsletter = !isInstallationPage;
   const footerRef = useRef(null);
   const contentRef = useRef(null);
 
-  const [isDark, setIsDark] = useState(() => {
-    const saved = localStorage.getItem("theme");
-    if (saved) return saved !== "light";
-    return !window.matchMedia("(prefers-color-scheme: light)").matches;
-  });
-
-  const toggleTheme = () => {
-    const nextDark = !isDark;
-    setIsDark(nextDark);
-    if (nextDark) {
-      document.documentElement.classList.remove("light-mode");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.add("light-mode");
-      localStorage.setItem("theme", "light");
-    }
+  const [email, setEmail] = useState("");
+  const [subscription, setSubscription] = useState({ loading: false, success: false, error: "" });
+  const subscribe = async (event) => {
+    event.preventDefault();
+    if (subscription.loading) return;
+    setSubscription({ loading: true, success: false, error: "" });
+    const result = await subscribeToNewsletter(email);
+    setSubscription({ loading: false, success: result.success, error: result.error || "" });
+    if (result.success) setEmail("");
   };
-
-  useEffect(() => {
-    // Keep in sync if theme is changed from header or system preference changes
-    const observer = new MutationObserver(() => {
-      const isLightMode = document.documentElement.classList.contains("light-mode");
-      setIsDark(!isLightMode);
-    });
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
-
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: light)");
-    const handleSystemChange = (e) => {
-      if (!localStorage.getItem("theme")) {
-        setIsDark(!e.matches);
-        if (e.matches) {
-          document.documentElement.classList.add("light-mode");
-        } else {
-          document.documentElement.classList.remove("light-mode");
-        }
-      }
-    };
-    mediaQuery.addEventListener("change", handleSystemChange);
-
-    return () => {
-      observer.disconnect();
-      mediaQuery.removeEventListener("change", handleSystemChange);
-    };
-  }, []);
 
   useEffect(() => {
     const footerEl = footerRef.current;
     const contentEl = contentRef.current;
     if (!footerEl || !contentEl) return;
 
-    // Disable parallax on mobile screens (< 768px)
-    if (window.innerWidth < 768) {
-      gsap.set(contentEl, { yPercent: 0, opacity: 1 });
-      return;
-    }
-
-    // Direct parallax scrub on footer content as previous section scrolls away with 100% solid opacity (> 768px)
-    const anim = gsap.fromTo(
-      contentEl,
-      { yPercent: -35, opacity: 1 },
-      {
-        yPercent: 0,
-        opacity: 1,
-        ease: "none",
-        scrollTrigger: {
-          trigger: footerEl,
-          start: "top bottom",
-          end: "bottom bottom",
-          scrub: true,
-        },
-      }
-    );
-
+    const media = gsap.matchMedia();
+    media.add('(min-width: 768px) and (prefers-reduced-motion: no-preference)', () => {
+      const ctx = gsap.context(() => {
+        gsap.fromTo(contentEl,
+          { y: 40 },
+          {
+            y: 0,
+            ease: 'none',
+            scrollTrigger: {
+              trigger: footerEl,
+              start: 'top bottom',
+              end: 'top 45%',
+              scrub: 0.4,
+              invalidateOnRefresh: true,
+            },
+          });
+      }, footerEl);
+      return () => ctx.revert();
+    });
+    const observer = new ResizeObserver(() => ScrollTrigger.refresh());
+    observer.observe(footerEl);
     return () => {
-      if (anim.scrollTrigger) anim.scrollTrigger.kill();
-      anim.kill();
+      observer.disconnect();
+      media.revert();
     };
-  }, []);
+  }, [location.pathname]);
 
   return (
     <footer
       ref={footerRef}
-      className="w-full text-parchment select-none transition-colors relative z-30 overflow-hidden m-0 p-0 -mt-8 sm:-mt-12 pointer-events-auto bg-ink"
+      className="w-full text-parchment select-none transition-colors relative z-30 overflow-hidden m-0 p-0 pointer-events-auto bg-ink"
     >
       <div
-        ref={contentRef}
-        className="w-full will-change-transform rounded-t-3xl sm:rounded-t-[2.5rem] bg-surface-2 opacity-100 shadow-[0_-25px_60px_-15px_rgba(0,0,0,0.8)] border-t border-x border-white/15 px-6 sm:px-12 lg:px-16 pt-16 sm:pt-20 pb-4 relative z-30 overflow-hidden"
+        className="w-full rounded-t-3xl sm:rounded-t-[2.5rem] bg-surface-2 opacity-100 shadow-[0_-25px_60px_-15px_rgba(0,0,0,0.8)] border-t border-x border-white/15 pt-16 sm:pt-20 pb-4 relative z-30 overflow-hidden"
       >
-        <div className="max-w-7xl mx-auto flex flex-col justify-between min-h-[360px] relative z-10 space-y-16">
+        <div ref={contentRef} className="site-container flex flex-col justify-between min-h-[360px] relative z-10 space-y-16">
         
         {/* Upper Section: Studio Wordmark & Inquiries */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
@@ -118,7 +79,7 @@ export default function Footer() {
                 className="footer-logo h-8 w-auto object-contain brightness-0 invert opacity-95 hover:opacity-100 transition-all duration-300"
               />
             </Link>
-            <p className="text-xs sm:text-[13px] font-light text-mute max-w-sm leading-relaxed tracking-wide">
+            <p className="site-prose text-xs sm:text-[13px] font-light text-mute max-w-sm leading-relaxed tracking-wide">
               Sculpting monumental public landmarks, reflective stainless steel spatial works, and bespoke architectural art installations globally.
             </p>
 
@@ -190,17 +151,18 @@ export default function Footer() {
                   </span>
                   <span className="w-2 h-2 rounded-full bg-bronze/70 animate-pulse" />
                 </div>
-                <p className="text-xs text-mute font-light leading-relaxed">
+                <p className="site-prose text-xs text-mute font-light leading-relaxed">
                   Occasional notes on new monumental installations and international exhibitions.
                 </p>
                 <form
-                  onSubmit={(e) => {
-                    e.preventDefault();
-                    alert("Thank you for subscribing to Studio Vibhor Sogani.");
-                  }}
+                  onSubmit={subscribe}
                   className="pt-2 relative flex items-center"
                 >
                   <input
+                    aria-label="Email address for studio newsletter"
+                    value={email}
+                    onChange={(event) => setEmail(event.target.value)}
+                    disabled={subscription.loading || subscription.success}
                     type="email"
                     required
                     placeholder="Enter your email address"
@@ -208,7 +170,8 @@ export default function Footer() {
                   />
                   <button
                     type="submit"
-                    aria-label="Subscribe"
+                    aria-label={subscription.loading ? "Subscribing" : "Subscribe"}
+                    disabled={subscription.loading || subscription.success}
                     className="absolute right-2 w-9 h-9 rounded-full bg-bronze/90 hover:bg-bronze text-ink flex items-center justify-center transition-all duration-300 hover:scale-105 group cursor-pointer shadow-md"
                   >
                     <svg
@@ -219,6 +182,7 @@ export default function Footer() {
                     </svg>
                   </button>
                 </form>
+                <p role="status" aria-live="polite" className="text-xs text-mute">{subscription.loading ? "Subscribing..." : subscription.success ? "Thank you. You're on the studio mailing list." : subscription.error}</p>
               </div>
             )}
 
@@ -230,7 +194,6 @@ export default function Footer() {
               </div>
               <div className="space-y-3.5">
                 <div><Link to="/press" className="hover:text-parchment hover-underline transition-colors">Press</Link></div>
-                <div><Link to="/faq" className="hover:text-parchment hover-underline transition-colors">FAQ</Link></div>
               </div>
               <div className="space-y-3.5">
                 <div><Link to="/contact" className="hover:text-parchment hover-underline transition-colors">Contact</Link></div>
@@ -254,28 +217,7 @@ export default function Footer() {
             </Link>
           </div>
 
-          {/* Theme Mode Toggle Button (Hidden on < 768px, visible on md+) */}
-          <div className="hidden md:flex items-center gap-3">
-            <span className="text-[10px] tracking-[0.25em] lowercase text-mute/60 hidden sm:inline-block">
-              {isDark ? "dark mode" : "light mode"}
-            </span>
-            <button
-              onClick={toggleTheme}
-              className={
-                "flex h-9 w-9 items-center justify-center rounded-full transition-all cursor-pointer " +
-                (isDark
-                  ? "border border-white/15 bg-white/5 text-parchment hover:bg-bronze hover:border-bronze hover:text-ink"
-                  : "border border-black/15 bg-black/5 text-black hover:bg-black hover:text-white")
-              }
-              aria-label="Toggle theme mode"
-              title={isDark ? "Switch to Light Mode" : "Switch to Dark Mode"}
-            >
-              <FontAwesomeIcon
-                icon={isDark ? faSun : faMoon}
-                className="text-xs transition-transform duration-300 active:scale-90"
-              />
-            </button>
-          </div>
+
         </div>
         </div>
     </div>

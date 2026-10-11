@@ -71,7 +71,7 @@ export default function StudioBanner({ noParallax = false }) {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/30 to-transparent w-full sm:w-[45%]" />
       </div>
 
-      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10 flex flex-col justify-between min-h-[300px]">
+      <div className="site-container relative z-10 flex flex-col justify-between min-h-[300px]">
         <div className="max-w-2xl">
           <p className="mb-4 text-xs uppercase tracking-wide-x text-bronze-light font-semibold">
             Sister Studio &mdash; Lighting &amp; Product Design

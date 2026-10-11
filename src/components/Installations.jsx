@@ -1,13 +1,11 @@
-import React, { useEffect, useRef, useState, useCallback } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState, useCallback } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Draggable } from "gsap/Draggable";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
   faChevronRight,
-  faChevronDown,
   faXmark,
   faArrowUpRightFromSquare,
   faChevronUp,
@@ -16,9 +14,7 @@ import { Link } from "react-router-dom";
 import { projectsData } from "../data/projectsData";
 import { PrimaryButton } from "./Buttons";
 
-gsap.registerPlugin(ScrollTrigger, Draggable);
-
-const SHOWCASE = projectsData.slice(0, 5);
+gsap.registerPlugin(ScrollTrigger);
 
 // ─────────────────────────────────────────────────────────────────────────────
 // GSAP Image Slider — full-panel images, drag + arrow navigation
@@ -28,6 +24,7 @@ function ImageSlider({ images, onClose }) {
   const containerRef = useRef(null);
   const [current, setCurrent] = useState(0);
   const startX = useRef(0);
+  const measuredWidth = useRef(0);
 
   const PEEK = 72; // px of next slide peeking
   const GAP  = 12; // px gap between slides
@@ -44,12 +41,34 @@ function ImageSlider({ images, onClose }) {
       x: getOffset(clamped),
       duration: 0.72,
       ease: "power3.inOut",
+      overwrite: "auto",
     });
     setCurrent(clamped);
   }, [images.length, getOffset]);
 
   const prev = useCallback(() => goTo(current - 1), [current, goTo]);
   const next = useCallback(() => goTo(current + 1), [current, goTo]);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    const track = trackRef.current;
+    if (!container || !track) return;
+    const observer = new ResizeObserver(() => {
+      if (container.clientWidth === measuredWidth.current) return;
+      measuredWidth.current = container.clientWidth;
+      gsap.killTweensOf(track);
+      gsap.set(track, { x: getOffset(current) });
+    });
+    observer.observe(container);
+    return () => {
+      observer.disconnect();
+    };
+  }, [current, getOffset]);
+
+  useEffect(() => {
+    const track = trackRef.current;
+    return () => gsap.killTweensOf(track);
+  }, []);
 
   // keyboard
   useEffect(() => {
@@ -70,7 +89,10 @@ function ImageSlider({ images, onClose }) {
     const onUp   = (e) => {
       const endX = e.clientX ?? e.changedTouches?.[0]?.clientX ?? 0;
       const diff = startX.current - endX;
-      if (Math.abs(diff) > 40) diff > 0 ? next() : prev();
+      if (Math.abs(diff) > 40) {
+        if (diff > 0) next();
+        else prev();
+      }
     };
     el.addEventListener("mousedown",  onDown);
     el.addEventListener("mouseup",    onUp);
@@ -180,24 +202,111 @@ export default function Installations() {
   const maxIndex = Math.max(0, projectsData.length - 5);
   const showcaseItems = projectsData.slice(startIndex, startIndex + 5);
 
-  const handlePrevPage = () => {
-    if (currentPage > 0) {
-      if (activeIdx !== null) {
-        expandItem(activeIdx);
+  const expansionRef = useRef(null);
+  const pageTweenRef = useRef(null);
+  const pagingRef = useRef(false);
+  const outgoingRef = useRef(null);
+  const pageDirectionRef = useRef(1);
+  const dragRef = useRef(null);
+  const dragOffsetRef = useRef(0);
+  const suppressClickRef = useRef(false);
+
+  const handleStripPointerDown = (event) => {
+    if (activeIdx !== null || pagingRef.current || event.button !== 0 || event.target.closest('button, a')) return;
+    suppressClickRef.current = false;
+    dragRef.current = { x: event.clientX, y: event.clientY, pointerId: event.pointerId, dragging: false };
+  };
+
+  const handleStripPointerMove = (event) => {
+    const drag = dragRef.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    const dx = event.clientX - drag.x;
+    const dy = event.clientY - drag.y;
+    if (!drag.dragging) {
+      if (Math.abs(dy) > 10 && Math.abs(dy) > Math.abs(dx)) {
+        dragRef.current = null;
+        return;
       }
-      setCurrentPage((p) => p - 1);
+      if (Math.abs(dx) < 10) return;
+      drag.dragging = true;
+      suppressClickRef.current = true;
+      event.currentTarget.setPointerCapture(event.pointerId);
+    }
+    const step = stripRef.current.clientWidth / showcaseItems.length;
+    const atEdge = dx > 0 ? currentPage === 0 : currentPage === maxIndex;
+    dragOffsetRef.current = Math.max(-step, Math.min(step, dx)) * (atEdge ? 0.2 : 1);
+    gsap.set(stripRef.current, { x: dragOffsetRef.current });
+  };
+
+  const finishStripDrag = (event) => {
+    const drag = dragRef.current;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    dragRef.current = null;
+    if (!drag.dragging) return;
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);
+    const offset = dragOffsetRef.current;
+    const direction = offset < 0 ? 1 : -1;
+    if (event.type !== 'pointercancel' && Math.abs(offset) > 40 && currentPage + direction >= 0 && currentPage + direction <= maxIndex) {
+      changePage(direction);
+    } else {
+      dragOffsetRef.current = 0;
+      pageTweenRef.current = gsap.to(stripRef.current, { x: 0, duration: 0.3, ease: 'power3.out' });
     }
   };
 
-  const handleNextPage = () => {
-    if (currentPage < maxIndex) {
-      if (activeIdx !== null) {
-        expandItem(activeIdx);
-      }
-      setCurrentPage((p) => p + 1);
-    }
+  const changePage = (direction) => {
+    const target = Math.max(0, Math.min(maxIndex, currentPage + direction));
+    if (pagingRef.current || target === currentPage) return;
+    pagingRef.current = true;
+    expansionRef.current?.kill();
+    const strip = stripRef.current;
+    const outgoing = strip.cloneNode(true);
+    outgoing.setAttribute('aria-hidden', 'true');
+    outgoing.inert = true;
+    Object.assign(outgoing.style, {
+      position: 'absolute', inset: '0', width: '100%', pointerEvents: 'none',
+    });
+    Array.from(outgoing.children).forEach((card) => {
+      gsap.set(card, { width: '20%', opacity: 1, y: 0, scale: 1 });
+      // Keep the collapsed artwork in the outgoing snapshot.
+      if (card.children.length > 1) card.lastElementChild.remove();
+    });
+    strip.parentElement.appendChild(outgoing);
+    outgoingRef.current = outgoing;
+    pageDirectionRef.current = direction;
+    setActiveIdx(null);
+    setCurrentPage(target);
   };
-  const animatingRef = useRef(false);
+
+  const handlePrevPage = () => changePage(-1);
+  const handleNextPage = () => changePage(1);
+
+  useLayoutEffect(() => {
+    if (!pagingRef.current) return;
+    const strip = stripRef.current;
+    const outgoing = outgoingRef.current;
+    const step = strip.clientWidth / showcaseItems.length;
+    const direction = pageDirectionRef.current;
+    gsap.set(itemRefs.current.filter(Boolean), {
+      width: (100 / showcaseItems.length) + '%', opacity: 1, y: 0, scale: 1,
+    });
+    gsap.set(strip, { x: direction * step + dragOffsetRef.current, opacity: 1 });
+    dragOffsetRef.current = 0;
+    pageTweenRef.current = gsap.timeline({
+      onComplete: () => {
+        outgoing?.remove();
+        outgoingRef.current = null;
+        pagingRef.current = false;
+      },
+    })
+      .to(strip, { x: 0, duration: 0.55, ease: 'power3.inOut' }, 0)
+      .to(outgoing, { x: -direction * step, duration: 0.55, ease: 'power3.inOut' }, 0);
+  }, [currentPage, showcaseItems.length]);
+
+  useEffect(() => () => {
+    pageTweenRef.current?.kill();
+    outgoingRef.current?.remove();
+  }, []);
 
   const installationsTitle = "Installation Arts";
 
@@ -253,65 +362,38 @@ export default function Installations() {
   }, []);
 
   // ── Expand / Collapse (Desktop) ──────────────────────────────────────────
-  const expandItem = useCallback(
-    (idx) => {
-      if (animatingRef.current) return;
-      animatingRef.current = true;
+  const expandItem = useCallback((idx) => {
+    setActiveIdx((previous) => previous === idx ? null : idx);
+  }, []);
 
-      const newIdx = activeIdx === idx ? null : idx;
-      setActiveIdx(newIdx);
+  useEffect(() => {
+    expansionRef.current?.kill();
+    const cards = itemRefs.current.filter(Boolean);
+    const timeline = gsap.timeline();
+    expansionRef.current = timeline;
 
-      if (newIdx !== null) {
-        // Animate widths smoothly over 2 seconds
-        const collapseEls = itemRefs.current.filter((_, i) => i !== newIdx && itemRefs.current[i]);
-        const expandEl   = itemRefs.current[newIdx];
+    cards.forEach((card, idx) => {
+      timeline.to(card, {
+        width: activeIdx === null ? (100 / cards.length) + '%' : idx === activeIdx ? '100%' : '0%',
+        duration: 0.75,
+        ease: 'power3.inOut',
+        overwrite: 'auto',
+      }, 0);
+    });
 
-        gsap.to(collapseEls, {
-          width: "0%",
-          opacity: 0,
-          duration: 2.0,
-          ease: "power2.inOut",
-        });
+    if (activeIdx !== null && infoPanelRef.current) {
+      timeline.fromTo(infoPanelRef.current.parentElement,
+        { opacity: 0 },
+        { opacity: 1, duration: 0.3, ease: 'power2.out' },
+        0.35);
+      timeline.fromTo(infoPanelRef.current.querySelectorAll('.reveal-row'),
+        { opacity: 0, y: 14 },
+        { opacity: 1, y: 0, duration: 0.35, ease: 'power2.out', stagger: 0.045 },
+        0.45);
+    }
 
-        gsap.to(expandEl, {
-          width: "100%",
-          opacity: 1,
-          duration: 2.0,
-          ease: "power2.inOut",
-          onComplete: () => {
-            animatingRef.current = false;
-          },
-        });
-
-        // Trigger reveal after exactly 1.5 seconds (before width animation fully finishes)
-        gsap.delayedCall(1.5, () => {
-          if (infoPanelRef.current) {
-            const rows = infoPanelRef.current.querySelectorAll(".reveal-row");
-            gsap.fromTo(
-              rows,
-              { opacity: 0, y: 14 },
-              { opacity: 1, y: 0, duration: 0.6, ease: "power2.out", stagger: 0.07 }
-            );
-          }
-        });
-      } else {
-        // Collapse: fade out text immediately, then restore items back to 20% width over 2s
-        if (infoPanelRef.current) {
-          gsap.to(infoPanelRef.current.querySelectorAll(".reveal-row"), {
-            opacity: 0, y: 6, duration: 0.2, ease: "power2.in",
-          });
-        }
-        gsap.to(itemRefs.current.filter(Boolean), {
-          width: "20%",
-          opacity: 1,
-          duration: 2.0,
-          ease: "power2.inOut",
-          onComplete: () => { animatingRef.current = false; },
-        });
-      }
-    },
-    [activeIdx]
-  );
+    return () => timeline.kill();
+  }, [activeIdx, currentPage]);
 
   const handleClose = useCallback(() => {
     if (activeIdx !== null) expandItem(activeIdx);
@@ -328,8 +410,19 @@ export default function Installations() {
     setModalProject(proj);
     setModalImageIdx(0);
     setModalOpen(true);
-    document.body.style.overflow = "hidden";
   };
+
+  useEffect(() => {
+    if (!modalOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const sheet = modalSheetRef.current;
+    const backdrop = modalBackdropRef.current;
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      gsap.killTweensOf([sheet, backdrop].filter(Boolean));
+    };
+  }, [modalOpen]);
 
   const closeMobileModal = useCallback(() => {
     if (modalSheetRef.current && modalBackdropRef.current) {
@@ -345,13 +438,11 @@ export default function Installations() {
         onComplete: () => {
           setModalOpen(false);
           setModalProject(null);
-          document.body.style.overflow = "";
         },
       });
     } else {
       setModalOpen(false);
       setModalProject(null);
-      document.body.style.overflow = "";
     }
   }, []);
 
@@ -395,7 +486,7 @@ export default function Installations() {
       className="relative bg-ink pt-10 pb-20 lg:pt-16 lg:pb-28 overflow-hidden"
     >
       {/* ── Header ─────────────────────────────────────────────────────────── */}
-      <div className="mx-auto px-6 lg:px-12 mb-8 md:mb-10" style={{ maxWidth: "1800px" }}>
+      <div className="site-container mb-8 md:mb-10">
         <div className="flex items-end justify-between gap-6">
           <div>
             <p ref={labelRef} className="mb-4 text-[11px] uppercase tracking-[0.32em] text-bronze font-semibold">
@@ -404,7 +495,7 @@ export default function Installations() {
             <div className="overflow-hidden">
               <h2
                 ref={headingRef}
-                className="font-display text-3xl leading-tight text-parchment sm:text-5xl font-extralight leading-none flex flex-wrap overflow-hidden"
+                className="section-heading font-display text-3xl leading-tight text-parchment sm:text-5xl font-extralight leading-none flex flex-wrap overflow-hidden"
               >
                 {installationsTitle.split("").map((char, index) => (
                   <span key={index} className="installations-title-char inline-block origin-bottom">
@@ -417,13 +508,10 @@ export default function Installations() {
 
           {/* Desktop Pagination Controls */}
           <div className="hidden md:flex items-center gap-4">
-            <span className="text-[11px] uppercase tracking-widest text-mute mr-2 font-mono">
-              {String(currentPage + 1).padStart(2, "0")} / {String(maxIndex + 1).padStart(2, "0")}
-            </span>
             <button
               onClick={handlePrevPage}
               disabled={currentPage === 0}
-              className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center text-parchment hover:bg-bronze hover:border-bronze hover:text-ink transition-all duration-300 cursor-pointer disabled:opacity-20 disabled:pointer-events-none disabled:cursor-not-allowed group active:scale-95"
+              className="w-10 h-10 rounded-none border-b border-white/15 flex items-center justify-center text-parchment hover:text-bronze hover:border-bronze transition-colors duration-300 cursor-pointer disabled:opacity-20 disabled:pointer-events-none disabled:cursor-not-allowed group active:scale-95"
               aria-label="Previous installation"
             >
               <ChevronLeft className="w-4 h-4 transition-transform duration-300 group-hover:-translate-x-0.5" />
@@ -431,11 +519,15 @@ export default function Installations() {
             <button
               onClick={handleNextPage}
               disabled={currentPage === maxIndex}
-              className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center text-parchment hover:bg-bronze hover:border-bronze hover:text-ink transition-all duration-300 cursor-pointer disabled:opacity-20 disabled:pointer-events-none disabled:cursor-not-allowed group active:scale-95"
+              className="w-10 h-10 rounded-none border-b border-white/15 flex items-center justify-center text-parchment hover:text-bronze hover:border-bronze transition-colors duration-300 cursor-pointer disabled:opacity-20 disabled:pointer-events-none disabled:cursor-not-allowed group active:scale-95"
               aria-label="Next installation"
             >
               <ChevronRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5" />
             </button>
+            <Link to="/installations" aria-label="View all installations" title="View all installations" className="group relative inline-flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border-2 border-bronze/50 text-parchment transition-colors duration-300 hover:border-bronze">
+              <span className="absolute inset-0 origin-bottom scale-y-0 bg-bronze transition-transform duration-500 group-hover:scale-y-100" />
+              <ArrowRight className="relative z-10 h-4 w-4 -rotate-45 transition-transform duration-300 ease-out group-hover:-rotate-90 group-hover:text-ink" />
+            </Link>
           </div>
         </div>
         <div className="mt-8 h-px bg-white/6" />
@@ -474,10 +566,23 @@ export default function Installations() {
       </div>
 
       {/* ── Desktop Accordion Strip (> 768px) ─────────────────────────────────── */}
-      <div className="hidden md:block mx-auto px-6 lg:px-12" style={{ maxWidth: "1800px" }}>
+      <div className="site-container hidden md:block">
+        <div className="relative overflow-hidden rounded-sm select-none" style={{ touchAction: 'pan-y', cursor: activeIdx === null ? 'grab' : 'auto' }}
+          onPointerDown={handleStripPointerDown}
+          onPointerMove={handleStripPointerMove}
+          onPointerUp={finishStripDrag}
+          onPointerCancel={finishStripDrag}
+          onDragStart={(event) => event.preventDefault()}
+          onClickCapture={(event) => {
+            if (suppressClickRef.current) {
+              event.preventDefault();
+              event.stopPropagation();
+              suppressClickRef.current = false;
+            }
+          }}>
         <div
           ref={stripRef}
-          className="flex overflow-hidden rounded-sm"
+          className="relative z-10 flex overflow-hidden rounded-sm"
           style={{ height: "74vh", minHeight: "500px", maxHeight: "800px" }}
         >
           {showcaseItems.map((proj, idx) => {
@@ -493,7 +598,7 @@ export default function Installations() {
                 style={{ width: "20%", opacity: 1 }}
               >
                 {/* ── Collapsed: clickable bg card ─────────────────────────── */}
-                {!isActive && (
+                {(
                   <div
                     className="absolute inset-0 cursor-pointer group"
                     onClick={() => expandItem(idx)}
@@ -508,14 +613,14 @@ export default function Installations() {
                     <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/85" />
 
                     {/* Collapsed labels */}
-                    <div className="absolute inset-0 flex flex-col items-center justify-end pb-8 pointer-events-none select-none">
+                    <div className="absolute inset-0 flex flex-col items-start justify-end p-6 pointer-events-none select-none">
                       <span
-                        className="font-display text-[13px] text-parchment font-light tracking-wider mb-4"
+                        className="font-display text-2xl leading-tight text-parchment font-light"
                         style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
                       >
                         {proj.title}
                       </span>
-                      <span className="text-bronze opacity-0 group-hover:opacity-100 transition-opacity">
+                      <span className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center justify-center text-bronze opacity-0 group-hover:opacity-100 transition-opacity">
                         <FontAwesomeIcon icon={faChevronUp} className="text-xs" />
                       </span>
                     </div>
@@ -528,6 +633,7 @@ export default function Installations() {
                     {/* LEFT INFO PANEL */}
                     <div
                       ref={infoPanelRef}
+                      data-lenis-prevent
                       className="w-[40%] flex-shrink-0 flex flex-col justify-between py-8 px-8 bg-ink/90 backdrop-blur-md border-r border-white/8 overflow-y-auto z-10"
                     >
                       <div className="space-y-5 flex-1">
@@ -550,7 +656,7 @@ export default function Installations() {
                         </div>
 
                         <div className="reveal-row" style={{ opacity: 0 }}>
-                          <p className="text-[12px] leading-[1.9] text-parchment/70 font-light whitespace-pre-line">
+                          <p className="site-prose text-[12px] leading-[1.9] text-parchment/70 font-light whitespace-pre-line">
                             {proj.description}
                           </p>
                         </div>
@@ -596,19 +702,9 @@ export default function Installations() {
           })}
         </div>
 
-        {/* Desktop Footer */}
-        <div className="mt-7 flex items-center justify-between">
-          <span className="text-[11px] uppercase tracking-widest text-mute">
-            Showing {currentPage + 1} - {currentPage + showcaseItems.length} of {projectsData.length} works
-          </span>
-          <Link
-            to="/installations"
-            className="group inline-flex items-center gap-2.5 text-[11px] uppercase tracking-widest text-parchment/70 hover:text-bronze transition-colors cursor-pointer font-medium"
-          >
-            View all installations ({projectsData.length})
-            <FontAwesomeIcon icon={faChevronRight} className="text-[9px] transition-transform group-hover:translate-x-1" />
-          </Link>
         </div>
+
+
       </div>
 
       {/* ── Mobile Bottom Sheet Modal (< 768px) ─────────────────────────────── */}
@@ -649,7 +745,7 @@ export default function Installations() {
             </div>
 
             {/* Modal Body: Gallery Image & Content */}
-            <div className="flex-1 overflow-y-auto p-6 space-y-6">
+            <div data-lenis-prevent className="flex-1 overflow-y-auto p-6 space-y-6">
               {/* Main Active Image with Touch Swipe and Nav Arrows */}
               <div 
                 className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-black/60 border border-white/10 select-none"
@@ -710,7 +806,7 @@ export default function Installations() {
 
               {/* Description and Case Study Link */}
               <div className="space-y-4 pt-1 border-t border-white/10">
-                <p className="text-xs sm:text-sm text-parchment/80 font-light leading-relaxed whitespace-pre-line">
+                <p className="site-prose text-xs sm:text-sm text-parchment/80 font-light leading-relaxed whitespace-pre-line">
                   {modalProject.description}
                 </p>
 

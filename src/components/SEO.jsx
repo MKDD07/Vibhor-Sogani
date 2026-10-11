@@ -30,11 +30,6 @@ const PAGE_META = {
     description: "Direct inquiries for site-specific public commissions, bespoke architectural lighting, and monumental masterplanning.",
     schemaType: "ContactPage",
   },
-  "/faq": {
-    title: "Frequently Asked Questions — Studio Vibhor Sogani",
-    description: "Insights into studio commissions, architectural engineering, materials, and international shipping.",
-    schemaType: "FAQPage",
-  },
   "/privacy-policy": {
     title: "Privacy Policy — Studio Vibhor Sogani",
     description: "Studio Vibhor Sogani privacy policies, communication data protection, and terms.",

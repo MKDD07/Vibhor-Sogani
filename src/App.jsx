@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, lazy, Suspense } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Lenis from "lenis";
 import gsap from "gsap";
@@ -12,15 +12,10 @@ import AboutPage from "./components/AboutPage";
 import Installations from "./components/Installations";
 import InstallationsPage from "./components/InstallationsPage";
 import Timeline from "./components/Timeline";
-import FAQPage from "./components/FAQPage";
 import PrivacyPolicyPage from "./components/PrivacyPolicyPage";
 import TermsPage from "./components/TermsPage";
 import PressPage from "./components/PressPage";
 import ContactPage from "./components/ContactPage";
-import Newsletter from "./components/Newsletter";
-import Contact from "./components/Contact";
-import TeamSection from "./components/TeamSection";
-import StudioBanner from "./components/StudioBanner";
 import Footer from "./components/Footer";
 import ScrollProgressButton from "./components/ScrollProgressButton";
 import SEO from "./components/SEO";
@@ -29,19 +24,23 @@ import { initUniversalTextAnimations } from "./utils/textAnimations";
 import "lenis/dist/lenis.css";
 
 gsap.registerPlugin(ScrollTrigger);
+const ExhibitionMap = lazy(() => import("./components/ExhibitionMap"));
 
 // Main Full Landing Page View
 function HomePage() {
   return (
-    <main className="overflow-hidden">
+    <main className="home-page overflow-hidden">
       <Hero />
       <About />
       <Installations />
       <Timeline />
-      <TeamSection />
-      <Newsletter />
-      <Contact />
-      <StudioBanner />
+      <section className="w-full pb-20 pt-12 lg:pb-28" aria-labelledby="home-exhibitions-heading">
+        <header className="site-container text-center">
+          <span className="text-[11px] uppercase tracking-[0.22em] text-bronze">Across borders</span>
+          <h2 id="home-exhibitions-heading" className="section-heading mt-4 font-display text-4xl sm:text-5xl">International exhibitions</h2>
+        </header>
+        <Suspense fallback={<div className="aspect-[800/440]" aria-label="Loading exhibition map" />}><ExhibitionMap /></Suspense>
+      </section>
     </main>
   );
 }
@@ -180,7 +179,6 @@ export default function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/installations" element={<InstallationsPage />} />
             <Route path="/installations/:slug" element={<InstallationsPage />} />
-            <Route path="/faq" element={<FAQPage />} />
             <Route path="/press" element={<PressPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />

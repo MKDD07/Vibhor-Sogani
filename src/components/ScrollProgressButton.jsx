@@ -1,16 +1,9 @@
 import React, { useEffect, useState } from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
 export default function ScrollProgressButton() {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
-  const [isDark, setIsDark] = useState(() => {
-    return document.documentElement.classList.contains("dark") || 
-      (!document.documentElement.classList.contains("light"));
-  });
-
   useEffect(() => {
     const handleScroll = () => {
       const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
@@ -30,20 +23,6 @@ export default function ScrollProgressButton() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const toggleTheme = () => {
-    if (isDark) {
-      document.documentElement.classList.remove("dark");
-      document.documentElement.classList.add("light");
-      localStorage.setItem("theme", "light");
-      setIsDark(false);
-    } else {
-      document.documentElement.classList.remove("light");
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-      setIsDark(true);
-    }
-  };
-
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -59,19 +38,6 @@ export default function ScrollProgressButton() {
         isVisible ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 translate-y-4 pointer-events-none"
       }`}
     >
-      {/* Theme Toggle Button next to / right on top of Back to Top on Mobile (< 768px) */}
-      <button
-        onClick={toggleTheme}
-        className="flex md:hidden h-9 w-9 items-center justify-center rounded-full transition-all cursor-pointer border border-white/15 bg-ink/90 backdrop-blur-md text-parchment hover:bg-bronze hover:border-bronze hover:text-ink shadow-lg active:scale-90"
-        aria-label="Toggle theme mode"
-        title={isDark ? "Switch to Light Mode" : "Switch to Dark Mode"}
-      >
-        <FontAwesomeIcon
-          icon={isDark ? faSun : faMoon}
-          className="text-xs transition-transform duration-300"
-        />
-      </button>
-
       {/* Back to Top Button with Circular Scroll Progress */}
       <button
         onClick={scrollToTop}

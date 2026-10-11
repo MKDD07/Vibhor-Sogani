@@ -2,14 +2,13 @@ import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark, faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { PrimaryButton } from "./Buttons";
 
 const NAV = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
   { label: "Installations", path: "/installations" },
-  { label: "FAQ", path: "/faq" },
   { label: "Press", path: "/press" },
   { label: "Contact", path: "/contact" },
 ];
@@ -17,26 +16,9 @@ const NAV = [
 export default function Header({ show }) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [isDark, setIsDark] = useState(() => {
-    const saved = localStorage.getItem("theme");
-    return saved !== "light";
-  });
+  const isDark = true;
   const logoRef = useRef(null);
   const location = useLocation();
-
-  const toggleTheme = () => {
-    setIsDark((prev) => !prev);
-  };
-
-  useEffect(() => {
-    if (isDark) {
-      document.documentElement.classList.remove("light-mode");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.add("light-mode");
-      localStorage.setItem("theme", "light");
-    }
-  }, [isDark]);
 
   const [hideOnScroll, setHideOnScroll] = useState(false);
   const lastScrollY = useRef(0);
@@ -100,7 +82,7 @@ export default function Header({ show }) {
             : "bg-white/95 backdrop-blur-none py-5 sm:py-6 border-none shadow-none text-black")
       }
     >
-      <div className="mx-auto flex max-w-[1800px] items-center justify-between px-6 lg:px-10">
+      <div className="site-container flex items-center justify-between">
         <Link
           ref={logoRef}
           id="header-logo"
